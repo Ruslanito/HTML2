@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8">
+    <title>Site under construction</title>
+
+  </head>
+  <body  bgcolor = "grey">
+    <header>
+    <h1 align="center">Welcome!</h1>
+    <p align="center"> <i>We apologize. <br>This website is under construction</i> </p>
+    <p align="center">Don`t worry. We know what and how to do.</p>
+    <p align="center">We love our work really.</p>
+    </header>
+
+    <p align="center" ><img  src="images/sources/Mech1.jpg" width="700" height="465" alt="We are developing" title="We are developing"></p>
+<p></p><br>
+<p></p><br>
+<p></p><br>
+<p></p><br>    
+<p></p><br>
+
+<hr align="left">
+
+    <footer>
+    <p> <small>&copy; Copyright "Our Earth"  2017 </small></p>
+   </footer>
+
+  </body>
+</html>
