@@ -1,0 +1,30 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+	background-color: teal;
+}
+
+.wrapper {
+   display: flex;
+   flex-direction: column;
+}
+
+.content {
+   flex: 1 0 auto;
+}
+
+footer {
+      flex: 0 0 auto;
+		background: #b1f6b9;
+    	border-radius: 10px 10px 10px 10px;
+      height: 20px;
+      width: 100%;
+      align-content: center;
+}
