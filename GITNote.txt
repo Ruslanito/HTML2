@@ -1,0 +1,60 @@
+Установка и работа с git
+обновление информации о пакетах: sudo apt-get update
+установка: sudo apt-get install git
+установка имени пользователя: git config --global user.name "My Name"
+установка пароля пользователя: git config --global user.email myname@example.com
+вывод информации из git config: git config —list (настройки git в т.ч. user.name и user.email)
+помощь в git: git help commit или  git commit —help
+инициализация git репозитория на локальном компьютере:git init (находясь в папке git репозитория)
+состояние git репозитория (наличие изменений): git status
+добавление всех файлов (untracked, unstaged) в git репозиторий: git add .
+добавление файла index.html в git репозиторий: git add index.html...
+удаление файла index.html из git репозитория (в untracked): git rm  index.html…
+удалить файла index.html из индекса, оставив его при этом в рабочем каталоге: git rm --cached index.html
+
+коммит файлов в репозитории: git commit -m "commit`s text"
+добавление удалённого репозитория HTML2 (remote add [сокращение] [url]): git remote add origin https://github.com/Ruslanito/HTML2.git
+отправка данных в удалённый репозиторий: git push -u origin master (далее ввод имени и пароля пользователя)
+установка конфигурации по умолчагнию: git config --global push.default matcning
+
+просмотр истории коммитов:git log (выход Q)
+просмотр истории коммитов подробно:git log --pretty=format:"%h-%an, %ar : %s
+просмотр истории коммитов за последние 2 недели:git log --since=2.weeks
+просмотр истории с изминениями:git log -p -2
+
+создание новой ветки f2: git branch f2
+создание новой ветки new_f и переход в неё: git checkout -b new_f
+переход на ветку f2: git checkout f2
+просмотр доступных веток git:git branch (* указывает где находимся)
+просмотр последних коммитов в ветках git: git branch -v
+коммит в новую ветку находясь в ней: git commit -n „коммит“
+для мержа (объединения) веток нужно находится не в ветке master во избежания проблем с основной веткой master при этом всё должно быть закомичено.
+указание внешней утилиты для для решения проблем при мерже веток kdiff3: git config  --global merge.tool kdiff3
+указание ветки master с которой будем мержить нашу: git merge master
+запуск утилиты мержа (kdiff3) при наличии конфликтов: git mergetool
+устраняем конфликты:
+переходим в ветку master и вновь мержим с нашей веткой.
+
+клонирование удалённого репозитория HTML3 на локальный компьютер в папку HTML3:git clone git://github.com/Ruslanito/HTML3.git
+клонирование удалённого репозитория HTML3 на локальный компьютер в папку HTML7:git clone git://github.com/Ruslanito/HTML3.git html7
+заставляем Git автоматически индексировать каждый уже отслеживаемый на момент коммита файл, позволяя вам обойтись без git add (параметр -а в  git commit):git commit -a -m 'added new benchmarks'
+какие удалённые серверы у вас уже настроены: git remote
+посмотреть, какому URL соответствует сокращённое имя в Git, можно указать команде опцию -v: git remote -v
+получения данных из удалённых проектов, следует выполнить: git fetch [имя удал. Сервера]
+
+Выполнение git pull, как правило, извлекает (fetch) данные с сервера, с которого вы изначально склонировали, и автоматически пытается слить (merge) их с кодом, над которым вы в данный момент работаете
+Поделиться своими наработками, вам необходимо отправить (push) их в главный репозиторий. Команда для этого действия простая (git push [удал. сервер] [ветка]): git push origin master Эта команда срабатывает только в случае, если вы клонировали с сервера, на котором у вас есть права на запись, и если никто другой с тех пор не выполнял команду push. Если вы и кто-то ещё одновременно клонируете, затем он выполняет команду push, а затем команду push выполняете вы, то ваш push точно будет отклонён. Вам придётся сначала вытянуть (pull) их изменения и объединить с вашими. Только после этого вам будет позволено выполнить push
+
+После внесения и сохранения изменений в локальных файлах репозитория:
+    1. git status
+    2. git add .
+    3. git commit -m "2-nd commit"
+    4. git push -u origin master (с вводом имени и пароля)
+    5.
+После клонировании (pull) с удалённого репозитория, внесении и сохранении  изменений в локальных файлах репозитория и возврат в удалённый репо:
+    1. git status
+    2. git pull https://github.com/Ruslanito/HTML2.git
+    3. git add .
+    4. git commit -m "2-nd commit"
+    5. git push --set-upstream https://github.com/Ruslanito/HTML2.git master (fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use this)
