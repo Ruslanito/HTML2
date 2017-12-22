@@ -1,0 +1,24 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+html,
+body {
+   height: 100%;
+}
+.wrapper {
+   position: relative;
+   min-height: 100%;
+}
+.content {
+   padding-bottom: 50px;
+}
+.footer {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height:50px;
+}
+
+/*<!-- Footer прижимается вниз путем его абсолютного позиционирования и вытягивания высоты родительских блоков (html, body и .wrapper) на 100%. При этом контентному блоку .content нужно указать нижний отступ, который равен или больше высоты подвала, иначе последний закроет часть контента. -->*/
