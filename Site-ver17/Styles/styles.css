@@ -17,7 +17,7 @@ body {
 }
 
 .content {
-   padding-bottom: 20px;
+   padding-bottom: 40px;
 }
 
 footer {
@@ -26,8 +26,9 @@ footer {
    bottom: 0;
    background: #b1f6b9;
    border-radius: 10px 10px 10px 10px;
-   height: 20px;
+   height: 40px;
    width: 100%;
+
 }
 
 .indexh1 {
@@ -45,8 +46,14 @@ footer {
 
 .nav {
    text-align: left;
+   background-color: #df8e23;
+   width:auto;
 }
 
 .hr1 {
    text-align: center;
+}
+
+.mailto {
+   text-align: left;
 }
