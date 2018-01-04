@@ -19,12 +19,18 @@
       </body>
    </html>
 *External CSS (внешний CSS)- правила стилей во внешнем текстовом файле  с расширением *.css. На этот файл ссылаемся тэгом <link> внутри head HTML
-<html>
-   <head>
-      <link rel="stylesheet" href="example.css"
-   </head>
-   <body>
-      <p> First text</p>
-      <p> Second text</p>
-   </body>
-</html>
+   <html>
+      <head>
+         <link rel="stylesheet" href="example.css"
+      </head>
+      <body>
+         <p> First text</p>
+         <p> Second text</p>
+      </body>
+   </html>
+*CSS состоит из правил стиля, которые интерпретируются браузером и применяются к соответствующим элементам в документе. Каждое правило имеет три составляющих:
+      p{color:red; background-color:grey;}
+      где p - селектор указывающий элемент html страницы
+          color, background-color - свойство для изменения
+          red, grey - значения (параметр) соответствующего свойства
+*
