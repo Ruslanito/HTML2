@@ -55,3 +55,24 @@ CSS: #intro{
      .textp {
       background-color:white
       }
+*Селекторы потомков. Используются для выбора элементов, являющиеся потомками других элементов. При выборе уровней, вы можете выбрать столько уровней в глубину, сколько вам нужно
+HTML: <div id="intro">
+         <p class="textp"> Second <em>text</em></p>
+      </div>
+      <p class="textp"> Second text</p>
+CSS: #intro{
+      color: red;
+      font-size: 100px;
+      }
+     .textp {
+      background-color:white
+      }
+      #intro .textp em {
+      background-color:yellow;
+      }
+*Комментарии - игнорируются браузером (можно несколько строк)
+      .textp {
+      color: red;
+      /*Это комментарий*/
+      background-color:white
+      }
