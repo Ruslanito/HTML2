@@ -1,0 +1,30 @@
+*Inline CSS (встроенный стиль CSS)- применяется к одному элементу: добавление атрибута стиля (style) с параметрами к нужному тэгу
+   <p style="color:white; background-color:gray;"
+      Some text
+   </p>
+*Embedded CSS (вложенный стиль CSS)- внури секции head HTML станицы:
+с помощью элемента <style>
+   <html>
+      <head>
+         <style>
+         p{
+         color:white;
+         background-color:gray;
+         }
+         </style>
+      </head>
+      <body>
+         <p> First text</p>
+         <p> Second text</p>
+      </body>
+   </html>
+*External CSS (внешний CSS)- правила стилей во внешнем текстовом файле  с расширением *.css. На этот файл ссылаемся тэгом <link> внутри head HTML
+<html>
+   <head>
+      <link rel="stylesheet" href="example.css"
+   </head>
+   <body>
+      <p> First text</p>
+      <p> Second text</p>
+   </body>
+</html>
