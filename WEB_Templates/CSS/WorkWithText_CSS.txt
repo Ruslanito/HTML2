@@ -1,1 +1,35 @@
 ****font-family
+определяют шрифт элемента:
+- generic family: группа подобных семейств шрифтов (Serif, Sans-serif  Monospace)
+- font family: специфическое семейство шрифтов (Times New Roman, Arial)
+(Serif: Times New Roman, Georgia; Sans-serif: Arial, Verdana; Monospace: Courier New, Lucida Consol )
+   HTML <p class="serif">
+         First text
+        </p>
+        <p class="sansserif">
+         Second text
+        </p>
+        <p class="monospace">
+         Third text
+        </p>
+        <p class="cursive">
+         Fourth text
+        </p>
+        <p class="fantasy">
+         Fifth text
+        </p>
+   CSS .serif {
+         font-family:"Times New Roman", Times, serif;
+         }
+       p.sansserif {
+         font-family:Helvetica, Arial, serif;
+         }
+       .monospace{
+         font-family:Courier New, Courier, monospace;
+         }
+       .coursive{
+       font-family: Florence, cursive;
+       }
+       .fantasy{
+       font-family:Blippo, fantasy;
+       }
