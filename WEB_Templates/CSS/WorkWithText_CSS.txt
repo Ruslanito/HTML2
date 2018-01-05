@@ -1,5 +1,4 @@
-****font-family
-определяют шрифт элемента:
+****font-family определяют шрифт элемента:
 - generic family: группа подобных семейств шрифтов (Serif, Sans-serif  Monospace)
 - font family: специфическое семейство шрифтов (Times New Roman, Arial)
 (Serif: Times New Roman, Georgia; Sans-serif: Arial, Verdana; Monospace: Courier New, Lucida Consol )
@@ -33,3 +32,15 @@
        .fantasy{
        font-family:Blippo, fantasy;
        }
+
+**** font-size устанавливает размер шрифта
+Ключевые слова:
+- xx-small;
+- small;
+- medium;
+- large;
+- larger;
+- x-large.
+   CSS .small{
+   font-size:small(or medium or ...);
+   }
