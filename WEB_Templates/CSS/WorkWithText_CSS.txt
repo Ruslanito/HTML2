@@ -60,3 +60,11 @@
    CSS .p1{
          font-style:italic;
          }
+**** font-weight устанавливается толщина шрифта:
+- normal нормальная толщина
+- bold жирное начертание
+- bolder более жирное начертание
+- lighter более тонкое начертание
+   CSS .p1{
+         font-weight:lighter;
+         }
