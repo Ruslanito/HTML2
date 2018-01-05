@@ -69,3 +69,6 @@
          font-weight:lighter;
          }
 При необходимости можем заадть толщину шрифта числами от 100 (lighter) до 900 (bold). 400- normal, 700 - (bolder)
+   CSS .p1{
+         font-weight:700;
+         }
