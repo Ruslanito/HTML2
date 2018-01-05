@@ -53,3 +53,7 @@
    CSS .p1{
          font-size:1,25em;
          }
+**** font-style для применения курсивного начертания
+   CSS .p1{
+         font-style:italic;
+         }
