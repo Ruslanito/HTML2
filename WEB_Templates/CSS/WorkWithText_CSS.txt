@@ -97,4 +97,16 @@
          p.example {
             color: rgb(255,0,0);
          }
-         
+**** text-align определяется горизонтальное положение текста в элементе: left (default), right, center, justify.
+   HTML  <p class="left">This paragraph is aligned to                      <strong>left.</strong></p>
+         <p class="right">This paragraph is aligned to <strong>right.</strong></p>
+         <p class="center">This paragraph is aligned to <strong>center.</strong></p>
+   CSS   p.left {
+         text-align: left;
+         }
+         p.right {
+            text-align: right;
+         }
+         p.center {
+            text-align: center;
+         }
