@@ -110,3 +110,37 @@
          p.center {
             text-align: center;
          }
+**** vertical-align установка вертикального расположения текста в элементе:
+top, middle, bottom, baseline, sub, super, %, px (pt, cm)
+   HTML  <table border="1" cellpadding="2" cellspacing="0" style="height:  150px;">
+      <tr>
+        <td class="top">Top</td>
+        <td class="middle">Middle</td>
+        <td class="bottom">Bottom</td>
+      </tr>
+      </table>
+      <p>This is an <span class="baseline">inline text</span> example.</p>
+      <p>This is a <span class="sub">sub line text</span> example.</p>
+      <p> This is a <span class="super">super line text</span> example.</p>
+      <p> This is a <span class="pixel">pixel</span> example.</p>
+   CSS   td.top {
+         vertical-align: top;
+         }
+         td.middle {
+            vertical-align: middle;
+         }
+         td.bottom {
+            vertical-align: bottom;
+         }
+         span.baseline {
+         vertical-align: baseline;
+         }
+         span.sub {
+             vertical-align: sub;
+         }
+         span.super {
+             vertical-align: super;
+         }
+         span.pixel {
+             vertical-align: -10px;
+         }
