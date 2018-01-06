@@ -72,7 +72,7 @@
    CSS .p1{
          font-weight:700;
          }
-**** font-variant позволяет конвертировать шрифт в маленькие заглавные буквы. Значения могут быть: normal, small-caps, inherit.
+**** font-variant позволяет конвертировать шрифт в маленькие заглавные буквы. Значения могут быть: normal, small-caps, inherit.ыьфдд
    HTML  <p class="normal">Paragraph font variant set to normal.</p>
          <p class="small">Paragraph font variant set to small-caps.</p>
    CSS  p.normal {
@@ -81,3 +81,20 @@
          p.small {
             font-variant: small-caps;
          }
+**** color определяет цвет шрифта текста
+Определение по названию цвета:
+   HTML <p class="example">The text inside the paragraph is green.</p>
+         The text outside the paragraph is black (by default).
+   CSS   p.example {
+         color: green;
+         }
+Определнние по 16-ти ричной форме (#) и RGB
+   HTML  <h1>This is a heading</h1>
+         <p class="example">This is a paragraph</p>
+   CSS   h1 {
+         color: #0000FF;
+         }
+         p.example {
+            color: rgb(255,0,0);
+         }
+         
