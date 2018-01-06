@@ -1,0 +1,290 @@
+<!-- Created by Yasser Linux-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SoloBook (SignUp/LogIn)</title>
+    </head>
+    <body>
+        <header><h1>SoloBook</h1></header>
+
+        <div id="logIn" class="cont login"><!-- start login -->
+            <h2>Log In to your account</h2>
+            <div class="form">
+                <input type="text" id="user_log" placeholder="User Name" autofocus>
+                <input type="password" id="pass_log" placeholder="Password">
+                <a onclick="logIn()">Log In</a>
+            </div>
+            <div class="for_signUp">
+                <div class="or">
+                    <hr><span class="super">or</span><hr>
+                </div>
+                <div class="button">
+                    <a onclick="create()">Create New Account</a>
+                </div>
+            </div>
+        </div><!-- end login -->
+
+        <div id="signUp" class="cont signUp-off"><!-- start create new account -->
+            <h2>Create New Account</h2>
+            <div class="info">
+                <input type="text" id="name" placeholder="name" maxlength="9" pattern="[a-z]" autofocus>
+                <input type="text" id="last_name" placeholder="Last Name" maxlength="9">
+                <input type="text" id="user_name" placeholder="User Name" maxlength="20">
+                <input type="password" id="pass1" placeholder="Password">
+                <input type="password" id="pass2" placeholder="R-Password">
+            </div>
+            <div class="button">
+                <a onclick="signUp()">Create New Account</a>
+                <a onclick="goToOld()">Are you have an account?</a>
+            </div>
+        </div><!-- end create new account -->
+
+        <div id="home" class="cont home-off"><!-- start home -->
+            <div class="user">
+                <div class="avatar">
+                    <img src="https://www.sololearn.com/images/fb-story-icon.jpg" alt="Yasser Linux">
+                </div>
+                <div class="details">
+                    <div>
+                        <h1 id="name_pro" class="name">yasser linux</h1>
+                    </div>
+                    <div class="button">
+                        <a onclick="edit()">Edit Profile</a>
+                        <a onclick="out()">Sign out</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="edit" class="edit-off">
+                <h2>Edit your profile</h2>
+                <div class="inputs">
+                    <input type="text" id="old_name" placeholder="Name">
+                    <input type="text" id="old_last_name" placeholder="Last Name">
+                    <input type="text" id="old_user_name" placeholder="User Name">
+                    <input type="password" id="main_pass" placeholder="Old Password [Required]">
+                    <input type="password" id="new_pass1" placeholder="New Password [optional]">
+                    <input type="password" id="new_pass2" placeholder="R-New Password [optional]">
+                </div>
+                <div class="button">
+                    <a onclick="cancle()">Cancle Edit</a>
+                    <a onclick="save()">Save Edit</a>
+                </div>
+
+            </div>
+        </div><!-- end home -->
+
+        <footer><!-- start footer -->
+            <a href="https://www.sololearn.com/Profile/5778481" target="_blank">
+                <img src="https://api.sololearn.com/Uploads/Avatars/5778481.jpg">
+            </a>
+            <span>Made by <a href="https://www.sololearn.com/Profile/5778481" target="_blank">Yasser Linux</a></span>
+        </footer><!-- end footer -->
+        <script>
+            /*global console, alert, prompt*/
+
+// start data
+var names = [
+
+];
+
+var last_names = [
+
+];
+
+var users_names = [
+
+];
+
+var passwords = [
+
+];
+
+var docGetLog = document.getElementById("logIn"),
+    docGetUp = document.getElementById("signUp"),
+    docGetHome = document.getElementById("home"),
+    docGetNamePro = document.getElementById("name_pro"),
+    docGetEdit = document.getElementById("edit"),
+    docGetOut = document.getElementById("out");
+// end data
+
+
+// start login
+var user_name = document.getElementById("user_log"),
+    pass = document.getElementById("pass_log"),
+    last_user;
+
+function logIn() {
+    "use strict";
+
+    if (user_name.value === "" || pass.value === "") {
+        alert("Username and password can't be empty!!");
+    } else if (users_names.indexOf(user_name.value) === -1) {
+        alert("The username you entered does not exist!!");
+    } else if (passwords.indexOf(pass.value) !== users_names.indexOf(user_name.value)) {
+        alert("The password you entred incorect!!");
+    } else {
+
+        last_user = users_names.indexOf(user_name.value);
+
+        pass.value = ""; // end empty the inputs area
+
+        docGetNamePro.innerHTML = names[last_user] + " " + last_names[last_user];
+
+        docGetLog.className = "login-off";
+        docGetHome.className = "cont home";
+    }
+}
+
+function create() {
+    "use strict";
+
+    user_name.value = ""; // start empty the inputs area
+    pass.value = ""; // end empty the inputs area
+
+    docGetLog.className = "cont login-off";
+    docGetUp.className = "con signUp";
+}
+// end login
+
+
+// start signUp
+var name = document.getElementById("name"), // fix this --
+    last_name = document.getElementById("last_name"),
+    user_nameUp = document.getElementById("user_name"),
+    pass1 = document.getElementById("pass1"),
+    pass2 = document.getElementById("pass2");
+
+function signUp() {
+    "use strict";
+
+    var name = document.getElementById("name"); // for fix --
+
+    if (name.value === "" || last_name.value === "" || user_nameUp.value === "" || pass1.value === "" || pass2.value === "") {
+        alert("Please, check your information!!");
+    } else if (name.value.length < 4 || last_name.value.length < 4) {
+        alert("Name and Last name Must not be less than 4 letters!!");
+    } else if (users_names.indexOf(user_nameUp.value) !== -1) {
+        alert("The username you entered is reserved by another account!!");
+    } else if (pass1.value !== pass2.value) {
+        alert("The First and second password must be same!!");
+    } else {
+        names.push(name.value); // start input user info in data base
+        last_names.push(last_name.value);
+        users_names.push(user_nameUp.value);
+        passwords.push(pass1.value); // end input user info in data base
+
+        name.value = ""; // start empty the inputs area
+        last_name.value = "";
+        user_nameUp.value = "";
+        pass1.value = "";
+        pass2.value = ""; // end empty the inputs area
+
+        docGetUp.className = "signUp-off";
+        docGetLog.className = "cont";
+    }
+}
+
+function goToOld() {
+    "use strict";
+
+    var name = document.getElementById("name"); // for fix --
+
+    name.value = ""; // start empty the inputs area
+    last_name.value = "";
+    user_nameUp.value = "";
+    pass1.value = "";
+    pass2.value = ""; // end empty the inputs area
+
+    docGetUp.className = "signUp-off";
+    docGetLog.className = "cont";
+}
+// end signUp
+
+// start home
+var getName = document.getElementById("old_name"),
+    getLastName = document.getElementById("old_last_name"),
+    getUserName = document.getElementById("old_user_name"),
+    docGetMainPass = document.getElementById("main_pass"),
+    docGetNew1 = document.getElementById("new_pass1"),
+    docGetNew2 = document.getElementById("new_pass2");
+
+
+
+function edit() {
+    "use strict";
+
+    getName.value = names[last_user];
+    getLastName.value = last_names[last_user];
+    getUserName.value = users_names[last_user];
+
+    docGetMainPass.value = "";
+    docGetNew1.value = "";
+    docGetNew2.value = "";
+
+    docGetEdit.className = "edit";
+}
+
+function checked() {
+    "use strict";
+    names[last_user] = getName.value;
+    last_names[last_user] = getLastName.value;
+    users_names[last_user] = getUserName.value;
+
+    docGetNamePro.innerHTML = names[last_user] + " " + last_names[last_user];
+
+    docGetEdit.className = "edit-off";
+}
+
+function newPass() {
+    "use strict";
+    passwords[last_user] = docGetNew1.value;
+
+    docGetEdit.className = "edit-off";
+}
+
+function save() {
+    "use strict";
+
+    if (getName.value === "" || getLastName.value === "" || getUserName.value === "" || docGetMainPass.value === "") {
+        alert("Check your information!!");
+    } else if (getName.value.length < 4 || getLastName.value.length < 4) {
+        alert("Name and Last name Must not be less than 4 letters!!");
+    } else if (users_names.indexOf(getUserName.value) >= 0 && getUserName.value !== users_names[last_user]) {
+        alert("The username you entered is reserved by another account!!");
+    } else if (docGetMainPass.value !== passwords[last_user]) {
+        alert("Password incorect!!");
+    } else if (docGetNew1.value !== "" || docGetNew2.value !== "") {
+        if (docGetNew1.value !== docGetNew2.value) {
+            alert("The new first and second password must be same!!");
+        } else {
+            checked();
+            newPass();
+        }
+    } else {
+        checked();
+    }
+}
+
+function cancle() {
+    "use strict";
+
+    getName.value = names[last_user];
+    getLastName.value = last_names[last_user];
+    getUserName.value = users_names[last_user];
+
+    docGetEdit.className = "edit-off";
+}
+
+function out() {
+    "use strict";
+
+    docGetEdit.className = "edit-off";
+    docGetLog.className = "cont";
+    docGetHome.className = "home-off";
+}
+// end home
+        </script>
+    </body>
+</html>

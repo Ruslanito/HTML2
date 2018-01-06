@@ -1,0 +1,63 @@
+/* Created by Yasser Linux */
+
+/* css unit */
+input{ width: 300px; height: 36px; margin: 2px 0;}
+input , button{ width: 300px; height: 36px; margin: 2px;}
+/* css unit */
+
+/* Sign Up Form */
+.form select{
+    width: 300px;
+    height: 36px;
+    font-weight: bold;
+    margin: 2px;
+}
+
+.form button{ width: 146px; height: 30px;}
+
+.form-off{ display: none;}
+
+.old-off{
+    display: none;
+}
+/* End Sign Up Form */
+
+
+/* LogIn form */
+.log_form{ width: 300px; padding-top: 20px; display: visibility;}
+
+.log_form-off{ display: none;}
+/* End LogIn form */
+
+
+/* start Home */
+.home-off{
+    display: none;
+}
+
+.home{
+
+}
+
+.face{
+    width: 120px;
+    height: 80px;
+    color: #f00;
+    text-align: center;
+    border: 2px solid #333;
+    margin: 0 10px 2px 2px;
+    display: inline-block;
+    float: left;
+}
+
+#welcome{
+    width: 160px;
+    height: 80px;
+    border: 2px solid #333;
+    display: inline-block;
+}
+
+#settings{ clear: both;}
+
+#faceType{ color: #f00; font-weight: bold;}
+/* End Home */
