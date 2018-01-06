@@ -172,3 +172,12 @@ top, middle, bottom, baseline, sub, super, %, px (pt, cm).
          p.line-through {
             text-decoration: line-through;
          }
+**** text-indent определяет сколько мместа до начала первой строки: Length (px, pt, cm. em), %, inherit. Возможно  и отрицательное значение - выровнено по левому краю.
+   HTML  <p>This is an example of
+         <strong>text-indent </strong> property.
+         First line of our text is indented to the right in 60px.
+         Besides pixels you can also use other measurement units,
+         like pt, cm, em, etc. </p>
+   CSS   p {
+         text-indent: 60px;
+         }
