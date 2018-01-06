@@ -145,3 +145,30 @@ top, middle, bottom, baseline, sub, super, %, px (pt, cm).
          span.pixel {
              vertical-align: -10px;
          }
+**** text-decoration определяет, как будет декорирован текст:
+- none - значение по умолчанию
+- inherit - наследование от родительского элемента
+- overline - горизонтальная линия над текстом (может быть нескольлко через пробел)
+- underline - горизонтальная линия под текстом (может быть нескольлко через пробел)
+- line-through - горизонтальная линия сквозь текст (может быть нескольлко через пробел)
+- blink - мигание текста
+   HTML  <p class="none">This is default style of the text (none).</p>
+         <p class="inherit">This text inherits the decoration of the parent.</p>
+         <p class="overline">This is overlined text.</p>
+         <p class="underline">This is underlined text.</p>
+         <p class="line-through">This is lined-through text.</p>
+   CSS   p.none {
+         text-decoration: none;
+         }
+         p.inherit {
+            text-decoration: inherit;
+         }
+         p.overline {
+            text-decoration: overline;
+         }
+         p.underline {
+            text-decoration: underline;
+         }
+         p.line-through {
+            text-decoration: line-through;
+         }
