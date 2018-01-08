@@ -192,7 +192,7 @@ top, middle, bottom, baseline, sub, super, %, px (pt, cm).
          font-size: 20pt;
          text-shadow:5px 2px 4px green;
          }
-**** text-transform позволяет преобразовать элементы текста
+**** text-transform позволяет преобразовать элементы текста:
 - capitalize позволяет начинать все элементы текста с большой буквы;
 - uppercase позволяет преобразовать все элементы текста в большие буквы;
 - lowercase позволяет преобразовать все элементы текста в строчные буквы;
@@ -201,4 +201,16 @@ top, middle, bottom, baseline, sub, super, %, px (pt, cm).
          color:red;
          font-size: 20pt;
          text-transform: capitalize;     ;
+         }
+**** letter-spacing определяют промежутки между словами в тексте (может быть и отрицательное значение - наложение элементов):
+- normal стиль по умолчанию между элементами;
+- length определяют промежутки между элементами (px, cm, mm, in, pc, pt, em)
+- inherit наследует стиль родительского класса
+   HTML  <p class="positive">This is an example of text-indent property.</p>
+         <p class="negative">This is an example of text-indent property.</p>
+   CSS   p.positive {
+         letter-spacing: 5px;
+         }
+         p.negative {
+         letter-spacing: -2px
          }
