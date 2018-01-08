@@ -202,15 +202,27 @@ top, middle, bottom, baseline, sub, super, %, px (pt, cm).
          font-size: 20pt;
          text-transform: capitalize;     ;
          }
-**** letter-spacing определяют промежутки между словами в тексте (может быть и отрицательное значение - наложение элементов):
+**** letter-spacing определяют промежутки между буквами в тексте (может быть и отрицательное значение - наложение элементов):
 - normal стиль по умолчанию между элементами;
-- length определяют промежутки между элементами (px, cm, mm, in, pc, pt, em)
+- length определяют промежутки между элементами (px, cm, mm, in, pc, pt, em, ex)
 - inherit наследует стиль родительского класса
-   HTML  <p class="positive">This is an example of text-indent property.</p>
-         <p class="negative">This is an example of text-indent property.</p>
+   HTML  <p class="positive">This is an example.</p>
+         <p class="negative">This is an example.</p>
    CSS   p.positive {
          letter-spacing: 5px;
          }
          p.negative {
          letter-spacing: -2px
+         }
+**** word-spacing определяют промежутки между словами в тексте (может быть и отрицательное значение - наложение элементов):
+- normal стиль по умолчанию между элементами;
+- length определяют промежутки между элементами (px, cm, mm, in, pc, pt, em, ex)
+- inherit наследует стиль родительского класса
+   HTML  <p class="positive">This is an example.</p>
+         <p class="negative">This is an example.</p>
+   CSS   p.positive {
+         word-spacing: 5px;
+         }
+         p.negative {
+         word-spacing: -2px
          }
