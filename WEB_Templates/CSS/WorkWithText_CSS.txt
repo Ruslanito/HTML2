@@ -172,7 +172,7 @@ top, middle, bottom, baseline, sub, super, %, px (pt, cm).
          p.line-through {
             text-decoration: line-through;
          }
-**** text-indent определяет сколько мместа до начала первой строки: Length (px, pt, cm. em), %, inherit. Возможно  и отрицательное значение - выровнено по левому краю.
+**** text-indent определяет сколько места до начала первой строки: Length (px, pt, cm. em), %, inherit. Возможно  и отрицательное значение - выровнено по левому краю.
    HTML  <p>This is an example of
          <strong>text-indent </strong> property.
          First line of our text is indented to the right in 60px.
@@ -181,3 +181,14 @@ top, middle, bottom, baseline, sub, super, %, px (pt, cm).
    CSS   p {
          text-indent: 60px;
          }
+**** text-shadow добавляет тень к тексту. Имеет 4 значения:
+1. смещение тени по горизонтали (px, cm, mm, in, pc, pt, em, ... и может отрицательное значение)
+2. смещение тени по вертикали (px, cm, mm, in, pc, pt, em, ... и может отрицательное значение)
+3. размытие тени (радиус)
+4. цвет тени
+HTML  <h1> Text-shadow example</h1>
+CSS   h1{
+      color:red;
+      font-size: 20pt;
+      text-shadow:5px 2px 4px green;      ;
+      }
