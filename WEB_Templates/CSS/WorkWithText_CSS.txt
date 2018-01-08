@@ -186,9 +186,19 @@ top, middle, bottom, baseline, sub, super, %, px (pt, cm).
 2. смещение тени по вертикали (px, cm, mm, in, pc, pt, em, ... и может отрицательное значение)
 3. размытие тени (радиус)
 4. цвет тени
-HTML  <h1> Text-shadow example</h1>
-CSS   h1{
-      color:red;
-      font-size: 20pt;
-      text-shadow:5px 2px 4px green;      ;
-      }
+   HTML  <h1> Text-shadow example</h1>
+   CSS   h1{
+         color:red;
+         font-size: 20pt;
+         text-shadow:5px 2px 4px green;
+         }
+**** text-transform позволяет начинать все элементы с большой буквы
+- capitalize позволяет начинать все элементы текста с большой буквы;
+- uppercase позволяет преобразовать все элементы текста в большие буквы;
+- lowercase позволяет преобразовать все элементы текста в строчные буквы;
+   HTML  <h1> Text-shadow example</h1>
+   CSS   h1{
+         color:red;
+         font-size: 20pt;
+         text-transform: capitalize;     ;
+         }
