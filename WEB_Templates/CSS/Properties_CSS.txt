@@ -1,5 +1,9 @@
-**** The CSS Box Model:
+**** (Модель коробки CSS)The CSS Box Model:
 Content - Padding (transparent) - Border - Margin (transparent)
 Top - Right - Bottom - Left (TRouBLe) свойства работают в такой последовательности.
 CSS использует модель коробки для определения насколько бальшимим являются коробки и как их разместить (модель коробки ипользуется также для вывычисления высоты и ширины html-элемента).
-**** 
+**** (Общая длина элемента )total width of an element:
+margin left + border left + padding left + width of content + padding right + border right + margin right
+   При установке backdround-color коробки цвет покрывает элемент и padding
+**** (Общая высота элемента)total height of an element:
+margin top + border top + padding top + height of content + padding bottom + border bottom + margin bottom
