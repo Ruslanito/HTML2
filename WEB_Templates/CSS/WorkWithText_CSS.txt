@@ -172,7 +172,7 @@ top, middle, bottom, baseline, sub, super, %, px (pt, cm).
          p.line-through {
             text-decoration: line-through;
          }
-**** text-indent определяет сколько мместа до начала первой строки: Length (px, pt, cm. em), %, inherit. Возможно  и отрицательное значение - выровнено по левому краю.
+**** text-indent определяет сколько места до начала первой строки: Length (px, pt, cm. em), %, inherit. Возможно  и отрицательное значение - выровнено по левому краю.
    HTML  <p>This is an example of
          <strong>text-indent </strong> property.
          First line of our text is indented to the right in 60px.
@@ -181,6 +181,7 @@ top, middle, bottom, baseline, sub, super, %, px (pt, cm).
    CSS   p {
          text-indent: 60px;
          }
+<<<<<<< HEAD
 <<<<<<< HEAD
 **** text-shadow добавление к тексту тень. Оно принимает четыре значения: первое значение определяет длину тени по оси x (по горизонтали), второе значение определяет длину по оси y (по вертикали), третье значение определяет размытие тени, а четвертое значение определяет цвет.
    HTML  <h1>Text-shadow example</h1>
@@ -204,3 +205,51 @@ grey - цвет тени
          }
 =======
 >>>>>>> c7a9d7e208863d9a47937392693cd1480321ed96
+=======
+**** text-shadow добавляет тень к тексту. Имеет 4 значения:
+1. смещение тени по горизонтали (px, cm, mm, in, pc, pt, em, ... и может отрицательное значение)
+2. смещение тени по вертикали (px, cm, mm, in, pc, pt, em, ... и может отрицательное значение)
+3. размытие тени (радиус)
+4. цвет тени
+   HTML  <h1> Text-shadow example</h1>
+   CSS   h1{
+         color:red;
+         font-size: 20pt;
+         text-shadow:5px 2px 4px green;
+         }
+**** text-transform позволяет преобразовать элементы текста:
+- capitalize позволяет начинать все элементы текста с большой буквы;
+- uppercase позволяет преобразовать все элементы текста в большие буквы;
+- lowercase позволяет преобразовать все элементы текста в строчные буквы;
+   HTML  <h1> Text-shadow example</h1>
+   CSS   h1{
+         color:red;
+         font-size: 20pt;
+         text-transform: capitalize;     ;
+         }
+**** letter-spacing определяют промежутки между буквами в тексте (может быть и отрицательное значение - наложение элементов):
+- normal стиль по умолчанию между элементами;
+- length определяют промежутки между элементами (px, cm, mm, in, pc, pt, em, ex)
+- inherit наследует стиль родительского класса
+   HTML  <p class="positive">This is an example.</p>
+         <p class="negative">This is an example.</p>
+   CSS   p.positive {
+         letter-spacing: 5px;
+         }
+         p.negative {
+         letter-spacing: -2px
+         }
+**** word-spacing определяют промежутки между словами в тексте (может быть и отрицательное значение - наложение элементов):
+- normal стиль по умолчанию между элементами;
+- length определяют промежутки между элементами (px, cm, mm, in, pc, pt, em, ex)
+- inherit наследует стиль родительского класса
+   HTML  <p class="positive">This is an example.</p>
+         <p class="negative">This is an example.</p>
+   CSS   p.positive {
+         word-spacing: 5px;
+         }
+         p.negative {
+         word-spacing: -2px
+         }
+**** white-spacing
+>>>>>>> d01170c81057c654ea73f2e9e4358f4a59bda3ed
