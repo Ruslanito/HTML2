@@ -1,9 +1,47 @@
-**** (Модель коробки CSS)The CSS Box Model:
-Content - Padding (transparent) - Border - Margin (transparent)
+**** (Блочная модель CSS)The CSS Box Model:
+Content(содержимое) - Padding(поле) (transparent) - Border(рамка) - Margin (отступ)(transparent)
 Top - Right - Bottom - Left (TRouBLe) свойства работают в такой последовательности.
-CSS использует модель коробки для определения насколько бальшимим являются коробки и как их разместить (модель коробки ипользуется также для вывычисления высоты и ширины html-элемента).
+CSS использует блочную модель для определения насколько большимим являются блоки и как их разместить (блочная модель ипользуется также для вычисления актуальной высоты и ширины html-элемента).
 **** (Общая длина элемента )total width of an element:
 margin left + border left + padding left + width of content + padding right + border right + margin right
-   При установке backdround-color коробки цвет покрывает элемент и padding
+   При установке backdround-color коробки цвет покрывает область контента, вместе с внутренними полями (padding)
 **** (Общая высота элемента)total height of an element:
 margin top + border top + padding top + height of content + padding bottom + border bottom + margin bottom
+**** border (рамка) позволяет изменять рамки html-элемента:
+- размер (можно отдeльным свойством: border-width)
+- стиль (можно отдeльным свойством: border-style)
+- цвет (можно отдeльным свойством: border-color)
+   HTML  <p>This is an example of a solid border.</p>
+   CSS   p {
+         padding: 10px;
+         border: 5px solid green;
+         }
+Свойства рамки не будут работать пока не установлено свойство border-style: - none - отсутствие рамки
+- dotted - точечная рамка
+- dashed - пунктирная рамка
+- double - двойная рамка
+- groove - выемкой
+- ridge - выступом
+- inset - тени изнутри
+- outset - тень снаружи
+- hidden - невидимая
+В CSS возможно определить различные рамки для разных сторон, используя следующие свойства: border-top-style(стиль верхней рамки), border-right-style(стиль правой рамки), border-bottom-style(стиль нижней рамки), и border-left-style(стиль левой рамки) для соответствующих сторон.
+   HTML  <p class="none">This paragraph has no border.</p>
+         <p class="dotted">This is a dotted border.</p>
+         <p class="dashed">This is a dashed border.</p>
+         <p class="double">This is a double border.</p>
+         <p class="groove">This is a grooved border.</p>
+         <p class="ridge">This is a ridged border.</p>
+         <p class="inset">This is an inset border.</p>
+         <p class="outset">This is an outset border.</p>
+         <p class="hidden">This is a hidden border.</p>
+   CSS   p.none {border-style: none;}
+         p.dotted {border-style: dotted;}
+         p.dashed {border-style: dashed;}
+         p.double {border-style: double;}
+         p.groove {border-style: groove;}
+         p.ridge {border-style: ridge;}
+         p.inset {border-style: inset;}
+         p.outset {border-style: outset;}
+         p.hidden {border-style: hidden;}
+**** 
