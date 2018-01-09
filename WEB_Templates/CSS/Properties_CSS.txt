@@ -1,2 +1,3 @@
 **** The CSS Box Model:
-Content - Padding - Border - Margin (Top - Right - Bottom - Left).
+Content - Padding (transparent) - Border - Margin (transparent)
+Top - Right - Bottom - Left (TRouBLe) свойства работают в такой последовательности.
