@@ -226,3 +226,4 @@ top, middle, bottom, baseline, sub, super, %, px (pt, cm).
          p.negative {
          word-spacing: -2px
          }
+**** white-spacing
