@@ -44,4 +44,11 @@ margin top + border top + padding top + height of content + padding bottom + bor
          p.inset {border-style: inset;}
          p.outset {border-style: outset;}
          p.hidden {border-style: hidden;}
-**** 
+**** width and height (ширина и высота элемента): для установки ширины и высоты элемента <div> равной 100px необходимо
+   HTML <div>The total width and height of this element is 100px.</div>
+   CSS  div {
+   border: 5px solid green;
+   width: 90px;
+   height: 90px;
+}
+Общая ширина блока 90px+5px(border)+5px(border)
