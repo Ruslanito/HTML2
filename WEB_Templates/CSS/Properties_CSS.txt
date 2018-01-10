@@ -77,3 +77,15 @@ margin top + border top + padding top + height of content + padding bottom + bor
             border: 5px solid green;
             max-width: 100px;
          }
+****background-color применяется для установки фонового цвета элемента
+   HTML  <h1>This is a heading</h1>
+   CSS   body {
+         background-color: #C0C0C0;
+         }
+         h1 {
+            background-color: rgb(135,206,235);
+         }
+         p {
+            background-color: LightGreen;
+         }
+****
