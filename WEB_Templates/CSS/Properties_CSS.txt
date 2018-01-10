@@ -51,4 +51,29 @@ margin top + border top + padding top + height of content + padding bottom + bor
    width: 90px;
    height: 90px;
 }
-Общая ширина блока 90px+5px(border)+5px(border)
+   Общая ширина блока 90px+5px(border)+5px(border)
+   Ширина и высота элемента может быть также присвоена с помощью использования процентов. В нижеуказанном примере ширина элемента задана в процентах, а высота в пикселях:
+   HTML  <div>The total width of this element is <strong>100%</strong> and
+         the total height is <strong>100px</strong> .</div>
+   CSS   div {
+         border: 5px solid green;
+         width: 100%;
+         height: 90px;
+}
+   Для того, чтобы установить минимальную и максимальную высоту и ширину элемента, вы можете использовать следующие свойства:
+- min-width - минимальная ширина элемента
+- min-height - минимальная высота элемента
+- max-width - максимальная ширина элемента
+- max-height - максимальная высота элемента
+   В нижеуказанном примере, мы установили минимальную высоту и максимальную ширину различных параграфов равных 100px.
+   HTML  <p class="first">The <strong>minimum height </strong> of this
+         paragraph is set to 100px.</p>
+         <p class="second">The<strong> maximum width </strong> of this paragraph is set to 100px.</p>
+   CSS   p.first {
+         border: 5px solid green;
+         min-height: 100px;
+         }
+         p.second {
+            border: 5px solid green;
+            max-width: 100px;
+         }
