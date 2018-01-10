@@ -123,3 +123,12 @@ margin top + border top + padding top + height of content + padding bottom + bor
          margin-top: 100px;
          padding: 40px;
          }
+**** background-attachment устанавливает, будет ли прокручиваться фоновое изображение вместе с содержимым элемента:
+- fixed фоновое изображение не будет двигаться с элементом
+- scroll фоновое изображение будет двигаться с элементом
+- inherit наследуется от родительского элемента
+   CSS   body {
+         background-image: url("css_logo.png");
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         }
