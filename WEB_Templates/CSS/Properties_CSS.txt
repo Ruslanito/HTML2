@@ -102,4 +102,24 @@ margin top + border top + padding top + height of content + padding bottom + bor
          background-image: url("green_photo.jpg");
          color: white;
          }
-         
+**** background-repeat определяет, как будет повторяться фоновое изображение:
+- repeat-y по вертикали
+- repeat-x по горизонтали
+- repeat в обе стороны
+- no-repeat не повторялось вообще (показано только 1 раз)
+- inherit как у родителя элемента
+   CSS   body {
+         background-image: url("css_logo.png");
+         background-repeat: repeat-x;
+         }
+   Например, мы установим фон элемента body, чтобы он повторялся только горизонтально. Если мы установим значение свойства background-repeat какого-нибудь параграфа чтобы оно наследовалось, то оно будет равно значению свойства элемента body
+   CSS   body {
+         background-image: url("css_logo.png");
+         background-repeat: repeat-x;
+         }
+         p {
+         background-image: url("css_logo.png");
+         background-repeat: inherit;
+         margin-top: 100px;
+         padding: 40px;
+         }
