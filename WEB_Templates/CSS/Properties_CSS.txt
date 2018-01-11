@@ -190,4 +190,19 @@ margin top + border top + padding top + height of content + padding bottom + bor
          list-style-position: outside;
          list-style-image: none;
       }
-      Если одно из значений свойства пропущено, то будет использовано значение по умолчанию.
+   Если одно из значений свойства пропущено, то будет использовано значение по умолчанию.
+**** border-collapse определяет будут ли рамки таблицы объудинена в одну линию или у каждой ячейки будет своя рамка. Если рамки разделены, то может быть использовано свойство border-spacing для изменения расстояния между границами ячеек в таблице.
+   HTML  <table border="1">
+         <tr>
+           <td>Red</td>
+           <td>Green</td>
+         </tr>
+         <tr>
+            <td>Blue</td>
+            <td>Yellow</td>
+         </tr>
+         </table>
+   CSS   table {
+            border-collapse: separate;
+            border-spacing: 20px 40px;
+         }
