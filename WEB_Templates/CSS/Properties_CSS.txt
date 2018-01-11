@@ -238,3 +238,36 @@ margin top + border top + padding top + height of content + padding bottom + bor
             border-collapse: separate;
             empty-cells: hide;
          }
+**** tablet-layout определяет, каким образом подсчитывается ширина столбцов таблицы:
+- auto - в случае, если ширина столбца или ячейки не задана точно, она будет зависеть от количества содержимого ячейки
+- fixed - в случае, если ширина столбца или ячейки не задана точно, количество содержимого ячейки не будет влиять на ее ширину.
+Шаблон таблицы по умолчанию имеет значение auto.
+   HTML  <p>Table-layout is set to <strong>auto</strong></p>
+         <table class="auto">
+           <tr>
+             <td width=“10%">500.000.000.000.000</td>
+             <td width="90%">20.000</td>
+           </tr>
+         </table>
+
+         <p>Table-layout is set to <strong>fixed</strong></p>
+         <table class="fixed">
+           <tr>
+             <td width="10%">500.000.000.000.000</td>
+             <td width="90%">20.000</td>
+           </tr>
+         </table>
+   CSS  table {
+            border-collapse: separate;
+            width: 100%;
+            border: 1px solid gray;
+         } 
+         td {
+            border: 1px solid gray;
+         }
+         table.auto {
+            table-layout: auto;
+         }
+         table.fixed {
+            table-layout: fixed;
+         }
