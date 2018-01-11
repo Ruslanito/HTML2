@@ -220,3 +220,21 @@ margin top + border top + padding top + height of content + padding bottom + bor
    CSS   caption {
             caption-side: top;
          }
+**** empty-cells определяет, отображать рамки и фон пустых ячеек в таблице, или нет:
+- show - отображает границу вокруг ячейки и фон в ней
+- hide - граница и фон в пустых ячейках не отображаются
+   Далее представлено использование свойства empty-cells, которое прячет рамки пустых ячеек в элементе <table>.
+   HTML  <table border="1">
+           <tr>
+             <td>HTML</td>
+             <td>CSS</td>
+           </tr>
+           <tr>
+             <td>JavaScript</td>
+             <td></td>
+           </tr>
+         </table>
+   CSS   table {
+            border-collapse: separate;
+            empty-cells: hide;
+         }
