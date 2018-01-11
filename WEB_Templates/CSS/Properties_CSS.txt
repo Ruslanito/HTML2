@@ -286,4 +286,15 @@ margin top + border top + padding top + height of content + padding bottom + bor
          }
    При установке стиля для нескольких состояний ссылки, существуют некоторые правила:
       - a:hover ДОЛЖНО следовать после a:link и a:visited
-      - a:active ДОЛЖНО следовать после a:hover   
+      - a:active ДОЛЖНО следовать после a:hover
+**** text-decoration по умолчанию, ссылки подчеркиваются браузером.
+Одним из наиболее общих использований CSS к ссылкам является удаление нижнего подчеркивания. В нижеуказанном примере, свойство text-decoration используется для удаления нижнего подчеркивания.
+   HTML  <p><a href="http://www.sololearn.com" target="_blank">
+            This link has no underline.
+         </a></p>
+   CSS   a:link {
+            text-decoration: none;
+         }
+   Следующие свойства используются для управления отображением ссылок:
+- border:none - убирает рамку изображений с ссылками
+- outline:none - убирает пунктирную рамку с нажатых строк в браузере IE
