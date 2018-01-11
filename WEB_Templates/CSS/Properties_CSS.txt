@@ -206,3 +206,17 @@ margin top + border top + padding top + height of content + padding bottom + bor
             border-collapse: separate;
             border-spacing: 20px 40px;
          }
+**** caption-side определяет положение заголовка таблицы:
+- top - вверху
+- bottom - внизу
+   HTML  <table border="1">
+         <caption>Some of Our Courses</caption>
+         <tr>
+           <th>Course name</th>
+           <th>Lessons</th>
+           <th>Quizzes</th>
+         </tr>
+         </table>
+   CSS   caption {
+            caption-side: top;
+         }
