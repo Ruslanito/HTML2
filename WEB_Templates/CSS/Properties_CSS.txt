@@ -165,3 +165,16 @@ margin top + border top + padding top + height of content + padding bottom + bor
          ul.square {
             list-style-type: square;
          }
+**** list-style-image - устанавливает изображение в качестве маркера списка
+**** list-style-position - устанавливает, как будет размещаться маркер относительно текста (inside - внутри; outside - снаружи(по-умолчанию))
+   HTML  <p>The following list has list-style-position:
+         <strong>inside</strong>.</p>
+         <ul>
+            <li>Red</li>
+            <li>Green</li>
+            <li>Blue</li>
+         </ul>
+   CSS   ul {
+            list-style-image: url("logo.jpg");
+            list-style-position: inside;
+         }
