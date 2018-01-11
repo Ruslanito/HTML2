@@ -178,3 +178,16 @@ margin top + border top + padding top + height of content + padding bottom + bor
             list-style-image: url("logo.jpg");
             list-style-position: inside;
          }
+         Свойство list-style
+
+   Свойство list-style это универсальное свойство для установки list-style-type(типа), list-style-image(изображения) и list-style-position(положения). Оно используется для установки всех трех свойств в одном объявлении:
+      ul {
+         list-style: square outside none;
+      }
+      равноценно:
+      ul {
+         list-style-type: square;
+         list-style-position: outside;
+         list-style-image: none;
+      }
+      Если одно из значений свойства пропущено, то будет использовано значение по умолчанию.
