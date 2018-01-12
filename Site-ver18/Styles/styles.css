@@ -13,6 +13,7 @@ body {
 
 .back-image{
    background-image: url(../Images/meadow-2184989_1920.jpg);
+   background-size: cover;
 }
 
 .wrapper {
