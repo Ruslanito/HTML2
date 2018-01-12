@@ -1,0 +1,71 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html, body {
+   height: 100%;
+}
+
+body {
+   background-color: teal;
+}
+
+.back-image{
+   background-image: url(../Images/meadow-2184989_1920.jpg);
+}
+
+.wrapper {
+   position: relative;
+   min-height: 100%;
+}
+
+.content {
+   padding-bottom: 40px;
+}
+
+footer {
+   position: absolute;
+   left:0;
+   bottom: 0;
+   background: #e6d821;
+   border-radius: 10px 10px 10px 10px;
+   height: 40px;
+   width: 100%;
+
+}
+
+.indexh1 {
+   text-align: center;
+   color: #d73214;
+}
+
+.p1,.p3, .p4 {
+   text-align: center;
+}
+
+.imageM0{
+   text-align: center;
+}
+
+.imageM1 {
+   padding: 10px;
+   border: 5px;
+   margin: 5px;
+   border-style: groove;
+   border-color: #be6daa;
+}
+
+.nav {
+   text-align: left;
+   background-color: #df8e23;
+   width:auto;
+}
+
+.mailto {
+   text-align: center;
+}
+
+.li-count {
+   text-align: left;
+}
