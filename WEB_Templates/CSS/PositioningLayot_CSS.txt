@@ -64,3 +64,27 @@
             width: 120px;
             float: left;
          }
+**** clear отмена действия свойства Float - элементы, которые следуют за обтекаемым элементом будут протекать вокруг него. Чтобы избежать этого, используйте свойство clear. Свойство clear устанавливает, с какой стороны элемента запрещено его обтекание другими элементами.
+- left - нет обтекания элемента по левому краю
+- right - нет обтекания элемента по правому краю
+- both - нет обтекания элемента по правому и левому краю
+- none - обтекание будет с двух сторон
+ В нижеуказанном примере, если мы установим свойство float на div, то только параграф, который следует после div будет обтекать изображение.
+   HTML  This paragraph is above the div element
+         and is not affected by the float right property.
+         <br /><br />
+         <div class="floating">
+            <img src="css_logo.png" />
+         </div>
+         This paragraph comes after the div element
+         and is affected by the float right property.
+         <br/><br class="clearing"/>
+         This paragraph is out of the floating group
+         and is not affected by the float right property.
+         <br/> <br/>
+   CSS   .floating {
+            float: right;
+         }
+         .clearing {
+            clear: both;
+         }
