@@ -74,7 +74,17 @@ footer {
 .p4-1{
    background-color:#89ec15 ;
    position: fixed;
-   top: 150px;
-   left: 100px;
-   right: 250px;
+   top: 100px;
+   left: 10px;
+   right: 600px;
+   bottom: 250px;
+}
+
+.p4-2{
+   background-color:#15b8ec ;
+   position: fixed;
+   top: 100px;
+   left: 220px;
+   right: 10px;
+   bottom: 250px;
 }
