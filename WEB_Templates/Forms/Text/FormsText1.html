@@ -98,10 +98,12 @@
       <input type="submit" name="" value="OK">
    </form>
    <hr>
-   <form class="frm17" action="index.html" method="post">
+   <form class="frm17" enctype="multipart/form-data" action="/upload.php" method="post">
+      <input type="hidden" name="MAX_FILE_SIZE" value="30000">
       <p>Files:</p>
-      <input type="file" name="" value="">
-      <input type="submit" name="" value="OK">
+      <input type="file" name="userfile []" value="">
+      <input type="file" name="userfile []" value="">
+      <input type="submit" name="" value="Send file">
    </form>
 
 </body>
