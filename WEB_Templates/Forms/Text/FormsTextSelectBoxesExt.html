@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta content="text/html" ; charset="utf-8">
+   <title>FormsText</title>
+</head>
+
+<body>
+   <p>Select Boxes with 1</p>
+   <select name="selColor">
+   <option selected="selected" value="">Select color</option>
+   <option value="red">Red</option>
+   <option value="green">Green</option>
+   <option value="blue">Blue</option>
+   </select>
+   <hr>
+   <p>Select Boxes with 2</p>
+   <select name="selColor" multiple>
+   <option selected="selected" value="">Select color</option>
+   <option value="red">Red</option>
+   <option value="green">Green</option>
+   <option value="blue">Blue</option>
+   </select>
+   <hr>
+   <p>Select Boxes with choise by default</p>
+   <select name="selColor">
+   <option selected="selected" value="">Select color</option>
+   <option value="red" selected>Red</option>
+   <option value="green">Green</option>
+   <option value="blue">Blue</option>
+   </select>
+   <hr>
+   <p>Scrolling Select Boxes</p>
+   <form action="http://www.example.org/days.aspx" name="frmDays" method="get">
+      <select size="4" name="selDay">
+         <option value="Mon">Monday</option>
+         <option value="Tue">Tuesday</option>
+         <option value="Wed">Wednesday</option>
+         <option value="Thu">Thursday</option>
+         <option value="Fri">Friday</option>
+         <option value="Sat">Saturday</option>
+         <option value="Sun">Sunday</option>
+      </select>
+      <br><br><input type="submit" value="Submit">
+   </form>
+   <hr>
+</body>
+
+</html>
