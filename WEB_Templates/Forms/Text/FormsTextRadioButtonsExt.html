@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta content="text/html" ; charset="utf-8">
+   <title>FormsText</title>
+</head>
+
+<body>
+   <form action="http://www.example.com/flights.aspx" name="frmFlightBooking" method="get">
+      <p>Radio with out default selection</p>
+      Please select which class of travel you wish to fly: <br>
+      <input type="radio" name="radClass" value="First">First class <br>
+      <input type="radio" name="radClass" value="Business">Business class <br>
+      <input type="radio" name="radClass" value="Economy">Economy class <br>
+   </form>
+   <hr>
+   <form action="http://www.example.com/flights.aspx" name="frmFlightBooking" method="get">
+      <p>Radio with default selection</p>
+      Please select which class of travel you wish to fly: <br>
+      <input type="radio" name="radClass" value="First">First class <br>
+      <input type="radio" name="radClass" value="Business" checked>Business class <br>
+      <input type="radio" name="radClass" value="Economy">Economy class <br>
+   </form>
+   <hr>
+</body>
+
+</html>
