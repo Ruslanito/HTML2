@@ -39,13 +39,27 @@
          <input type="reset" name="" value="Reset">
          <input type="button" name="" value="Create" onclick="choise()"></p>
    </form>
-   <hr color="red">
+   <hr>
    <form class="frm4" action="index.html" method="get">
-      <p>Date of birth:</p>
+      <p>Date of birth + Images on button:</p>
       <input type="date" name="frmind1" value="12-01-2018">
       <input type="submit" name="" value="Submit">
+      <input type="image" src="image.jpg" name="btnIimage" alt="Image" value="" height="20px" width="30px">
    </form>
    <hr>
+   <form action="http://www.example.org/feedback.aspx" method="post">
+      <p>Buttons:</p>
+      <p>
+         <button type="submit">Submit</button>
+      </p>
+      <p>
+         <button type="reset"><b>Clear this form</b> I want to start again</button>
+      </p>
+      <p>
+         <button type="button"><img src="submit.gif" alt="submit"></button>
+      </p>
+   </form>
+   <hr color="red">
    <form class="frm5" action="index.html" method="post">
       <p>Date and Time:</p>
       <input type="datetime" name="frmindt1" value="10-10-2018">
