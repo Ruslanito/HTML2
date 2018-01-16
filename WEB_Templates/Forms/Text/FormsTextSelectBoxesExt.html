@@ -45,6 +45,24 @@
       <br><br><input type="submit" value="Submit">
    </form>
    <hr>
+   <p>Selecting Multiple Options with the multiple Attribute</p>
+   <p>The multiple attribute enables users to select more than one item from a select box. When you use this attribute, it is always a good idea to tell people how to select multiple items: by holding down the Control key and clicking the items they want
+   to select.</p>
+   <form action="http://www.example.org/days.aspx" method="get" name="frmDays">
+      Please select more than one day of the week (to select multiple days hold down the control key and click on your chosen days):<br>
+      <select name="selDays" multiple>
+         <option value="Mon">Monday</option>
+         <option value="Tue">Tuesday</option>
+         <option value="Wed">Wednesday</option>
+         <option value="Thu">Thursday</option>
+         <option value="Fri">Friday</option>
+         <option value="Sat">Saturday</option>
+         <option value="Sun">Sunday</option>
+         </select>
+      <br><br><input type="submit" value="Submit">
+   </form>
+   <hr>
+
 </body>
 
 </html>
