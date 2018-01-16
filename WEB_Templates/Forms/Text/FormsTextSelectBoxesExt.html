@@ -62,7 +62,28 @@
       <br><br><input type="submit" value="Submit">
    </form>
    <hr>
-
+   <p>Grouping Options with the &lt;optgroup&gt; Element</p>
+      <p>If you have a long list of items in a select box, you can group them together using the &lt;optgroup&gt; element, which acts just like a container element for all the elements you want within a group. The &lt;optgroup&gt; element must carry a label attribute whose value is a label for that group of options.</p>
+      <form action="http://www.example.org/info.aspx" method="get" name="frmInfo">
+      Please select the product you are interested in:<br>
+         <select name="selInformation">
+         <optgroup label="Hardware">
+         <option value="Desktop">Desktop computers</option>
+         <option value="Laptop">Laptop computers</option>
+         </optgroup>
+         <optgroup label="Software">
+         <option value="OfficeSoftware">Office software</option>
+         <option value="Games">Games</option>
+         </optgroup>
+         <optgroup label="Peripherals">
+         <option value="Monitors">Monitors</option>
+         <option value="InputDevices">Input Devices</option>
+         <option value="Storage">Storage</option>
+         </optgroup>
+         </select>
+         <p><input type="submit" value="Submit"></p>
+      </form>
+      <hr>
 </body>
 
 </html>
