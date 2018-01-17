@@ -11,7 +11,7 @@ body {
    background-color: teal;
 }
 
-.back-image{
+.back-image {
    background-image: url(../Images/meadow-2184989_1920.jpg);
    background-size: cover;
 }
@@ -27,13 +27,12 @@ body {
 
 footer {
    position: absolute;
-   left:0;
+   left: 0;
    bottom: 0;
    background: #e6d821;
    border-radius: 10px 10px 10px 10px;
-   height: 40px;
+   height: 30px;
    width: 100%;
-
 }
 
 .indexh1 {
@@ -41,11 +40,16 @@ footer {
    color: #d73214;
 }
 
-.p1,.p3, .p4 {
+.p1, .p3, .p4 {
    text-align: center;
 }
 
-.imageM0{
+.p4{
+   text-align: center;
+   vertical-align: middle;
+}
+
+.imageM0 {
    text-align: center;
 }
 
@@ -60,31 +64,37 @@ footer {
 .nav {
    text-align: left;
    background-color: #df8e23;
-   width:auto;
+   width: auto;
 }
 
 .mailto {
    text-align: center;
+   position: fixed;
+   right: 10px;
+   vertical-align: middle;
 }
 
 .li-count {
    text-align: left;
+   position: fixed;
+   left: 10px;
+   vertical-align: middle;
 }
 
-.p4-1{
-   background-color:#89ec15 ;
+.p4-1 {
+   background-color: #89ec15;
    position: fixed;
    top: 100px;
    left: 10px;
    /*right: 600px; */
    bottom: 250px;
-   border:3px dotted red;
+   border: 3px dotted red;
    padding: 15px;
-   max-width:150px;
+   max-width: 150px;
 }
 
-.p4-2{
-   background-color:#15b8ec ;
+.p4-2 {
+   background-color: #15b8ec;
    position: fixed;
    top: 100px;
    left: 220px;
