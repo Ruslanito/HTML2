@@ -33,6 +33,7 @@ footer {
    border-radius: 10px 10px 10px 10px;
    height: 31px;
    width: 100%;
+   vertical-align: middle;
 }
 
 .indexh1 {
@@ -91,11 +92,12 @@ footer {
    border: 3px dotted red;
    padding: 15px;
    max-width: 150px;
+   float: right;
 }
 
 .p4-2 {
    background-color: #15b8ec;
-   position: fixed;
+   position:fixed ;
    top: 100px;
    left: 220px;
    right: 10px;
