@@ -1,40 +1,40 @@
-html {
+html, body {
    height: 100%;
+   margin: 0px;
 }
 
 #wrapper{
-   width: 500px;
-   outline: 5px solid #be0844;
-   padding: 10px;
-   margin:0 auto;
-   background-color: teal;
-   min-height: 100%;
+   width: 600px;
+   margin:0 auto 0 auto;/*размещение по центру*/
+   background-color:#cbd7b1 ;
+   min-height: 100%;/* всегда на всю высоту старницу*/
 }
 
 #header{
-   height: 80px;
+   height: 50px;
    background-color: #25b33f;
-   margin-bottom: 10px;
+   margin-bottom: 5px;
 }
 
 #sidebar{
-   height: 80px;
+   height: 755px;
    background-color: #f5a02f;
-   margin-bottom: 10px;
-   width: 200px;
-   margin-left: 300;
+   margin-bottom: 5px;
+   width: 150px;
    float: right;
 }
 
 #content{
-   height: 80px;
+   height: 755px;
    background: #3486da;
-   margin-bottom: 10px;
-   width: 290px;
+   margin-bottom: 5px;
+   width: 445px;
 }
 
 #footer{
-   height: 80px;
+   position: relative;
+   bottom: 0;
+   height: 50px;
    background: #794187;
-   margin-bottom: 10px;
+   
 }
