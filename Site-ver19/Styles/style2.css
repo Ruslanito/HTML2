@@ -17,10 +17,11 @@ html, body {
 }
 
 #nav{
-   height: 50px;
+   height: 20px;
    background-color: #d5ed14;
    width: 100%;
    margin-bottom: 5px;
+    vertical-align: bottom;
 }
 
 #sidebar{
@@ -43,5 +44,15 @@ html, body {
    bottom: 0;
    height: 50px;
    background: #794187;
+}
 
+.nav1{
+   text-align: center;
+}
+
+.mailto {
+   text-align: center;
+   position: fixed;
+   right: 10px;
+   vertical-align: middle;
 }
