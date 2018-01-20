@@ -50,18 +50,14 @@ html, body {
    margin-bottom: 150px;
 }
 
-#clear{
-   clear: none;
-}
-
 #header2{
    height: 80px;
-   background-color: #25b33f;
+   background-color: #b37a25;
    margin-bottom: 10px;
 }
 
 #sidebar3{
-   height: 80px;
+   height: 180px;
    background-color: #f5a02f;
    margin-bottom: 10px;
    width: 150px;
@@ -70,7 +66,7 @@ html, body {
 }
 
 #sidebar4{
-   height:80px;
+   height:280px;
    background-color: #54b4b4;
    margin-bottom: 10px;
    width: 150px;
@@ -78,7 +74,7 @@ html, body {
 }
 
 #content2{
-   height: 80px;
+   height: 280px;
    background: #3486da;
    margin-bottom: 10px;
    margin-top: 0;
