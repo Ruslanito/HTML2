@@ -1,4 +1,12 @@
 **** border radius - позволяет отображать закруглённые края элементов
+   CSS .test{
+   border-radius:15px;
+   color:red;
+   }
+   или
+   CSS .test{
+   border-radius:0 0 20px 20px;/*top-left top-right bottom-right bottom-left*/
+   }
 **** border images - позволяет отображать изображенние, как границу элемента
 **** multiple backgrounds - применяет множественные фоны к элементу
 **** box-shadow - можно определить одну или несколько теней у элемента (цвет, размер, размытость, отступ)
@@ -12,4 +20,14 @@
 - skew -
 **** transitions - позволяет применить анимацию к свойствам CSS элемента
 **** animations - анимирование
-**** 
+**** webkit - префикс призводителя для Safari, Chrome
+- o - префикс призводителя для Opera
+- moz - префикс призводителя для Mozilla Firefox
+- ms - префикс призводителя для IE
+   CSS   .test{
+               -webkit-border-radius:10px;
+               -moz- border-radius:10px;
+               -o- border-radius:10px;
+               -ms- border-radius:10px;
+               }
+****
