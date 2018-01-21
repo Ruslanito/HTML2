@@ -18,20 +18,22 @@ html, body {
 }
 
 #sidebar1{
-   height: 180px;
+   min-height: 80px;
    background-color: #f5a02f;
    margin-bottom: 10px;
-   width: 150px;
+   width: 140px;
    margin-left: 350;
    float: left;
+   padding: 5px 5px 5px 5px;
 }
 
 #sidebar2{
    min-height:80px;
    background-color: #54b4b4;
    margin-bottom: 10px;
-   width: 150px;
+   width: 140px;
    float: right;
+   padding: 5px 5px 5px 5px;
 }
 
 #content{
@@ -41,7 +43,8 @@ html, body {
    margin-top: 0;
    margin-right: 0;
    margin-left: 160px;
-   width: 180px;
+   width: 170px;
+   padding: 5px 5px 5px 5px;
 }
 
 .clear{
@@ -61,7 +64,7 @@ html, body {
 }
 
 #sidebar3{
-   height: 180px;
+   min-height: 180px;
    background-color: #f5a02f;
    margin-bottom: 10px;
    width: 150px;
@@ -70,7 +73,7 @@ html, body {
 }
 
 #sidebar4{
-   height:180px;
+   min-height:180px;
    background-color: #54b4b4;
    margin-bottom: 10px;
    width: 150px;
@@ -78,7 +81,7 @@ html, body {
 }
 
 #content2{
-   height: 180px;
+   min-height: 180px;
    background: #3486da;
    margin-bottom: 10px;
    margin-top: 0;
