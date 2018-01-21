@@ -7,6 +7,13 @@
    CSS .test{
    border-radius:0 0 20px 20px;/*top-left top-right bottom-right bottom-left*/
    }
+   Можно сделать  круг (полукруг):
+   CSS   .circle{
+   width:200px;
+   height:200px;
+   border-radius:100px;
+   background-color:green;
+   }
 **** border images - позволяет отображать изображенние, как границу элемента
 **** multiple backgrounds - применяет множественные фоны к элементу
 **** box-shadow - можно определить одну или несколько теней у элемента (цвет, размер, размытость, отступ)
