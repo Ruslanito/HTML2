@@ -1,0 +1,92 @@
+html, body {
+   height: 100%;/*100% in height*/
+}
+
+#wrapper{
+   width: 90%;/*500px*/
+   outline: 1px solid #787274;
+   padding: 10px;
+   margin:0 auto;
+   position: relative;/*100% in height*/
+   min-height: 100%;/*100% in height*/
+}
+
+#header{
+   height: 80px;
+   background-color: #25b33f;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+#sidebar1{
+   min-height: 80px;
+   background-color: #f5a02f;
+   margin-bottom: 10px;
+   width: 22.4%;/*150px*/
+   margin-left: 350;
+   float: left;
+   padding: 5px 5px 5px 5px;
+}
+
+#sidebar2{
+   min-height:80px;
+   background-color: #54b4b4;
+   margin-bottom: 10px;
+   width:22.4%;/*150px*/
+   float: right;
+   padding: 5px 5px 5px 5px;
+}
+
+#content{
+   min-height: 80px;
+   background: #3486da;
+   margin-bottom: 10px;
+   margin-top: 0;
+   margin-right: 0;
+   margin-left: 25.6%;/*160px*/
+   width: 47.5%;/*180px*/
+   padding: 5px 5px 5px 5px;
+}
+
+.clear{
+  clear: both;/*отмена наплывания на футер и хедер2 */
+}
+
+#footer{
+   height: 80px;
+   background: #794187;
+   margin-bottom: 150px;
+}
+
+#header2{
+   height: 80px;
+   background-color: #b37a25;
+   text-align: center;
+}
+
+#sidebar3{
+   min-height: 180px;
+   background-color: #f5a02f;
+   margin-bottom: 10px;
+   width: 150px;
+   margin-left: 350;
+   float: left;
+}
+
+#sidebar4{
+   min-height:180px;
+   background-color: #54b4b4;
+   margin-bottom: 10px;
+   width: 150px;
+   float: right;
+}
+
+#content2{
+   min-height: 180px;
+   background: #3486da;
+   margin-bottom: 10px;
+   margin-top: 0;
+   margin-right: 0;
+   margin-left: 160px;
+   width: 180px;
+}
