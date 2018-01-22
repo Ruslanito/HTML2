@@ -4,7 +4,7 @@ html, body {
 }
 
 #wrapper{
-   width: 600px;
+   width: 95%; /*600px*/
    margin:0 auto 0 auto;/*размещение по центру*/
    background-color:#cbd7b1 ;
    min-height: 100%;/* всегда на всю высоту старницу*/
@@ -28,7 +28,7 @@ html, body {
    height: 755px;
    background-color: #f5a02f;
    margin-bottom: 5px;
-   width: 150px;
+   width: 24.6%; /*150px*/
    float: right;
 }
 
@@ -36,7 +36,7 @@ html, body {
    height: 755px;
    background: #3486da;
    margin-bottom: 5px;
-   width: 445px;
+   width: 74.6%;  /*445px*/
 }
 
 #footer{
@@ -51,8 +51,7 @@ html, body {
 }
 
 .mailto {
-   text-align: center;
+   text-align: left;
    position: fixed;
    right: 10px;
-   vertical-align: middle;
 }
