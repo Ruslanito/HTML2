@@ -75,3 +75,20 @@
             box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
               inset 0 0 1px rgba(255, 255, 255, 0.6);
          }
+***** Псевдоклассы - Псевдоклассы CSS позволяют нам стилизовать элементы, или части элементов, которые существуют в дереве документа без использования JavaScript или других скриптов. Псевдоклассы начинаются с  ":" (двоеточия). Наиболее часто используемыми псевдоклассами являются:
+- first-child - первый элемент после родителя (являющийся первым в своем родителе)
+- last-child - любой элемен, являющийся последним в его родителе
+   HTML  <div id="parent">
+            <p>First paragraph</p>
+            <p>Second paragraph</p>
+            <p>Third paragraph</p>
+            <p>Fourth paragraph</p>
+         </div>
+   CSS #parent p:first-child {
+            color: green;
+            text-decoration: underline;
+         }
+       #parent p:last-child {
+            color: red;
+            text-decoration: underline;
+         }
