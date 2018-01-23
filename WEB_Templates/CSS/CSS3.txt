@@ -107,4 +107,11 @@
             color: #fff;
          }
    Используется префикс -moz- , так как элемент ::selection еще не поддерживается браузером Mozilla.
+   Использование псевдоэлементов ::before и ::after позволяет нам добавлять широкое разнообразие содержимого на страницу. В примере ниже, псевдоэлемент ::before используется для добавления изображения до списка.
+   HTML2 <p>You can insert text, images, and other resources using   <strong>:before </strong>pseudo element.</p>
+         <p>You can insert text, images, and other resources using <strong>:before </strong>pseudo element.</p>
+   CSS   p::before {
+            content: url("logo.jpg");/*Обратите внимание на ключевое слово content в синтаксисе.*/
+         }
+   Если вы измените элемент ::before на ::after в примере выше, то изображения появятся в конце списка.
    
