@@ -18,4 +18,42 @@
    CSS   {background:-moz-linear-gradient(blue 20%, yellow 30%, green 85%)};
    В дополнение к процентам, вы также можете использовать px, em, для определения остановок цвета.
    Если вы используете одну остановку для двух цветов, то между ними будет создана острая линия.
-   
+   Направление градиента можно менять:
+- left - слева на право
+- right -с право на лево
+- top - с верху вниз
+- bottom - с низу в верху
+- + возможные сочетания: left top...
+   CSS   div.first {
+            float: left;
+            width: 300px;
+            height: 100px;
+            margin: 4px;
+            color: #FFF;
+            background:-moz-linear-gradient(left, blue, green, white);
+         }
+         div.second {
+            float: left;
+            width: 300px;
+            height: 100px;
+            margin: 4px;
+            background:-moz-linear-gradient(bottom, blue, green, white);
+         }
+   В качестве альтернативы предопределенным направлениям (вниз, вверх, вправо, влево, вниз и вправо, и т.д.), вы можете управлять направлением градиентов определив угол. Определяемый угол лежит между горизонтальной линией и линией градиента. Другими словами, угол 0deg создает градиент слева-направо, а 90deg генерирует градиент снизу-вверх.
+   CSS   div.first {
+            float: left;
+            width: 300px;
+            height: 100px;
+            margin: 4px;
+            color: #FFF;
+            background:-moz-linear-gradient(bottom left, blue, green, white);
+         }
+         div.second {
+            float: left;
+            width: 300px;
+            height: 100px;
+            margin: 4px;
+            background:-moz-linear-gradient(100deg, blue, green, white);
+         }
+   Функция repeating-linear-gradient() используется для повторения линейного градиента:
+   CSS background:-moz-repeating-linear-gradient(blue, green 20px);
