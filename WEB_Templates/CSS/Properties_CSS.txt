@@ -102,7 +102,7 @@ margin top + border top + padding top + height of content + padding bottom + bor
          background-image: url("green_photo.jpg");
          color: white;
          }
-   Пример: {background: url() no-repeat center top /cover;} - растягивание фонового изображения без повтора на весь экран
+   Пример: {background: url() no-repeat center top /cover; height: 600px;} - растягивание фонового изображения без повтора на весь экран
 **** background-repeat определяет, как будет повторяться фоновое изображение:
 - repeat-y по вертикали
 - repeat-x по горизонтали
