@@ -4,6 +4,7 @@ function out() {
    //p.innerHTML = "Hello!";
    //дописать информацию
    p.innerHTML +=" <b> Hello</b> ";
+   //p.innerHTML=p.innerHTML+" Hello"
 }
 
 function outnew(){
