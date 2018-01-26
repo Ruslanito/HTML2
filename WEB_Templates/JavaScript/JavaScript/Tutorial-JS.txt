@@ -1,0 +1,9 @@
+**** Внешние скрипты, порядок исполнения
+Если JavaScript-кода много – его выносят в отдельный файл, который подключается в HTML:
+   JS <script src="/path/to/script.js"></script>
+   или
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
+   Чтобы подключить несколько скриптов, используйте несколько тегов:
+   JS <script src="/js/script1.js"></script>
+      <script src="/js/script2.js"></script>
+Если указан атрибут src, то содержимое тега игнорируется. В одном теге SCRIPT нельзя одновременно подключить внешний скрипт и указать код. Нужно выбрать: либо SCRIPT идёт с src, либо содержит код.
