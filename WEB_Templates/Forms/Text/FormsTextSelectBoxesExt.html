@@ -95,15 +95,12 @@
    <hr>
    <p>Hidden Controls</p>
    <p>Sometimes you want to pass information between pages without users seeing it; to do this, you can use hidden form controls. Although users cannot see them in the web page, if they were to look at the source code for the page, they would see the values
-      in the code. Therefore, hidden controls should not be used for any sensitive information that you do not want the user to see. You may have come across forms on the web that span more than one page. Long forms can be confusing, and splitting them
-      up can help a user. In such cases, it is often necessary to pass values that a user has entered into the first form (on one page) onto the form in the second page, and then onto another page. Hidden elements are one way in which programmers can
-      pass values between pages. You create a hidden control using the &lt;input&gt; element whose type attribute has a value of hidden. For example, the following form contains a hidden form control indicating which section of the site users were on when they filled in the form. Hidden form controls need both the name and value attributes to be sent with the rest of a form.</p>
+      in the code. Therefore, hidden controls should not be used for any sensitive information that you do not want the user to see. You may have come across forms on the web that span more than one page. Long forms can be confusing, and splitting them up can help a user. In such cases, it is often necessary to pass values that a user has entered into the first form (on one page) onto the form in the second page, and then onto another page. Hidden elements are one way in which programmers can pass values between pages. You create a hidden control using the &lt;input&gt; element whose type attribute has a value of hidden. For example, the following form contains a hidden form control indicating which section of the site users were on when they filled in the form. Hidden form controls need both the name and value attributes to be sent with the rest of a form.</p>
    <form action="http://www.example.com/vote.aspx" method="get" name="fromVote">
       <input type="hidden" name="hidPageSentFrom" value="home page">
       <input type="submit" value="Click if this is your favorite page of our site. ">
    </form>
    <hr>
-
 </body>
 
 </html>
