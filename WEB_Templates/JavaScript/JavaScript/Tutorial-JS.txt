@@ -37,7 +37,7 @@
 **** innerHTML(Text) + outerHTML(Text) insertAdjacentHTML (TextMethods) - применяется для двойных тегов.
       (<h1>Text</h1>)
    innerHTML и innerText - исполняется только внутри тэга
-   outerHTML и outerText - исполняется за пределами тега
+   outerHTML и outerText - исполняется за пределами тега (в т.ч. с его заменой)
    JS var s = document.getElementById('out3');
    s.innerHTML = s.innerHTML+" + <b> Text#3</b>";
 
