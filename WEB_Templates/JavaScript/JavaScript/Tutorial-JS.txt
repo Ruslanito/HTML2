@@ -34,3 +34,17 @@
       addScript('1.js'); // загружаться эти скрипты начнут сразу
       addScript('2.js'); // выполнятся, как только загрузятся
       addScript('3.js'); // но, гарантированно, в порядке 1 -> 2 -> 3
+**** innerHTML(Text) + outerHTML(Text) insertAdjacentHTML (TextMethods) - применяется для двойных тегов.
+      (<h1>Text</h1>)
+   innerHTML и innerText - исполняется только внутри тэга
+   outerHTML и outerText - исполняется за пределами тега
+   JS var s = document.getElementById('out3');
+   s.innerHTML = s.innerHTML+" + <b> Text#3</b>";
+
+**** insertAdjacentHTML(TextMethods) - применяется для двойных тегов:
+- beforeBegin - перед началом открывающегося тега
+- afterBegin - после закрытия открывающегося тега
+- beforeEnd - перед началом закрывающегося тега
+- afterEnd - после закрытия закрывающегося тега
+   JS var a = document.getElementById('out5');
+   a.insertAdjacentHTML("beforeEnd","Text#5");
