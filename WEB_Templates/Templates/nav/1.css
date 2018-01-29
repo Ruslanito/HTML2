@@ -19,7 +19,7 @@
    padding: 5px 15px; /* задаем внутренние отступы */
    color: #fff; /* цвет текста */
    text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
-   fony-size:150%;
+   font-size:150%;
 }
 
 #menu a:hover {

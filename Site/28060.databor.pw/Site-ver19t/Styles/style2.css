@@ -1,0 +1,50 @@
+html, body {
+   height: 100%;
+   margin: 0px;
+}
+
+#wrapper{
+   width: 95%; /*600px*/
+   margin:0 auto 0 auto;/*размещение по центру*/
+   background-color:#cbd7b1 ;
+   min-height: 100%;/* всегда на всю высоту старницу*/
+}
+
+#header{
+   height: 50px;
+   background-color: #25b33f;
+   margin-bottom: 5px;
+}
+
+#nav{
+   height: 20px;
+   background-color: #d5ed14;
+   width: 100%;
+   margin-bottom: 5px;
+}
+
+#sidebar{
+   height: 755px;
+   background-color: #f5a02f;
+   margin-bottom: 5px;
+   width: 24.6%; /*150px*/
+   float: right;
+}
+
+#content{
+   height: 755px;
+   background: #3486da;
+   margin-bottom: 5px;
+   width: 74.6%;  /*445px*/
+}
+
+#footer{
+   position: relative;
+   bottom: 0;
+   height: 50px;
+   background: #794187;
+}
+
+.nav1{
+   text-align: center;
+}
