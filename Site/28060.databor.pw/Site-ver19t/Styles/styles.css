@@ -65,22 +65,24 @@ footer {
 .nav {
    text-align: center;
    margin: 0 auto;
-   background-color: #df8e23;
    /*width: auto;*/
+}
+
+.menu{
+   background: #df8e23;
+
 }
 
 .menu li{
    display:inline-block;
-   text-align: center;
    font-weight: bold;
-   background-color: #000;
 }
 
 .menu a{
    display: block;
-   padding: 5px 50px;
+   padding: 5px 30px;
    font-size:20px;
-   color: #fff;
+   color: #4d1486;
    text-decoration: none;
 }
 
