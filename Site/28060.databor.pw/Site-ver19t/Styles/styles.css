@@ -64,21 +64,22 @@ footer {
 
 .nav {
    text-align: center;
-   margin: 0auto;
-   /*background-color: #df8e23;*/
-   width: auto;
-   font-weight: bold;
+   margin: 0 auto;
+   background-color: #df8e23;
+   /*width: auto;*/
 }
 
 .menu li{
    display:inline-block;
    text-align: center;
+   font-weight: bold;
+   background-color: #000;
 }
 
 .menu a{
    display: block;
    padding: 5px 50px;
-   font-size:200%;
+   font-size:20px;
    color: #fff;
    text-decoration: none;
 }
