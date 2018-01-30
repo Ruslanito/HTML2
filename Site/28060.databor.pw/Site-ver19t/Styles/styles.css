@@ -62,14 +62,30 @@ footer {
    border-color: #be6daa;
 }
 
+.logo{
+   width: 40%;
+   height: 90px;
+   background-image: url(../Images/l1-1.png);
+   background-color: rgba(223, 235, 89, 0.75);
+   float: left;
+   background-repeat: no-repeat;
+
+}
+
+.clear{
+   clear:both;
+}
+
 .nav {
    text-align: center;
-   margin: 0 auto;
-   /*width: auto;*/
+   margin:0 auto;
+   padding-top: 30px;
+   width: 60%;
+   float:right;
 }
 
 .menu{
-   background: #df8e23;
+   background: rgba(#b87691, 0);
 
 }
 
@@ -87,7 +103,7 @@ footer {
 }
 
 .menu a:hover{
-   background: #858f12;
+   background: #c2cb22;
 }
 
 .mailto {
