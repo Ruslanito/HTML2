@@ -1,0 +1,25 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+html,
+body,
+.wrapper {
+   height: 100%;
+}
+
+.wrapper {
+   display: flex;
+   flex-direction: column;
+}
+
+.content {
+   flex: 1 0 auto;
+}
+
+.footer {
+   flex: 0 0 auto;
+}
+
+
+/*<!-- Это лучший способ из всех представленных, однако работает он только в современных браузерах. Высота футера значения не имеет. -->*/

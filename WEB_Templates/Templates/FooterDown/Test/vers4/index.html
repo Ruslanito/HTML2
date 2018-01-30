@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <title>FooterDown</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="wrapper">
+
+      <div class="content">
+         <p>Content</p>
+
+      </div>
+
+      <div class="footer">
+         <p>Footer</p>
+
+      </div>
+
+   </div>
+
+</body>
+
+</html>
+<!-- Footer прижимается вниз за счет вытягивания блока контента и его «родителей» на всю высоту окна браузера и подъема футера вверх через отрицательный отступ (margin-top) для избавления от появляющегося при этом вертикального скролла. В данном случае необходимо обязательно указать высоту подвала, и она должна быть равна величине отступа. 
+Благодаря свойству box-sizing: border-box, мы не позволяем блоку с классом .content превысить высоту 100%. То есть в данном случае min-height: 100% + padding-bottom: 90px равняется 100% высоты окна браузера.-->
