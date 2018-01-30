@@ -81,7 +81,7 @@ footer {
 .menu a{
    display: block;
    padding: 5px 30px;
-   font-size:20px;
+   font-size:100%;
    color: #4d1486;
    text-decoration: none;
 }
