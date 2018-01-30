@@ -63,10 +63,10 @@ footer {
 }
 
 .logo{
-   width: 40%;
-   height: 90px;
+   width: 275px;
+   height: 95px;
    background-image: url(../Images/l1-1.png);
-   background-color: rgba(223, 235, 89, 0.75);
+   background-color: rgba(223, 235, 89, 0.0);
    float: left;
    background-repeat: no-repeat;
 
