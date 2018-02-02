@@ -1,11 +1,11 @@
-var c, temp-out;
-c = Math.floor((Math.random()*10)+1);
-temp-out = document.getElementById("temp-out");
-temp-out.innerHTML = c;
+var c, temp_out;
+c = Math.floor((Math.random()*100)+1);
+temp_out = document.getElementById("temp-out");
+temp_out.innerHTML = c;
+
 
 function f1(){
    var d, p;
-
    d=document.getElementById("num1").value;
    d= parseInt(d);
    p=document.getElementById("out")
