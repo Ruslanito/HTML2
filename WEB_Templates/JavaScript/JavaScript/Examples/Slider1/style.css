@@ -1,0 +1,23 @@
+#slider{
+   width: 384px;
+   height: 128px;
+   border: 5px solid black;
+   margin: 50px auto;
+}
+
+#lines{
+   background: pink;
+   width: 896px;
+   position: relative;
+}
+
+#lines img{
+   float: left;
+
+}
+
+#lines::after{
+   content: '';
+   display: block;
+   clear: both;
+}
