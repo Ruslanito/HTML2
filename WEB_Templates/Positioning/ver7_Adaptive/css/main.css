@@ -1,0 +1,76 @@
+#wrapper{
+    width: 100%;
+    outline: 1px solid #787274;
+    padding: 5px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header{
+    height: 80px;
+    background: #25b33f;
+    margin-bottom: 5px;
+}
+
+.sidebar1{
+    height: 120px;
+    background-color: #2ff553;
+    margin-bottom: 10px;
+    width: 20%;
+    position: absolute;
+    top: 90px;
+    left: 5px;
+}
+
+.sidebar2{
+    height: 120px;
+    background-color: #2FF553;
+    margin-bottom: 10px;
+    width: 20%;
+    position: absolute;
+    top: 90px;
+    right: 5px;
+}
+
+.content{
+    height: 120px;
+    background: #9ef7af;
+    margin: 0 auto;
+    width: 59%;
+}
+
+.blok1, .blok2, .blok3, .blok4{
+    float: left;
+    margin: 3px 3px 3px 5px;
+    width: 22%;
+    height: 25%;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid;
+}
+
+.footer{
+    height: 80px;
+    background: #41874e;
+    margin: 5px 0 0 0;
+}
+
+@media screen and (max-width: 480px) {
+    .sidebar1, .sidebar2{
+        position: static;
+        width: 49.5%;
+    }
+    .content{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .sidebar1{
+        float: left;
+    }
+    .sidebar2{
+        margin: 0 0 0 50.5%;
+    }
+    .blok1, .blok2, .blok3, .blok4{
+        width: 45%;
+    }
+}
