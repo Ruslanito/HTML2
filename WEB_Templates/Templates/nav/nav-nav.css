@@ -1,0 +1,38 @@
+ul {
+   width: 180px;/*Ширина меню*/
+   list-style: none;/*Убираем маркеры для списка*/
+   margin: 0;/*Убираем отступы вокруг*/
+   padding: 0;/*Убира  поля вокруг*/
+   font-family: Arial, sans-serif;/*Рубленный шрифт для текста меню*/
+   font-style: 10pt;/*Размер шрифта в пунктах меню*/
+}
+
+li ul {
+   position: absolute;/*Подменю позиционируется абсолютно*/
+   display: none;/*Скрываем подменю*/
+   margin-left: 165px;/*Сдвигаем подменю вправо*/
+   margin-top: -2em;/*Сдвигаем подменю вверх*/
+}
+
+li a {
+   display: block;/*ссылка как блочный элемент*/
+   padding: 5px;/*поля вокруг надписи*/
+   text-decoration: none;/*Убираем подчеркивание ссылок*/
+   color: #666;/*Цвет текста*/
+   border: 1px solid #ccc;/*Рамка вокруг пункта меню*/
+   background-color: #f0f0f0;/*Цвет фона*/
+   border-bottom: none;/*Границу снизу не проводим*/
+}
+
+li a:hover {
+   color: #ffe;/*Цвет фона активного меню*/
+   background-color: #5488af;/*Цвет фона активного пункта*/
+}
+
+li:hover ul {
+   display: block; /*При выделении пункта курсором мыщи отображается подменю*/
+}
+
+.brd {
+   border-bottom: 1px solid #ccc;/*Линия снизу*/
+}
