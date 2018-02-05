@@ -1,0 +1,24 @@
+**** {box-border: border-box} - размер элемента не изменяется в независимости от изменения размеров padding, border, margin.
+**** :hover - определяет стиль  элемента при наведении на него мыши, при этом элемент  ещё не активирован (кнопка мыши не нажата)
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>hover</title>
+    <style>
+    a:link{
+      color:#0000d0;/*цвет ссылок*/
+      padding:2px;/*поля вокруг текста*/
+    }
+    a:hover{
+      color:#ffe;/*цвет ссылок*/
+      background: #786b59; /*цвет фона под ссылкой*/
+    }
+    </style>
+  </head>
+  <body>
+   <p><a href= "1.html">Links1</a></p>
+   <p><a href= "2.html">Links2</a></p>
+   <p><a href= "3.html">Links3</a></p>
+  </body>
+</html>

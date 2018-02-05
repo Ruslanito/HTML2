@@ -110,5 +110,3 @@
             position: relative;
          }
 Свойство z-index работает только с позиционированными элементами (position:absolute, position:relative, или position:fixed).
-
-**** {box-border: border-box} - размер элемента не изменяется в независимости от изменения размеров padding, border, margin.
