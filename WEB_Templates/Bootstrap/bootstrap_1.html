@@ -10,17 +10,30 @@
                         Hello, world!
                     </title>
                 </link>
+                <link href="1.css" rel="stylesheet">
+                </link>
             </meta>
         </meta>
     </head>
     <body>
-        <div class="container">
-            <h1>
+        <div class="container-fluid">
+            <!--container-fluid Обязательный элемент для responsive design-->
+            <h1 class="text-center">
                 Hello, world!
             </h1>
+            Изображения
+            <!-- text-center для изображения responsive design -->
+            <!-- img-responsive для изображения responsive design -->
+            <img alt="Android" class="img-responsive thick-green-border" src="android.png">
+            </img>
+            Кнопки
+            <button class="btn">Like</button>
+            <button class="btn">Submit</button>
+            <button class="btn btn-block">Big button</button>
         </div>
+
         <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS, then personal js -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script crossorigin="anonymous" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
         </script>
         <script crossorigin="anonymous" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
