@@ -8,10 +8,6 @@
 body {
     background-color: #999999;
 }
-/*.col{
-	background-color: #098765;
-	border: 1px solid yellow;
-}*/
 
 /*// Экстрамалые девайсы («телефоны», < 576px)*/
 @media (max-width: 575.98px){
