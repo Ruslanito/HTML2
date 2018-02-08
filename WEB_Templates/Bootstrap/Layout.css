@@ -14,7 +14,9 @@ body {
 /*// Экстрамалые девайсы («телефоны», < 576px)*/
 
 @media (max-width: 575.98px) {
-    .col {
+    .col,
+    .col-md,
+    .col-sm {
         background-color: #098765;
         border: 1px solid yellow;
     }
@@ -24,7 +26,9 @@ body {
 /*// Малые девайсы («ландшафтные», < 768px)*/
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .col {
+    .col,
+    .col-md,
+    .col-sm {
         background-color: #777777;
         border: 1px solid black;
     }
@@ -34,7 +38,9 @@ body {
 /*Средние девайсы («таблетки», >= 768px) */
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .col {
+    .col,
+    .col-md,
+    .col-sm {
         background-color: #056435;
         border: 1px solid white;
     }
@@ -44,7 +50,9 @@ body {
 /*Большие девайсы (большие десктопы, >= 992px)*/
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .col {
+    .col,
+    .col-md,
+    .col-sm {
         background-color: #565656;
         border: 1px solid green;
     }
@@ -54,7 +62,9 @@ body {
 /*// Большие девайсы (большие десктопы, >= 1200px)*/
 
 @media (min-width: 1200px) {
-    .col {
+    .col,
+    .col-md,
+    .col-sm {
         background-color: #fff;
         border: 1px solid red;
     }
