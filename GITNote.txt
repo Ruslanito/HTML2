@@ -58,3 +58,10 @@
     4. git commit -m "2-nd commit"
     5. git push --set-upstream https://github.com/Ruslanito/HTML2.git master (fatal: The current branch master has no upstream branch.
 To push the current branch and set the remote as upstream, use this)
+
+vscode syncsettings
+gist token= bd6ad3ea906aa6f92b28deb0927e74a95176805f
+gist id= c82ebf0eb7096f24cc5be65f929d105f
+atom  syncsettings 
+gist token=  a5bf2c70cc7d8544a658d035aa81c9d42a99b9e7 
+gist id=23aa02ee3b8ad0708f43b9b153b90d04
