@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Button#1</title>
+</head>
+
+<body>
+    <p>
+        type - Specifies the type of button you want and takes one of the following values: submit , reset , or button . <br> name - Provides a name for the button. You need to add only a name attribute to a button if there is more than one button on
+        the same form. (In which case it helps to indicate which of the buttons was clicked.) It is considered good practice, however, to give the button a name anyway to provide an indication of what the button does. <br> value - Enables you to specify
+        what the text on the button should read. If a name attribute is given, the value of the value attribute is sent to the server as part of the name/ value pair for this form control. If no value is given, then no name/value pair is sent for this
+        button.
+
+    </p>
+    <form action="#" method="post">
+        <p>
+            <input type="submit" name="btnVoteRed" value="Vote for reds">
+        </p>
+        <p>
+            <input type="submit" name="btnVoteBlue" value="Vote for blues">
+        </p>
+        <p>
+            <input type="reset" value="Clear form">
+        </p>
+        <p>
+            <input type="button" value="Calculate" onclick="calculate()">
+        </p>
+    </form>
+
+
+</body>
+
+</html>
