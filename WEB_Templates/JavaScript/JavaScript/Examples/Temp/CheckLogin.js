@@ -13,16 +13,16 @@ function check() {
 function checkLog() {
     var Login = "Admin";
     alert("script 'checkLog' is running...");
-
+    var userName = prompt('Enter user name', '');
     if (userName = Login) {
-        var pass = prompt('Password', '')
+        var pass = prompt('Enter password', '')
         if (pass == 'Black') {
             alert('Welcome!');
         } else if (pass == null) {
             alert('No enter');
         } else {
             alert('Wrong Password');
-        } else if (userName = null) {
+        } else(userName = null) {
             alert('No enter');
         } else {
             alert('Who are you?')
