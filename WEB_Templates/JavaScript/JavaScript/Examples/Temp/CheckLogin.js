@@ -1,7 +1,16 @@
+var JSname = "EcmaScript";
+
+
 function check() {
     alert("script 'check' is running...");
-    prompt('Enter login', "");
 
+    var name = prompt('Enter oficial JS name', "");
+
+    if (name != JSname) {
+        alert("Sorry, try again")
+    } else {
+        alert("You are right")
+    }
 
 }
 
