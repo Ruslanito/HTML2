@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #999999;
+}
+
+
+/*// Экстрамалые девайсы («телефоны», < 576px)*/
+
+@media (max-width: 575.98px) {
+    .col-12,
+    .col-6,
+    .col-xs,
+    .col-lg,
+    .col-md,
+    .col-sm,
+    .col-sm-8,
+    .col-sm-4 {
+        background-color: #098765;
+        border: 1px solid yellow;
+    }
+}
+
+
+/*// Малые девайсы («ландшафтные», < 768px)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .col-12,
+    .col-6,
+    .col-xs,
+    .col-lg,
+    .col-md,
+    .col-sm,
+    .col-sm-8,
+    .col-sm-4 {
+        background-color: #777777;
+        border: 1px solid black;
+    }
+}
+
+
+/*Средние девайсы («таблетки», >= 768px) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .col-12,
+    .col-6,
+    .col-xs,
+    .col-lg,
+    .col-md,
+    .col-sm,
+    .col-sm-8,
+    .col-sm-4 {
+        background-color: #056435;
+        border: 1px solid white;
+    }
+}
+
+
+/*Большие девайсы (большие десктопы, >= 992px)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .col-12,
+    .col-6,
+    .col-xs,
+    .col-lg,
+    .col-md,
+    .col-sm,
+    .col-sm-8,
+    .col-sm-4 {
+        background-color: #565656;
+        border: 1px solid green;
+    }
+}
+
+
+/*// Большие девайсы (большие десктопы, >= 1200px)*/
+
+@media (min-width: 1200px) {
+    .col-12,
+    .col-6,
+    .col-xs,
+    .col-lg,
+    .col-md,
+    .col-sm,
+    .col-sm-8,
+    .col-sm-4 {
+        background-color: #fff;
+        border: 1px solid red;
+    }
+}
