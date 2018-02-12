@@ -19,35 +19,56 @@
 <body>
     <div class="container">
         <h1 class="text-center">
-            По горизонтали
+            Вертикальное выравнивание
         </h1>
-        Используя один набор из классов .col-sm-*, вы можете создать базовую сетку, которая вначале сложена по вертикали, а потом ее колонки становятся горизонтальными (на экстрамалых девайсах).
-        <div class="row">
-            <div class="col-sm-8">col-sm-8</div>
-            <div class="col-sm-4">col-sm-4</div>
-        </div>
-        <div id="w-100"></div>
-        <div class="row">
-            <div class="col-sm">col-sm</div>
-            <div class="col-sm">col-sm</div>
-            <div class="col-sm">col-sm</div>
-        </div>
-        Размещайте колонки для мобильных устройств: делайте одну – полной ширины, и другую - половинной
-        <div class="row">
-            <div class="col-12 col-md-8">.col-12 .col-md-8</div>
-            <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-        </div>
-        Колонки начинаются с 50% ширины на мобильных и меняют ее на 33,3% на мониторе
-        <div class="row">
-            <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-            <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-            <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-        </div>
 
-        Колонки всегда 50% ширины, везде
-        <div class="row">
-            <div class="col-6">.col-6</div>
-            <div class="col-6">.col-6</div>
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col">
+                    Одна из трёх колонок
+                </div>
+                <div class="col">
+                    Одна из трёх колонок
+                </div>
+                <div class="col">
+                    Одна из трёх колонок
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col">
+                    Одна из трёх колонок
+                </div>
+                <div class="col">
+                    Одна из трёх колонок
+                </div>
+                <div class="col">
+                    Одна из трёх колонок
+                </div>
+            </div>
+            <div class="row align-items-end">
+                <div class="col">
+                    Одна из трёх колонок
+                </div>
+                <div class="col">
+                    Одна из трёх колонок
+                </div>
+                <div class="col">
+                    Одна из трёх колонок
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col align-self-start">
+                    Одна из трёх колонок
+                </div>
+                <div class="col align-self-center">
+                    Одна из трёх колонок
+                </div>
+                <div class="col align-self-end">
+                    Одна из трёх колонок
+                </div>
+            </div>
+
         </div>
 
     </div>
