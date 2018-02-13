@@ -7,14 +7,71 @@
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
     <!-- Bootstrap CSS -->
     <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet">
-    <title>Nav1_Bootstrap
+    <title>Nav_Tab_Bootstrap
     </title>
     <link rel="stylesheet" href="nav-tab.css">
 </head>
 
 <body>
     <div class="container">
-
+        <h1>Вкладки (Tabs)</h1>
+        <p>«Забирает» базовый элемент навигации с верха и добавляет класс .nav-tabs для создания «вкладочного» интерфейса, Используйте их для создания зоны с поддержкой содержимого в виде вкладок с плагином JavaScript.</p>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+        <hr>
+        <h3>Подушки (Pills)</h3>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+        <hr>
+        <h3>Наполняйте и выравнивайте по центру</h3>
+        <p> Для пропорционального заполнения всего доступного пространства элементами класса .nav-item, используйте класс nav-fill. Заметьте, что всё горизонтальное место занято, но не каждый элемент навигационной панели имеет одинаковую ширину.</p>
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Longer nav link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+        <hr>
+        <p>Используя навигацию на основе &lt;nav&gt;, удостоверьтесь, что включаете .nav-item в ссылки.</p>
+        <nav class="nav nav-pills nav-fill">
+            <a class="nav-item nav-link active" href="#">Active</a>
+            <a class="nav-item nav-link" href="#">Link</a>
+            <a class="nav-item nav-link" href="#">Link</a>
+            <a class="nav-item nav-link disabled" href="#">Disabled</a>
+        </nav>
+        <hr>
 
     </div>
     <!-- Optional JavaScript -->

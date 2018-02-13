@@ -5,9 +5,13 @@
 }
 
 .container {
-    background-color: aliceblue;
+    background-color: rgb(219, 213, 120);
 }
 
 .nav-link {
     background-color: rgb(223, 114, 114);
+}
+
+p {
+    text-align: justify;
 }
