@@ -72,7 +72,32 @@
             <a class="nav-item nav-link disabled" href="#">Disabled</a>
         </nav>
         <hr>
-
+        <p>Для создания элементов равной ширины используйте класс .nav-justified. Всё горизонтальное пространство будет занято ссылками навигационной панели, но, в отличие от примера с .nav-fill выше, каждый элемент навигационной панели будет одинаковой
+            ширины.
+        </p>
+        <nav class="nav nav-pills nav-justified">
+            <a class="nav-link active" href="#">Active</a>
+            <a class="nav-link" href="#">Longer nav link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link disabled" href="#">Disabled</a>
+        </nav>
+        <hr>
+        <p>По аналогии с примером с .nav-fill, где использована навигация на основе &lt;nav&gt;, удостоверьтесь, что включили класс .nav-item в ссылки.</p>
+        <nav class="nav nav-pills nav-justified">
+            <a class="nav-item nav-link active" href="#">Active</a>
+            <a class="nav-item nav-link" href="#">Link</a>
+            <a class="nav-item nav-link" href="#">Link</a>
+            <a class="nav-item nav-link disabled" href="#">Disabled</a>
+        </nav>
+        <hr>
+        <h3>Работа с гибкими классами</h3>
+        <p>навигационная панель будет расположена по вертикали на самом маленьком брейкпойнте, затем обретет горизонтальную разметку, которая, начиная с большего брейкпойнта, займет всю доступную ширину.</p>
+        <nav class="nav nav-pills flex-column flex-sm-row">
+            <a class="flex-sm-fill text-sm-center nav-link active" href="#">Active</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">Link</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">Link</a>
+            <a class="flex-sm-fill text-sm-center nav-link disabled" href="#">Disabled</a>
+        </nav>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS, then personal js -->
