@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(219, 213, 120);
+}
+
+.nav-link {
+    background-color: rgb(223, 114, 114);
+}
+
+p {
+    text-align: justify;
+}
