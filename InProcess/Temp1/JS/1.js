@@ -3,3 +3,11 @@ function start() {
 }
 
 start(); /* Srart 1.js for test */
+
+function valide() {
+
+}
+
+function count() {
+
+}

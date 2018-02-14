@@ -22290,6 +22290,27 @@
 				}
 			],
 			"visibility": "public"
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFhk1+ieJHaLbY=",
+			"_parent": {
+				"$ref": "AAAAAAFElm5XMFNoGY0="
+			},
+			"name": "Model2",
+			"ownedElements": [
+				{
+					"_type": "UMLObjectDiagram",
+					"_id": "AAAAAAFhk1+ieZHb08w=",
+					"_parent": {
+						"$ref": "AAAAAAFhk1+ieJHaLbY="
+					},
+					"name": "ObjectDiagram1",
+					"visible": true,
+					"defaultDiagram": false
+				}
+			],
+			"visibility": "public"
 		}
 	]
 }
