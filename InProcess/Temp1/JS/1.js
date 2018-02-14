@@ -16,5 +16,6 @@ function test() {
     var str1 = document.getElementById("inp1").value;
     var str2 = document.getElementById("inp2").value;
     var str3 = document.getElementById("inp3").value;
-    alert(str1 + '-' + str2 + '-' + str3);
+    var str4 = (str1 * str2 * str3) / 10000;
+    alert(str4);
 }
