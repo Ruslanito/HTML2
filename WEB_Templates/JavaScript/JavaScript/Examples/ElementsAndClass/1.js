@@ -1,4 +1,5 @@
 var p = document.getElementsByTagName('p');
+var one = document.getElementsByClassName('one');
 console.log(p);
 // p.onclick = f1; ошибка вызова функции
 
@@ -14,4 +15,12 @@ function f1() {
     // изменение (свойства) цвета выбранного элемента
     this.style.background = 'grey';
 
+}
+
+for (i = 0; i < one.length; i++) {
+    one[i].onclick = f2;
+}
+
+function f2() {
+    this.style.fontWeight = 'bold';
 }
