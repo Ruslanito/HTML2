@@ -73,4 +73,12 @@ CSS .item {
 CSS .item {
     flex-shrink: <number>; /* default 1 */
     }
+**** flex -  Это сокращение для flex-grow, flex-shrink и flex-basis. Второй и третий параметры (flex-shrink и flex-basis) не обязательны. Значение по умолчанию установлено в 0 1 auto.
+CSS .item {
+    flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+    }   
+**** align-self - позволяет переопределить выравнивание по умолчанию (или заданное с помощью свойства align-items) для отдельных flex-элементов. Пожалуйста посмотрите на объяснение свойства align-items, чтобы понимать доступные значения.
+CSS .item {
+    align-self: auto | flex-start | flex-end | center | baseline | stretch;
+    }
     
