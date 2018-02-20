@@ -77,8 +77,7 @@ CSS .item {
 CSS .item {
     flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
     }   
-**** align-self - позволяет переопределить выравнивание по умолчанию (или заданное с помощью свойства align-items) для отдельных flex-элементов. Пожалуйста посмотрите на объяснение свойства align-items, чтобы понимать доступные значения.
+**** align-self - позволяет переопределить выравнивание по умолчанию (или заданное с помощью свойства align-items) для отдельных flex-элементов. Пожалуйста посмотрите на объяснение свойства align-items, чтобы понимать доступные значения. float, clear и vertical-align не оказывают никакого влияния на flex-элемент.
 CSS .item {
     align-self: auto | flex-start | flex-end | center | baseline | stretch;
     }
-    
