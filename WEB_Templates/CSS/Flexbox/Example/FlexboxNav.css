@@ -7,8 +7,11 @@
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    /* Large */
     -webkit-flex-flow: row wrap;
+    /* Large */
     justify-content: flex-end;
+    /* Large */
 }
 
 .navigation a {
@@ -19,18 +22,22 @@
 }
 
 .navigation a:hover {
-    background: darken(deepskyblue, 2%);
+    background: darken(rgb(0, 119, 255), 2%);
 }
 
 @media all and (max-width: 800px) {
     .navigation {
         justify-content: space-around;
+        /* Medium screens */
+        /* When on medium sized screens, we center it by evenly distributing empty space around items */
     }
 }
 
 @media all and (max-width: 600px) {
     .navigation {
         -webkit-flex-flow: column wrap;
+        /* Small screens */
+        /* On small screens, we are no longer using row direction but column */
         flex-flow: column wrap;
         padding: 0;
     }
