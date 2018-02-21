@@ -114,7 +114,7 @@ header {
     background-image: url(../Images/frog-490_391_ver2.jpg);
     width: 490px;
     height: 391px;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 }
 
 
