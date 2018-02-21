@@ -102,13 +102,12 @@ header {
 }
 
 .containerText1 {
-    align-items: baseline;
     color: #d73214;
-    background-color: aqua;
+    text-align: center;
 }
 
 .containerText2 {
-    background-color: #b87691;
+    text-align: center;
 }
 
 .containerImage {
