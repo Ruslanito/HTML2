@@ -55,7 +55,20 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: row wrap;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+}
+
+
+/* TO DO add media request */
+
+.flex-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: row wrap;
 }
 
 .logo {
@@ -122,6 +135,9 @@ header {
 footer
 */
 
+
+/*  TO DO make footer */
+
 footer {
     position: absolute;
     left: 0;
@@ -139,14 +155,22 @@ footer {
     align-content: center;
 }
 
+.li-count {
+    /* text-align: left;
+    position: fixed;
+    left: 10px;
+    vertical-align: middle; */
+}
 
-/* .mailto {
+.mailto {
     text-align: center;
     position: fixed;
     right: 10px;
     vertical-align: middle;
 }
 
+
+/*
 .li-count {
     text-align: left;
     position: fixed;
