@@ -8,7 +8,7 @@
     display: -webkit-flex;
     display: flex;
     /* Large */
-    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
     /* Large */
     justify-content: flex-end;
     /* Large */
