@@ -155,12 +155,14 @@ footer {
     align-content: center;
 }
 
-.li-count {
+
+/* .li-count {
     /* text-align: left;
     position: fixed;
     left: 10px;
-    vertical-align: middle; */
-}
+    vertical-align: middle; 
+} 
+*/
 
 .mailto {
     text-align: center;
