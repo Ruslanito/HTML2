@@ -64,6 +64,25 @@ section {
     background-color: gold;
 }
 
+.flex-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.fs-item {
+    background-color: rgb(123, 35, 150);
+    text-align: center;
+    border: indigo solid 1px;
+}
+
+
+/* .grow2 {
+    flex-grow: 1.5;
+} */
+
 
 /* footer */
 
@@ -79,8 +98,8 @@ footer {
 }
 
 .ff-item {
-    background-color: hotpink;
-    width: 50px;
+    background-color: rgb(105, 238, 255);
+    width: 200px;
     height: 50px;
     text-align: center;
     line-height: 50px;
