@@ -80,13 +80,13 @@ header {
 }
 
 .menu {
-    display: inline;
+    display: flex;
     font-size: 1em;
     background: rgba(#b87691, 0);
 }
 
 .menu li {
-    display: inline-flex;
+    display: -webkit-inline-flex;
     font-weight: bold;
     justify-content: center;
 }
@@ -95,6 +95,7 @@ header {
     padding: 5px 30px;
     color: #4d1486;
     text-decoration: none;
+    width: 60px;
 }
 
 .menu a:hover {
