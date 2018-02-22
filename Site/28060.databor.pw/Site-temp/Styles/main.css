@@ -2,3 +2,34 @@
     margin: 0;
     padding: 0;
 }
+
+
+/* header */
+
+.flex-container1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.flex-item1 {
+    background-color: rgb(202, 199, 187);
+    padding: 10px;
+    border: navy solid 2px;
+    margin: 10px auto;
+    size: 1.2em;
+    list-style: none;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+}
+
+.flex-item1 a {
+    text-decoration: none;
+    /* width: 35px;
+    height: 20px; */
+}
+
+.flex-item1 a:hover {
+    background-color: moccasin;
+}
