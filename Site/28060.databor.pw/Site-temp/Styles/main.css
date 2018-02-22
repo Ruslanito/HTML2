@@ -5,8 +5,10 @@
 
 body {
     max-width: 980px;
+    /* ограничение ширины */
     margin: 0 auto;
-    /* height: 100%; */
+    /* центрирование по ширине */
+    height: 100%;
     font-family: 'Lobster', cursive;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -18,7 +20,8 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    background-color: rgb(114, 145, 114);
+    background-color: rgb(136, 205, 236);
+    /* for testing */
 }
 
 .flex-logo {
@@ -52,4 +55,34 @@ body {
 
 .flex-item1:hover {
     background-color: moccasin;
+}
+
+
+/* section */
+
+section {
+    background-color: gold;
+}
+
+
+/* footer */
+
+footer {
+    background-color: forestgreen;
+}
+
+.flex-footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.ff-item {
+    background-color: hotpink;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    /* выравнивание 1-й строки по высоте - width: 50px; */
 }
