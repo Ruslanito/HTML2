@@ -3,20 +3,26 @@
     padding: 0;
 }
 
+body {
+    max-width: 980px;
+    margin: 0 auto;
+    /* height: 100%; */
+    font-family: 'Lobster', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 
 /* header */
 
 .flex-container1 {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    background-color: lime;
+    justify-content: space-around;
+    background-color: rgb(114, 145, 114);
 }
 
 .flex-logo {
-    display: flex;
-    background-image: url(Img/logo-1.png);
-    /* background-color: mediumvioletred; */
+    background-image: url(../Img/logo-1.png);
     width: 275px;
     height: 95px;
 }
@@ -25,24 +31,23 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    align-content: center;
 }
 
 .flex-item1 {
     background-color: rgb(202, 199, 187);
-    padding: 10px;
-    border: navy solid 2px;
-    margin: 10px 5px;
-    size: 1.2em;
+    padding: 5px;
+    border: navy solid 1px;
+    margin: 5px 5px;
+    size: 2em;
     list-style: none;
-    width: 100px;
+    width: 90px;
     height: 20px;
     text-align: center;
 }
 
 .flex-item1 a {
     text-decoration: none;
-    /* width: 35px;
-    height: 20px; */
 }
 
 .flex-item1:hover {
