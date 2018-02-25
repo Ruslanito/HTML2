@@ -21,31 +21,42 @@
         <div>
             <label for="password">Password:</label>
             <input id="password" type="password">
-            <div>
-                <label for="password2">Confirm password:</label>
-                <input type="password" name="" id="password2">
-            </div>
-            <div>
-                <label for="phone">Phone number:</label>
-                <input type="tel" name="" id="phone">
-            </div>
-            <div>
-                <label for="cities">Where are you from?</label>
-                <input type="text" name="" id="cities">
-            </div>
-            <div>
-                <label for="textarea">Enter your text: </label>
-                <input type="textarea" id="textarea" minlength="50">
+        </div>
+        <div>
+            <label for="password2">Confirm password:</label>
+            <input type="password" name="" id="password2">
+        </div>
+        <div>
+            <label for="phone">Phone number:</label>
+            <input type="tel" name="" id="phone">
+        </div>
+        <div>
+            <label for="cities">Where are you from?</label>
+            <select name="cities" id="cities" size="3">
+                <optgroup label="USA">
+                    <option value="1">Chicago</option>
+                    <option value="2" selected="selected">Detroit</option>
+                </optgroup>
+                <optgroup label="Canada">
+                    <option value="3">Ottawa</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="textarea">Enter your text: </label>
+            <textarea name="" id="textarea" cols="30" rows="10" placeholder="enter you message"></textarea>
 
-            </div>
-            <div>
-                <label for="submit1">Agriment on news:</label>
-                <input type="checkbox" name="" id="submit1">
-            </div>
-            <div>
-                <label for="submit">Submit</label>
-                <input type="submit" value="Submit">
-            </div>
+        </div>
+        <div>
+            <label for="submit1">Agriment on news:</label>
+            <input type="checkbox" name="" id="submit1">
+        </div>
+        <div>
+            <label for="reset">Reset</label>
+            <input type="reset" value="RESET">
+            <label for="submit">Submit</label>
+            <input type="submit" value="Submit">
+        </div>
 
 
     </form>
