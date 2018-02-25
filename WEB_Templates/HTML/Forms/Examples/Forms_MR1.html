@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms_MR1</title>
+</head>
+
+<body>
+    <form action="#">
+
+
+    </form>
+
+
+    <form action="#" name="form1" method="get">
+        <div>
+            <input id="firstname" type="text" name="firstname" value="Jack">
+            <label for="firstname"> - First name</label>
+            <!-- связыаем label и  input используя общий id (firstname) -->
+        </div>
+    </form>
+    <hr>
+    <p>With artibute disabled </p>
+    <form action="#" name="form2" method="get">
+        <div>
+            <label for="firstname">First name:</label>
+            <input id="firstname1" type="text" name="firstname1" value="Jack" disabled>
+            <!-- связыаем label и  input используя общий id (firstname) -->
+        </div>
+    </form>
+    <hr>
+    <form action="#" name="form3" method="get">
+        <div>
+            <label for="surname1">Surname:</label>
+            <input id="surname1" type="text" name="surname1" value="Johnson">
+            <!-- связыаем label и  input используя общий id (firstname) -->
+        </div>
+    </form>
+    <hr>
+    <p>With artibute placeholder w/o value </p>
+    <form action="#" name="form4" method="get">
+        <div>
+            <label for="surname2">Surname:</label>
+            <input id="surname2" type="text" name="surname1" placeholder="Type here">
+        </div>
+    </form>
+    <hr>
+    <form action="#" name="form5" method="get">
+        <div>
+            <label for="password">Password:</label>
+            <input id="password" type="password" name="password">
+        </div>
+        <div>
+            <input type="submit" name="submit" value="Send">
+        </div>
+    </form>
+    <hr>
+</body>
+
+</html>
