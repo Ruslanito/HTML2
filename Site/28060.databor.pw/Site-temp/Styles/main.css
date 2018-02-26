@@ -104,5 +104,10 @@ footer {
     height: 50px;
     text-align: center;
     line-height: 50px;
+    font-size: 0.75em;
     /* выравнивание 1-й строки по высоте - width: 50px; */
+}
+
+.ff-item a {
+    text-decoration: none;
 }
