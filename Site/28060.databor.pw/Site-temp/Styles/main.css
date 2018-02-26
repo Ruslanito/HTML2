@@ -34,12 +34,12 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 .flex-item1 {
     background-color: rgb(202, 199, 187);
-    padding: 5px;
+    padding: 0px;
     border: navy solid 1px;
     margin: 5px 5px;
     size: 2em;
@@ -51,9 +51,10 @@ body {
 
 .flex-item1 a {
     text-decoration: none;
+    display: block;
 }
 
-.flex-item1:hover {
+.flex-item1 a:hover {
     background-color: moccasin;
 }
 
@@ -69,7 +70,7 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
 }
 
 .fs-item {
