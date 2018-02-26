@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <title>WOweb.ru - Scripts - JavaScript - Check E-Mail address</title>
+    <META http-equiv="Content-Type" content="text/html; charset=windows-1251">
+    <Style>
+        A:Link {
+            Color: #000000;
+            Text-decoration: underline
+        }
+        
+        A:Visited {
+            Color: #000000;
+            Text-decoration: underline
+        }
+        
+        A:Hover {
+            Color: #000000;
+            Text-decoration: none
+        }
+        
+        td,
+        body {
+            font-family: verdana, arial, helvetica;
+            font-size: 11px;
+        }
+    </Style>
+
+    <!-- HEAD START HERE -->
+
+    <script Language="JavaScript">
+        <!-- 
+        function showerror() {
+            alert("E-mail was entered wrong.");
+        }
+
+        function checkmail() {
+            txt = document.entermail.address.value;
+
+            if (txt == "") {
+                alert("Enter E-mail address.");
+                return (false)
+            }
+
+            if (txt.indexOf(".") == -1) {
+                alert("Miss symbol \".\"");
+                return (false)
+            }
+
+            dog = txt.indexOf("@");
+            if (dog == -1) {
+                alert("Miss symbol \"@\".");
+                return (false)
+            }
+
+            if ((dog < 1) || (dog > txt.length - 5)) {
+                showerror();
+                return (false)
+            }
+
+            if ((txt.charAt(dog - 1) == '.') || (txt.charAt(dog + 1) == '.')) {
+                showerror();
+                return (false)
+            }
+        }
+        //-->
+    </script>
+
+
+    <!-- HEAD END HERE -->
+
+
+
+
+</head>
+
+<body bgcolor="#EDEDED" text="#000000" link="#000000" topmargin="0" leftmargin="0">
+    <center>
+
+        <!-- BODY START HERE -->
+
+        <form method="POST" name="entermail" onSubmit="return checkmail()">
+            <p><b><small>Enter E-mail address:<br> 
+ </small></b><input type="text" name="address" size="20"><br>
+                <input type="submit" value="Check" name="B1"> * <input type="reset" value="Clear" name="B2"></p>
+        </form>
+
+        <!-- BODY END HERE -->
+
+
+
+</body>
+
+</html>
