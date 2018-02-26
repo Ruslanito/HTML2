@@ -1,110 +1,117 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    max-width: 980px;
-    /* ограничение ширины */
-    margin: 0 auto;
-    /* центрирование по ширине */
-    height: 100%;
-    font-family: 'Lobster', cursive;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-
-/* header */
-
-.flex-container1 {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    background-color: rgb(136, 205, 236);
-    /* for testing */
-}
-
-.flex-logo {
-    background-image: url(../Img/logo-1.png);
-    width: 275px;
-    height: 95px;
-}
-
-.flex-item {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.flex-item1 {
-    background-color: rgb(202, 199, 187);
-    padding: 0px;
-    border: navy solid 1px;
-    margin: 5px 5px;
-    size: 2em;
-    list-style: none;
-    width: 90px;
-    height: 20px;
-    text-align: center;
-}
-
-.flex-item1 a {
-    text-decoration: none;
-    display: block;
-    text-transform: uppercase;
-    font-size: 1em;
-}
-
-.flex-item1 a:hover {
-    background-color: moccasin;
-}
-
-
-/* section */
-
-section {
-    background-color: gold;
-}
-
-.flex-section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.fs-item {
-    background-color: rgb(123, 35, 150);
-    text-align: center;
-    border: indigo solid 1px;
-}
-
-
-/* footer */
-
-footer {
-    background-color: forestgreen;
-}
-
-.flex-footer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: center;
-}
-
-.ff-item {
-    background-color: rgb(105, 238, 255);
-    width: 200px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    font-size: 0.75em;
-    /* выравнивание 1-й строки по высоте - width: 50px; */
-}
-
-.ff-item a {
-    text-decoration: none;
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        max-width: 980px;
+        /* ограничение ширины */
+        margin: 0 auto;
+        /* центрирование по ширине */
+        height: 100%;
+        font-family: 'Lobster', cursive;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    /* header */
+    
+    .flex-container1 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        background-color: rgb(136, 205, 236);
+        /* for testing */
+    }
+    
+    .flex-logo {
+        background-image: url(../Img/logo-1.png);
+        width: 275px;
+        height: 95px;
+    }
+    
+    .flex-item {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .flex-item1 {
+        background-color: rgba(202, 199, 187, 0.507);
+        border: navy solid 1px;
+        margin: 5px 5px;
+        size: 2em;
+        list-style: none;
+        width: 90px;
+        height: 20px;
+        text-align: center;
+    }
+    
+    .flex-item1 a {
+        text-decoration: none;
+        display: block;
+        text-transform: uppercase;
+        font-size: 1em;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .flex-item1 a:hover {
+        background-color: moccasin;
+    }
+    
+    .flex-item1 a:active {
+        color: red;
+    }
+    /* section */
+    
+    section {
+        background-color: gold;
+    }
+    
+    .flex-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .fs-item {
+        background-color: rgb(123, 35, 150);
+        text-align: center;
+        border: indigo solid 1px;
+    }
+    
+    .s1 {
+        width: 150px;
+    }
+    
+    .s2 {
+        width: 650px;
+    }
+    /* footer */
+    
+    footer {
+        background-color: forestgreen;
+    }
+    
+    .flex-footer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-content: center;
+    }
+    
+    .ff-item {
+        background-color: rgb(105, 238, 255);
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        font-size: 0.75em;
+        line-height: 50px;
+        /* выравнивание 1-й строки по высоте - width: 50px; */
+    }
+    
+    .ff-item a {
+        text-decoration: none;
+    }
