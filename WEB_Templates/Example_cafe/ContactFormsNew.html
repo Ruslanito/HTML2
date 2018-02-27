@@ -11,29 +11,43 @@
 <body>
     <h1>Contact us</h1>
     <p>Use the folowing form to send a message to Example Cafe</p>
-    <table>
-        <tr>
-            <td>Your e-mail</td>
-            <td> <input type="email" name="txtForm" id="emailForm" size="20" maxlength="250"> </td>
-        </tr>
-        <tr>
-            <td>How did your hear of us?</td>
-            <td>
-                <select name="selfReferrer">
+    <fieldset>
+        <legend>Your message:</legend>
+        <table>
+            <tr>
+                <td><label for="emailTo">To</label></td>
+                <td><input type="text" name="txtTo" id="emailTo" readonly="readonly" size="20" maxlength="250" value="Example Cafe"></td>
+            </tr>
+            <tr>
+                <td> <label for="emailForm">Your e-mail</label></td>
+                <td> <input type="email" name="txtForm" id="emailForm" size="20" maxlength="250" tabindex="1"> </td>
+            </tr>
+            <tr>
+                <td><label for="emailBody">Message</label></td>
+                <td><textarea name="txtBody" id="emailBody" cols="50" rows="10" placeholder="Your message" tabindex="2"></textarea></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>How your find us:</legend>
+        <table>
+            <tr>
+                <td><label for="emailBody">How did your hear uf us</label></td>
+                <td>
+                    <select name="selReferrer" id="">
                     <option value="google">Google</option>
                     <option value="ad">Local newspaper ad</option>
-                    <option value="friend">Friend</option>
+                    <option value="friend">friend</option>
                     <option value="other">Other</option>
                 </select>
-            </td>
-        </tr>
-        <tr>
-            <td>Newsletter</td>
-            <td> <input type="checkbox" name="chkBody" id="newsletterSignup" checked> Ensure this box is checked if you would like to recieve email updates.
-            </td>
-        </tr>
-    </table>
-    <input type="submit" value="Send message">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="newsletterSignup">NewsletterSignup</label></td>
+                <td><input type="checkbox" name="chkBody" id="newsletterSignup" checked="checked">Ensure this box is checked if you would like to recieve email updates</td>
+            </tr>
+        </table>
+    </fieldset>
 
 </body>
 
