@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <h1>Contact us</h1>
+    <p>Use the folowing form to send a message to Example Cafe</p>
+    <fieldset>
+        <legend>Your message:</legend>
+        <table>
+            <tr>
+                <td><label for="emailTo">To</label></td>
+                <td><input type="text" name="txtTo" id="emailTo" readonly="readonly" size="20" maxlength="250" value="Example Cafe"></td>
+            </tr>
+            <tr>
+                <td> <label for="emailForm">Your e-mail</label></td>
+                <td> <input type="email" name="txtForm" id="emailForm" size="20" maxlength="250" tabindex="1"> </td>
+            </tr>
+            <tr>
+                <td><label for="emailBody">Message</label></td>
+                <td><textarea name="txtBody" id="emailBody" cols="50" rows="10" placeholder="Your message" tabindex="2"></textarea></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>How your find us:</legend>
+        <table>
+            <tr>
+                <td><label for="emailBody">How did your hear uf us</label></td>
+                <td>
+                    <select name="selReferrer" id="">
+                    <option value="google">Google</option>
+                    <option value="ad">Local newspaper ad</option>
+                    <option value="friend">friend</option>
+                    <option value="other">Other</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="newsletterSignup">NewsletterSignup</label></td>
+                <td><input type="checkbox" name="chkBody" id="newsletterSignup" checked="checked">Ensure this box is checked if you would like to recieve email updates</td>
+            </tr>
+        </table>
+    </fieldset>
+
+</body>
+
+</html>
