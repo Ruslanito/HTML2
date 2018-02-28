@@ -21,13 +21,15 @@
 <hr>
 <!-- controls="controls" - элементы управления просмотром -->
 <!-- autoplay="autoplay" - автовоспроизведение видео -->
-<!-- loop - зацикливание воспроизведения  -->
-<audio controls="controls" autoplay="autoplay">
+<!-- loop="loop" - зацикливание воспроизведения  -->
+<!-- preload="auto" - предзакачка файла без воспроизведения -->
+<!-- preload="none" - закачка файла только при запуске воспроизведения -->
+<audio controls="controls" autoplay="autoplay" loop="loop">
     <source src="audios/My_years.ogg">
         <source src="audios/My_years.mp3">
         <source src="audios/My_years.aac">
             <source src="audios/My_years.mp3">
-               
+               Ваш браузер не поддерживает тег audio!
 </audio>
 
 <body>
