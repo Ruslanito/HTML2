@@ -8,7 +8,6 @@
         /* ограничение ширины */
         margin: 0 auto;
         /* центрирование по ширине */
-        height: 100%;
         font-family: 'Lobster', cursive;
         font-family: 'Ubuntu', sans-serif;
     }
@@ -87,12 +86,13 @@
     }
     
     .s2 {
-        width: 650px;
+        max-width: 650px;
     }
     /* footer */
     
     footer {
         background-color: forestgreen;
+        height: 50px;
     }
     
     .flex-footer {
