@@ -1,22 +1,24 @@
 html,
 body {
-   widht: 100%;
-   background-color: #fff;
-   height: 100%;
-}
-.wrapper {
-   width: 80%;
-   margin: auto;
-   background-color: yellow;
-   min-height: 100%;
+    widht: 100%;
+    background-color: #fff;
+    height: 100%;
 }
 
-.footer {
-   background-color: #666;
-   margin: auto;
-   width: 80%;
-   height: 100px;
-   margin-top: -100px;
+.wrapper {
+    width: 90%;
+    margin: auto;
+    background-color: yellow;
+    min-height: 100%;
 }
+
+footer {
+    background-color: #666;
+    margin: auto;
+    width: 80%;
+    height: 100px;
+    margin-top: -15px;
+}
+
 
 /*<!-- Подвал с отрицательным margin-top. Обязательное условие метода: HTML-код футера необходимо расположить прямо в теге body, сразу после обёртки, которая содержит контент. -->*/
