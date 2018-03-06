@@ -5,7 +5,6 @@
     <meta http-equiv="content-type" content="text/html" charset="utf-8">
     <title>Temp1</title>
     <script src="JS/c1.js" defer></script>
-
     <link rel="stylesheet" href="Styles/style.css">
 </head>
 
@@ -34,13 +33,18 @@
                                 <input id="d1" type="text" name="days" value="" size="5" maxlength="5" placeholder="0-42"></td>
                         </tr>
                         <tr>
-                            <td>Рассчитать:
+                            <td>
+                                <label for="ok1">Рассчитать:</label>
                             </td>
-                            <td><input type="submit" name=" " value="OK"></td>
+                            <td>
+                                <input id="ok1" type="button" name="#" value="OK" onclick="count()"></td>
                         </tr>
                         <tr>
-                            <td> <label for="Res"> Результат:</label></td>
-                            <td class="c1"> <input id="Res" type="text" name="days" value="" size="5" maxlength="5"> </td>
+                            <td> <label for="c1"> Результат:</label></td>
+                            <!-- <td><input id="c1"></td> -->
+                            <td id="c1">
+                                <p id="Res">Результат</p>
+                            </td>
                         </tr>
                     </table>
                 </fieldset>

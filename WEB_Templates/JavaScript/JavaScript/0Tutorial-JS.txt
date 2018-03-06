@@ -34,6 +34,7 @@
       addScript('1.js'); // загружаться эти скрипты начнут сразу
       addScript('2.js'); // выполнятся, как только загрузятся
       addScript('3.js'); // но, гарантированно, в порядке 1 -> 2 -> 3
+      
 **** innerHTML(Text) + outerHTML(Text) insertAdjacentHTML (TextMethods) - применяется для двойных тегов.
       (<h1>Text</h1>)
    innerHTML и innerText - исполняется только внутри тэга
