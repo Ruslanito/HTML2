@@ -5,7 +5,7 @@
 
  function count() {
      var res1 = (113 * n * d) / 10000;
-     res.innerHTML = res1;
+     res.value = res1;
      /* alert(n + d); */
      /* res.insertAdjacentHTML("afterBegin", res1); */
 
