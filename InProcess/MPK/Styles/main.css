@@ -7,7 +7,7 @@
 /* Header */
 
 header {
-    background-color: aqua;
+    background-color: rgb(157, 233, 233);
     text-align: justify;
 }
 
@@ -16,6 +16,10 @@ header h3,
 address,
 #input {
     text-align: center;
+}
+
+#input input {
+    width: 120px;
 }
 
 
