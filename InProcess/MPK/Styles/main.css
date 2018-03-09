@@ -8,6 +8,14 @@
 
 header {
     background-color: aqua;
+    text-align: justify;
+}
+
+header h1,
+header h3,
+address,
+#input {
+    text-align: center;
 }
 
 
