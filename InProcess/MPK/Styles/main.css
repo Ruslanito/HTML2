@@ -1,7 +1,7 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
 
 /* Header */
@@ -20,6 +20,7 @@ address,
 
 #input input {
     width: 120px;
+    height: 12px;
 }
 
 
@@ -31,6 +32,7 @@ article {
 
 table {
     font-size: 12px;
+    border: 1px solid black;
 }
 
 
@@ -38,4 +40,5 @@ table {
 
 footer {
     background-color: lightgreen;
+    font-size: 12px;
 }
