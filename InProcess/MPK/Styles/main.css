@@ -27,7 +27,8 @@ address,
 /* Article */
 
 article {
-    background-color: beige;
+    background-color: rgb(235, 235, 48);
+    margin: 15px 10px 15px 10px;
 }
 
 table {
@@ -38,7 +39,11 @@ table {
 
 td,
 th {
-    border: 1px solid;
+    border: 1px solid black;
+}
+
+td {
+    text-align: center;
 }
 
 
