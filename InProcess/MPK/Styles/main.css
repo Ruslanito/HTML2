@@ -1,6 +1,5 @@
 /* * {
-    margin: 0;
-    padding: 0;
+    
 } */
 
 
@@ -28,7 +27,7 @@ address,
 
 article {
     background-color: rgb(235, 235, 48);
-    margin: 15px 10px 15px 10px;
+    margin: 15px 2px 15px 2px;
 }
 
 table {
@@ -53,3 +52,12 @@ footer {
     background-color: lightgreen;
     font-size: 12px;
 }
+
+footer p {
+    text-align: right;
+}
+
+
+/* PRINTER */
+
+@media print {}
