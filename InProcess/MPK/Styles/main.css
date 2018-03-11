@@ -22,6 +22,10 @@ address,
     height: 12px;
 }
 
+#din1 {
+    display: none;
+}
+
 
 /* Article */
 
@@ -60,4 +64,18 @@ footer p {
 
 /* PRINTER */
 
-@media print {}
+@media print {
+    @page {
+        margin: 10mm;
+    }
+    /* Header */
+    header {
+        font-size: 3mm;
+    }
+    #hin1 {
+        display: none;
+    }
+    #din1 {
+        display: block;
+    }
+}
