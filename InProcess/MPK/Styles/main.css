@@ -1,6 +1,6 @@
-/* * {
-    
-} */
+.dont_see {
+    display: none;
+}
 
 
 /* Header */
@@ -18,21 +18,24 @@ address,
 }
 
 #input input {
-    width: 2cm;
+    width: 3cm;
     height: 5mm;
-}
-
-#din1 {
-    display: none;
 }
 
 .table1 {
     width: 12cm;
     margin: 0 auto;
+    /* border: 1px solid black;
+    /* test table1*/
+    /* border-collapse: collapse; */
+    /* test table1*/
 }
 
-.table1 tbody {
-    font-size: 3mm;
+.table1 tbody,
+.table1 td {
+    font-size: 4mm;
+    /* border: 1px solid black; */
+    /* test table1*/
 }
 
 
@@ -45,7 +48,7 @@ article {
 
 .table2 {
     font-size: 3mm;
-    border: 1mm solid black;
+    border: 1px solid black;
     border-collapse: collapse;
 }
 
@@ -77,6 +80,12 @@ footer p {
     @page {
         margin: 10mm;
     }
+    .print {
+        display: block;
+    }
+    .noprint {
+        display: none;
+    }
     /* Header */
     header {
         font-size: 3mm;
@@ -84,7 +93,9 @@ footer p {
     #hin1 {
         display: none;
     }
-    #din1 {
-        display: block;
+    #pr1,
+    #pr2,
+    #pr3 {
+        font-style: italic;
     }
 }
