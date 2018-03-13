@@ -43,7 +43,7 @@ address,
 
 article {
     background-color: rgb(235, 235, 48);
-    margin: 15px 2px 15px 2px;
+    margin: 5px 2px 5px 2px;
 }
 
 .table2 {
@@ -96,6 +96,15 @@ footer p {
     #pr1,
     #pr2,
     #pr3 {
+        font-size: 3.5mm;
         font-style: italic;
+        font-weight: 700;
     }
+    .align_left {
+        text-align: left;
+    }
+    .align_right {
+        text-align: right;
+    }
+    /* Article */
 }
