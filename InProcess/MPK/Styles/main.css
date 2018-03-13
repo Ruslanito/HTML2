@@ -7,7 +7,7 @@
 
 header {
     background-color: rgb(157, 233, 233);
-    font-size: 12px;
+    font-size: 3mm;
 }
 
 header h4,
@@ -18,12 +18,21 @@ address,
 }
 
 #input input {
-    width: 120px;
-    height: 12px;
+    width: 2cm;
+    height: 5mm;
 }
 
 #din1 {
     display: none;
+}
+
+.table1 {
+    width: 12cm;
+    margin: 0 auto;
+}
+
+.table1 tbody {
+    font-size: 3mm;
 }
 
 
@@ -34,18 +43,18 @@ article {
     margin: 15px 2px 15px 2px;
 }
 
-table {
-    font-size: 12px;
-    border: 1px solid black;
+.table2 {
+    font-size: 3mm;
+    border: 1mm solid black;
     border-collapse: collapse;
 }
 
-td,
-th {
+.table2 td,
+.table2 th {
     border: 1px solid black;
 }
 
-td {
+.table2 td {
     text-align: center;
 }
 
@@ -54,7 +63,7 @@ td {
 
 footer {
     background-color: lightgreen;
-    font-size: 12px;
+    font-size: 3mm;
 }
 
 footer p {
