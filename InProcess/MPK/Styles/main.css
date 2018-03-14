@@ -23,18 +23,18 @@ address,
 }
 
 .table1 {
-    width: 12cm;
+    width: 18cm;
     margin: 0 auto;
-    /* border: 1px solid black;
+    border: 1px solid black;
     /* test table1*/
-    /* border-collapse: collapse; */
+    border-collapse: collapse;
     /* test table1*/
 }
 
 .table1 tbody,
 .table1 td {
     font-size: 4mm;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     /* test table1*/
 }
 
