@@ -2,5 +2,5 @@
 HTML repository
 
 #visual studio code sync-setting <br>
-#personal access token: 217fb46edd95cd46d9820de9398bc92ebf586dc1 <br>
-#GIST ID: 38b86148884f1cb034ee850aa900bf55 
+#personal access token: 954b4fa827186ab036066fa1c2f784eb1c6e3005 <br>
+#GIST ID: a34d60fbc785b25713efa9aa54903a5e 
