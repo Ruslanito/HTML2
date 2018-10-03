@@ -1,13 +1,13 @@
-/* * {
-    
-} */
+.dont_see {
+    display: none;
+}
 
 
 /* Header */
 
 header {
     background-color: rgb(157, 233, 233);
-    font-size: 12px;
+    font-size: 3mm;
 }
 
 header h4,
@@ -18,8 +18,24 @@ address,
 }
 
 #input input {
-    width: 120px;
-    height: 12px;
+    width: 3cm;
+    height: 5mm;
+}
+
+.table1 {
+    width: 18cm;
+    margin: 0 auto;
+    border: 1px solid black;
+    /* test table1*/
+    border-collapse: collapse;
+    /* test table1*/
+}
+
+.table1 tbody,
+.table1 td {
+    font-size: 4mm;
+    border: 1px solid black;
+    /* test table1*/
 }
 
 
@@ -27,21 +43,21 @@ address,
 
 article {
     background-color: rgb(235, 235, 48);
-    margin: 15px 2px 15px 2px;
+    margin: 5px 2px 5px 2px;
 }
 
-table {
-    font-size: 12px;
+.table2 {
+    font-size: 3mm;
     border: 1px solid black;
     border-collapse: collapse;
 }
 
-td,
-th {
+.table2 td,
+.table2 th {
     border: 1px solid black;
 }
 
-td {
+.table2 td {
     text-align: center;
 }
 
@@ -50,7 +66,7 @@ td {
 
 footer {
     background-color: lightgreen;
-    font-size: 12px;
+    font-size: 3mm;
 }
 
 footer p {
@@ -60,4 +76,35 @@ footer p {
 
 /* PRINTER */
 
-@media print {}
+@media print {
+    @page {
+        margin: 10mm;
+    }
+    .print {
+        display: block;
+    }
+    .noprint {
+        display: none;
+    }
+    /* Header */
+    header {
+        font-size: 3mm;
+    }
+    #hin1 {
+        display: none;
+    }
+    #pr1,
+    #pr2,
+    #pr3 {
+        font-size: 3.5mm;
+        font-style: italic;
+        font-weight: 700;
+    }
+    .align_left {
+        text-align: left;
+    }
+    .align_right {
+        text-align: right;
+    }
+    /* Article */
+}

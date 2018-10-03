@@ -8,6 +8,7 @@
     <title>Свидетельство МПК</title>
     <link rel="stylesheet" href="Styles/main.css">
     <!-- <link media="print" href="Styles/print.css" /> -->
+    <script src="JS/js1.js" defer></script>
     <link rel="shortcut icon" href="Chick_128x128.png" type="image/x-icon">
 </head>
 
@@ -16,25 +17,98 @@
         <div id="#">
             <h3>Мясоперерабатывающий комплекс OOO"Брейтовчанка"</h3>
             <address>
-            152760, Ярославская область, Брейтовский р-н, д.Малый Липовец
-            </address> <br>
+                152760, Ярославская область, Брейтовский р-н, д.Малый Липовец
+            </address>
+            <br>
 
             <div id="input">
-                <!-- TO DO: изменить и помотреть дату не салекторы -->
-                <label for="hin1">Удостоверение качества и безопасности </label>
-                <input type="text" name="" id="hin1">
-                <div id="din1">1</div> <br>
-                <label for="hin2"> к накладной №</label>
-                <input type="text" name="" id="hin2">
-                <label for="hin3"> от </label>
-                <input type="date" name="" id="hin3">
+                <fieldset>
+                    <table class="table1">
+                        <tbody>
+                            <tr>
+                                <td colspan="2" class="align_right"> <label for="hin1">Удостоверение качества и безопасности </label></td>
+                                <td colspan="2"><input type="text" name="" required value="" id="hin1" class="noprint">
+                                    <div id="pr1" class="print dont_see align_left"> 1323 </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align_right"><label for="hin2"> к накладной №</label></td>
+                                <td><input type="text" required value="" name="" id="hin2" class="noprint">
+                                    <div id="pr2" class="print dont_see align_left"> 1323/26554 </div>
+                                </td>
+                                <td><label for="hin3"> от </label></td>
+                                <td>
+                                    <div class="noprint">
+                                        <select name="seld" id="selday" size="2" required>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                            <option value="16">16</option>
+                                            <option value="17">17</option>
+                                            <option value="18">18</option>
+                                            <option value="19">19</option>
+                                            <option value="20">20</option>
+                                            <option value="21">21</option>
+                                            <option value="22">22</option>
+                                            <option value="23">23</option>
+                                            <option value="24">24</option>
+                                            <option value="25">25</option>
+                                            <option value="26">26</option>
+                                            <option value="27">27</option>
+                                            <option value="28">28</option>
+                                            <option value="29">29</option>
+                                            <option value="30">30</option>
+                                            <option value="31">31</option>
+                                        </select>
+                                        <select name="selm" id="selmonth" size="2" required>
+                                            <option value="январь" selected>январь</option>
+                                            <option value="февраль">февраль</option>
+                                            <option value="март">март</option>
+                                            <option value="апрель">апрель</option>
+                                            <option value="май">май</option>
+                                            <option value="июнь">июнь</option>
+                                            <option value="июль">июль</option>
+                                            <option value="август">август</option>
+                                            <option value="сентябрь">сентябрь</option>
+                                            <option value="октябрь">октябрь</option>
+                                            <option value="ноябрь">ноябрь</option>
+                                            <option value="декабрь">декабрь</option>
+                                        </select>
+                                        <select name="sely" id="selyear" size="2" required>
+                                            <option value="2018">2018</option>
+                                            <option value="2019">2019</option>
+                                            <option value="2020">2020</option>
+                                        </select>
+                                    </div>
+                                    <div id="pr3" class="print dont_see align_left"> 03.03.2018 </div>
+
+                                    <!-- <input type="date" required value="" name="" id="hin3" class="noprint">
+                                    <div id="pr3" class="print dont_see align_left"> 03.03.2018 </div> -->
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div><input type="button" value="Submit" onclick="replace()"></div>
+                </fieldset>
             </div>
         </div>
 
     </header>
     <article>
         <div>
-            <table>
+            <table class="table2">
                 <thead>
                     <tr>
                         <th>№</th>
@@ -50,7 +124,9 @@
                     <tr>
                         <td>1</td>
                         <td>Тушка ц-бр 1 сорт охлажденная </td>
-                        <td></td>
+                        <td>
+                            <input type="date" name="" id="">
+                        </td>
                         <td>тем-ра 0+2&degС </td>
                         <td>5 суток</td>
                         <td>ГОСТ 31962-2013</td>
@@ -58,7 +134,9 @@
                     <tr>
                         <td>2</td>
                         <td>Части тушек охлажденные</td>
-                        <td></td>
+                        <td>
+                            <input type="date" name="" id="">
+                        </td>
                         <td>тем-ра 0+2&degС</td>
                         <td>5 суток</td>
                         <td>ГОСТ 31962-2013</td>
@@ -66,7 +144,9 @@
                     <tr>
                         <td>3</td>
                         <td>Тушка цыпл-бр 1 сорт замор потр.</td>
-                        <td></td>
+                        <td>
+                            <input type="date" name="" id="">
+                        </td>
                         <td>тем-ра минус 18&degС</td>
                         <td>12 мес.</td>
                         <td>ГОСТ 31962-2013</td>
@@ -74,7 +154,9 @@
                     <tr>
                         <td>4</td>
                         <td> Тушка цыпл-бр 1 сорт замор груп. </td>
-                        <td></td>
+                        <td>
+                            <input type="date" name="" id="">
+                        </td>
                         <td>тем-ра минус 18&degС</td>
                         <td>8 мес.</td>
                         <td>ГОСТ 31962-2013</td>
@@ -82,7 +164,9 @@
                     <tr>
                         <td>5</td>
                         <td>Части тушек заморож потр тара</td>
-                        <td></td>
+                        <td>
+                            <input type="date" name="" id="">
+                        </td>
                         <td>тем-ра минус 18&degС</td>
                         <td>6 мес.</td>
                         <td>ГОСТ 31962-2013</td>
@@ -90,7 +174,9 @@
                     <tr>
                         <td>6</td>
                         <td>Тушка куры 1 сорт заморож . потр.тара</td>
-                        <td></td>
+                        <td>
+                            <input type="date" name="" id="">
+                        </td>
                         <td>тем-ра минус 18&degС</td>
                         <td>12 мес.</td>
                         <td>ГОСТ 31962-2013</td>
@@ -98,7 +184,9 @@
                     <tr>
                         <td>7</td>
                         <td>Тушка куры 1 сорт заморож . групп. уп</td>
-                        <td></td>
+                        <td>
+                            <input type="date" name="" id="">
+                        </td>
                         <td>тем-ра минус 18&degС</td>
                         <td>12 мес.</td>
                         <td>ГОСТ 31962-2013</td>
@@ -106,7 +194,9 @@
                     <tr>
                         <td>8</td>
                         <td>Cубпродукты птицы заморож.</td>
-                        <td></td>
+                        <td>
+                            <input type="date" name="" id="">
+                        </td>
                         <td>тем-ра минус 18&degС</td>
                         <td>6 мес.</td>
                         <td>ГОСТ 31657-2012</td>
@@ -114,7 +204,9 @@
                     <tr>
                         <td>9</td>
                         <td>Субпродукты птицы охлажденные</td>
-                        <td></td>
+                        <td>
+                            <input type="date" name="" id="">
+                        </td>
                         <td>тем-ра 0+2&degС</td>
                         <td>5 суток</td>
                         <td>ГОСТ 31657-2012</td>
@@ -122,7 +214,9 @@
                     <tr>
                         <td>10</td>
                         <td>Мясо птицы мехобвалки</td>
-                        <td></td>
+                        <td>
+                            <input type="date" name="" id="">
+                        </td>
                         <td>тем-ра минус 18&degС</td>
                         <td>6 мес.</td>
                         <td>ГОСТ 31490-2012</td>
@@ -130,7 +224,9 @@
                     <tr>
                         <td>11</td>
                         <td>Костный остаток</td>
-                        <td></td>
+                        <td>
+                            <input type="date" name="" id="">
+                        </td>
                         <td>тем-ра минус 18&degС</td>
                         <td>6 мес.</td>
                         <td></td>
@@ -138,7 +234,9 @@
                     <tr>
                         <td>12</td>
                         <td>Шашлык на косточке замороженный</td>
-                        <td></td>
+                        <td>
+                            <input type="date" name="" id="">
+                        </td>
                         <td>тем-ра минус 18&degС</td>
                         <td>6 мес.</td>
                         <td>ГОСТ Р 53008-2008</td>
@@ -146,7 +244,9 @@
                     <tr>
                         <td>13</td>
                         <td>Полуфабрикаты натуральные из мяса кур, цыплят-бройлеров охлажден., в том числе филе цыпленка бройлера, мясо для чахохбили, набор для бульона</td>
-                        <td></td>
+                        <td>
+                            <input type="date" name="" id="">
+                        </td>
                         <td>тем-ра 0+2&degС</td>
                         <td>5 суток</td>
                         <td>ГОСТ Р 53008-2008</td>
@@ -154,7 +254,9 @@
                     <tr>
                         <td>14</td>
                         <td>Полуфабрикаты натуральные из мяса кур, цыплят-бройлеров, в том числе филе цыпленка бройлера, мясо для чахохбили, набор для бульона.</td>
-                        <td></td>
+                        <td>
+                            <input type="date" name="" id="">
+                        </td>
                         <td>тем-ра минус 18&degС</td>
                         <td>6 мес.</td>
                         <td>ГОСТ Р 53008-2008</td>
@@ -174,7 +276,8 @@
                 номер аттестата № РОССRU.0001.518699 от 28.10.2015г: протоколы лабораторных исследований № 1039 от 20.02.2018, № 1038 от 21.02.18г</li>
             <li>Соответствует требованиям СанПиН 2.3.2.1078-01</li>
             <li>Упаковка и маркировка продукции соответствуют требованиям ГОСТ Р 51074-2003</li>
-        </ol><br>
+        </ol>
+        <br>
         <p>Технолог ______________________/Лебедева С.Ю./</p>
     </footer>
 
