@@ -1,0 +1,209 @@
+/* General options */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Lobster', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: rgb(95, 151, 151);
+}
+
+.back-image {
+    background-image: url(../Images/meadow-2184989_1920.jpg);
+    background-size: cover;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+}
+
+.content {
+    padding-bottom: 40px;
+}
+
+
+/* .indexh1 {
+    text-align: center;
+    
+} */
+
+
+/* .p1,
+.p3 {
+    text-align: center;
+} */
+
+
+/* 
+<header>
+*/
+
+header {
+    background-color: beige;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: row wrap;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+}
+
+
+/* TO DO add media request */
+
+.flex-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: row wrap;
+}
+
+.logo {
+    width: 275px;
+    height: 95px;
+    background-image: url(../Images/l1-1.png);
+    background-color: rgba(223, 235, 89, 0.0);
+    background-repeat: no-repeat;
+}
+
+.menu {
+    display: flex;
+    font-size: 1em;
+    background: rgba(#b87691, 0);
+}
+
+.menu li {
+    display: -webkit-inline-flex;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.menu a {
+    padding: 5px 30px;
+    color: #4d1486;
+    text-decoration: none;
+    width: 60px;
+}
+
+.menu a:hover {
+    background: #c2cb22;
+}
+
+
+/* 
+<header> .flex-container2
+*/
+
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.containerText1 {
+    color: #d73214;
+    text-align: center;
+}
+
+.containerText2 {
+    text-align: center;
+}
+
+.containerImage {
+    background-image: url(../Images/frog-490_391_ver2.jpg);
+    width: 490px;
+    height: 391px;
+    /* background-repeat: no-repeat; */
+}
+
+
+/* 
+footer
+*/
+
+
+/*  TO DO make footer */
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #e6d821;
+    border-radius: 10px 10px 10px 10px;
+    height: 31px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.foot-flex {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+
+/* .li-count {
+    /* text-align: left;
+    position: fixed;
+    left: 10px;
+    vertical-align: middle; 
+} 
+*/
+
+.mailto {
+    text-align: center;
+    position: fixed;
+    right: 10px;
+    vertical-align: middle;
+}
+
+
+/*
+.li-count {
+    text-align: left;
+    position: fixed;
+    left: 10px;
+    vertical-align: middle;
+}
+
+.p4 {
+    text-align: center;
+    vertical-align: middle;
+} */
+
+.p4-1 {
+    background-color: #89ec15;
+    position: fixed;
+    top: 100px;
+    left: 10px;
+    /*right: 600px; */
+    bottom: 250px;
+    border: 3px dotted red;
+    padding: 15px;
+    max-width: 150px;
+    float: right;
+}
+
+.p4-2 {
+    background-color: #15b8ec;
+    position: fixed;
+    top: 100px;
+    left: 220px;
+    right: 10px;
+    bottom: 250px;
+}
