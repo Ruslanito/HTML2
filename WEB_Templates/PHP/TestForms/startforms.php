@@ -14,7 +14,11 @@
         Введенное имя: 
         <?php
         echo $_POST["name1"];
-
+        ?>
+        <br>
+        Введено ключевое слово:
+        <?php
+        echo $_POST["name2"];
         ?>
     </center>
     
