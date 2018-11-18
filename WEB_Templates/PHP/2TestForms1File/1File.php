@@ -27,8 +27,9 @@
                 <input name="name" type="text">
                 <!-- <br> Укажите ключевое слово
             <input name="name2" type="text">
+             -->
             <br>
-            <input type="submit" value="OK"> -->
+            <input type="submit" value="OK">
             </form>
 
             <?php
