@@ -3,12 +3,6 @@
 }
 
 
-/* body {
-    width: 900px;
-    text-align: center;
-} */
-
-
 /* Header */
 
 header {
@@ -22,6 +16,14 @@ address,
 .submit,
 #input {
     text-align: center;
+}
+
+
+/* Article */
+
+article {
+    background-color: rgb(235, 235, 48);
+    margin: 5px 2px 5px 2px;
 }
 
 #input input {
@@ -41,14 +43,6 @@ address,
     font-size: 4mm;
     /* test table1*/
     border: 1px solid black;
-}
-
-
-/* Article */
-
-article {
-    background-color: rgb(235, 235, 48);
-    margin: 5px 2px 5px 2px;
 }
 
 .table2 {
