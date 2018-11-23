@@ -36,6 +36,7 @@ article {
     margin: 0 auto;
     /* test table1*/
     border-collapse: collapse;
+    margin-bottom: 5px;
 }
 
 .table1 tbody,
@@ -58,6 +59,10 @@ article {
 
 .table2 td {
     text-align: center;
+}
+
+.submit {
+    margin-top: 5px;
 }
 
 
