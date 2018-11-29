@@ -120,7 +120,7 @@ Example:
 	echo strftime("%Z\n");
 	?>
 
-Example (вчерашний день):
+Example (сегодня):
 	date("Сегодня d.m.Y") :
 
 Example (вчерашний день):
