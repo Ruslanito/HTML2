@@ -8,10 +8,10 @@ $cmax = 3; //max columns in a table
 
 echo'<table border="1">'; //declare a table
 
-while ($r<= $rmax) { //loop of row in a table
+while ($r<= $rmax) { //loop for row in the table
 	echo "<tr>";
 
-	while ($c <= $cmax) { //loop fo column in a table
+	while ($c <= $cmax) { //loop for column in the row of the table
 		echo "<td>Row-$r | Col-$c";
 		$c++;
 	}
