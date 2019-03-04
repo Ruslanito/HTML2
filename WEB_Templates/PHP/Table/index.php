@@ -18,5 +18,5 @@ while ($r<= $rmax) { //loop for row in the table
 	echo "</tr>";
 	$r++;
 }
-echo "</table>"
+echo "</table>";
 ?>
