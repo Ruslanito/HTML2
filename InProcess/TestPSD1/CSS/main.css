@@ -4,6 +4,7 @@
 }
 
 body {
+    width: 1170px;
     font-family: 'Dosis', sans-serif;
     margin: 0 auto;
 }
@@ -12,9 +13,16 @@ body {
 /*header*/
 
 header {
-    width: 1170px;
-    height: 700px;
+    margin: 0 auto;
+    height: 68px;
     background-color: #223047;
+    border-bottom: 2px solid #4e596c;
+}
+
+.logo img {
+    width: 82px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 
