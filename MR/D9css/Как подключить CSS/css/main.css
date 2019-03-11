@@ -1,0 +1,7 @@
+/*  Наш первый CSS-файл */
+
+@import url("color.css");
+
+p {
+    font-size: 150%;
+}

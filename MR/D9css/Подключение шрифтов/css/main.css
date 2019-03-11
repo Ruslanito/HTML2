@@ -1,0 +1,14 @@
+/*  Наш первый CSS-файл */
+
+@font-face {
+    font-family: BadScript;
+    src: url("../fonts/BadScript.woff2") format("woff2"), url("../fonts/BadScript.woff") format("woff");
+}
+
+body {
+    font-family: BadScript;
+}
+
+h1 {
+    text-align: center;
+}
