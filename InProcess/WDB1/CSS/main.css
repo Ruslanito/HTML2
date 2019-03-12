@@ -7,6 +7,16 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #000;
+    display: flex;
 }
