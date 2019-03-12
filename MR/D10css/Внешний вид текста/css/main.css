@@ -1,0 +1,64 @@
+/*  Наш первый CSS-файл */
+
+@font-face {
+    font-family: BadScript;
+    src: url("../fonts/BadScript.woff2") format("woff2"), url("../fonts/BadScript.woff") format("woff");
+}
+
+body {
+    font-family: BadScript;
+    font-size: 12pt;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    color: #00c;
+}
+
+p {
+    font-size: 150%;
+    font-weight: bold;
+    line-height: 300%;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+strong {
+    font-style: italic;
+    font-weight: normal;
+}
+
+em {
+    font-style: normal;
+}
+
+.underline {
+    text-decoration: underline;
+    text-indent: 0;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+a {
+    color: #c00;
+    font-size: 200%;
+    text-decoration: none;
+}
+
+a.upper {
+    text-transform: uppercase;
+}
+
+a.lower {
+    text-transform: lowercase;
+}
+
+.shadow {
+    text-align: right;
+    text-shadow: 5px 4px 5px #555;
+}
