@@ -36,8 +36,8 @@ header {
 
 nav {
     margin-top: 56px;
-    TODO: изменить на 29%;
-    margin-left: 10%;
+    /* TODO: изменить на 29%; */
+    margin-left: 25%;
 }
 
 .topnav a {
@@ -59,11 +59,30 @@ nav {
 
 /* media request */
 
+
+/* уменьшение расстояния между logo и nav при менее 1200px */
+
+@media screen and (max-width:1200px) {
+    nav {
+        margin-left: 20%;
+    }
+}
+
+
+/* уменьшение расстояния между logo и nav при менее 1105px */
+
+@media screen and (max-width:1105px) {
+    nav {
+        margin-left: 10%
+    }
+}
+
 @media screen and (max-width:1010px) {
     .topnav a {
-        /* при ширине экрана менее 1010px ссылки будут пропадать */
+        /* при ширине экрана менее 1010px ссылки topnav будут пропадать */
         display: none
     }
+    /* стилизуем иконку меню*/
     .topnav a.icon {
         float: right;
         margin-top: -17px;
@@ -71,7 +90,27 @@ nav {
         color: #fff;
         font-size: 25px;
     }
+    /* растягиваем иконку вправо */
     nav {
         width: 100%;
+    }
+    .topnav.responsive {
+        position: relative;
+        top: 50px;
+        left: -200px;
+    }
+    /* высота открыавющегося header будет 340px */
+    header .topnav.responsive {
+        height: 340px;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        top: -50px;
+        left: -200px;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
     }
 }
