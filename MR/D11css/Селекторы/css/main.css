@@ -1,0 +1,92 @@
+body {
+    font-size: 200%;
+}
+
+p {
+    color: #00c;
+}
+
+.red {
+    color: #f00;
+}
+
+#title {
+    color: #fa3900;
+    text-align: center;
+}
+
+p span {
+    color: #0c0;
+}
+
+body p span {
+    text-shadow: 2px 3px 5px #000;
+}
+
+input[type="text"] {
+    height: 40px;
+    width: 400px;
+}
+
+input[type="text"]:focus {
+    border: 2px solid #c00;
+}
+
+input[type="submit"] {
+    color: #0099dd;
+    cursor: pointer;
+    height: 50px;
+    width: 300px;
+}
+
+form > p {
+    font-size: 200%;
+}
+
+ul li:first-child {
+    color: #c00;
+}
+
+ul li:last-child {
+    color: #0c0;
+}
+
+ul li:nth-child(3) {
+    color: #aaa;
+}
+
+table {
+    border: 2px solid #000;
+    text-align: center;
+    width: 30%;
+}
+
+td {
+    border: 1px solid #000;
+}
+
+td:nth-child(2n) {
+    color: #00c;
+}
+
+td:nth-child(2n + 1) {
+    color: #a00;
+}
+
+a {
+    color: #c00;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00c;
+    text-decoration: underline;
+}
+
+#table tr .big {
+    font-size: 200%;
+}
+
+#table tr .big:hover {
+    color: #000;
+}

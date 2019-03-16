@@ -1,0 +1,44 @@
+body {
+    background: url("../images/bg.jpg") repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.red {
+    background-color: #c00;
+    margin: 40px;
+    height: 400px;
+    padding: 40px;
+    width: 400px;
+}
+
+.red:hover {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+}
+
+.image_blue {
+    border: 10px solid #000;
+    background: url("../images/bg.jpg") no-repeat 20.4% 10% #00c;
+    height: 400px;
+    width: 400px;
+}
+
+.image_blue:last-child {
+    background-position: bottom center;
+}
+
+.bg_size {
+    border: 10px solid #c00;
+    background: url("../images/bg.jpg") no-repeat #ccc;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+}
+
+.bg_mult {
+    background: url("../images/bg.jpg") no-repeat top left, url("../images/icon.png") repeat bottom right;
+    border: 10px solid #cc0;
+    height: 700px;
+    width: 900px;
+}

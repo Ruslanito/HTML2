@@ -1,0 +1,28 @@
+body {
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul.icon {
+    list-style-image: url("../images/icon.png");
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    line-height: 130%;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c00;
+}
