@@ -99,14 +99,14 @@ nav {
         top: 50px;
         left: -200px;
     }
-    /* высота открыавющегося header будет 340px */
+    /* высота открывающегося header будет 340px */
     header .topnav.responsive {
         height: 340px;
     }
     .topnav.responsive a.icon {
         position: absolute;
         top: -50px;
-        left: -200px;
+        right: -200px;
     }
     .topnav.responsive a {
         float: none;
