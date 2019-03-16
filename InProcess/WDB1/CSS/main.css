@@ -31,5 +31,47 @@ header {
     font-size: 24px;
     cursor: pointer;
     margin-top: 56px;
-    margin-left: 12%;
+    margin-left: 10%;
+}
+
+nav {
+    margin-top: 56px;
+    TODO: изменить на 29%;
+    margin-left: 10%;
+}
+
+.topnav a {
+    color: #fff;
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid #fcac45;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+/* media request */
+
+@media screen and (max-width:1010px) {
+    .topnav a {
+        /* при ширине экрана менее 1010px ссылки будут пропадать */
+        display: none
+    }
+    .topnav a.icon {
+        float: right;
+        margin-top: -17px;
+        display: block;
+        color: #fff;
+        font-size: 25px;
+    }
+    nav {
+        width: 100%;
+    }
 }
