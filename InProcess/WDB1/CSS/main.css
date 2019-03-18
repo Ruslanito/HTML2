@@ -145,3 +145,31 @@ main {
 .mycompany {
     color: #fcac45;
 }
+
+
+/* wrapper */
+
+.wrapper {
+    width: 76%;
+    margin: 0 auto;
+}
+
+.main_about {
+    display: flex;
+    padding: 100px 0 100px 0;
+}
+
+.about_right {
+    margin-left: 175px;
+}
+
+.about_right h1 {
+    display: inline-block;
+    border-bottom: 3px solid #fcac45;
+    padding-bottom: 20px;
+}
+
+.about_right p {
+    margin: 30px 0 50px 0;
+    color: #6c6c6c;
+}
