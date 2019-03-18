@@ -132,8 +132,9 @@ main {
 }
 
 .main_welcome p {
-    color: #999999;
+    color: #d5d5d5;
     font-size: 20px;
+    font-weight: 600;
 }
 
 .main_welcome h1 {
