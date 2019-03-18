@@ -114,3 +114,33 @@ nav {
         text-align: left;
     }
 }
+
+
+/* main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main_welcome {
+    background: #000;
+    text-align: center;
+    padding-top: 200px;
+    padding-block-end: 410px;
+}
+
+.main_welcome p {
+    color: #999999;
+    font-size: 20px;
+}
+
+.main_welcome h1 {
+    color: #999999;
+    font-size: 44px;
+}
+
+.mycompany {
+    color: #fcac45;
+}
