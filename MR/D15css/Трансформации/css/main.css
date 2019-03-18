@@ -1,0 +1,31 @@
+div {
+    background: linear-gradient(180deg, #c00, #0c0);
+    height: 300px;
+    width: 500px;
+}
+
+.t_1 {
+    transform: rotate(-50deg);
+    transform-origin: bottom right;
+}
+
+.t_2 {
+    transform: scaleX(2);
+}
+
+.t_3 {
+    transform: skew(30deg);
+}
+
+.t_4 {
+    transform: rotate(-50deg) scaleY(2);
+}
+
+.t_5 {
+    margin-top: 380px;
+    transition-duration: 1s;
+}
+
+.t_5:hover {
+    transform: rotate(-200deg);
+}

@@ -1,0 +1,53 @@
+a {
+    color: #00c;
+    font-size: 200%;
+    transition-property: color;
+    transition-duration: 0.8s;
+}
+
+a:hover {
+    color: #c00;
+}
+
+.block {
+    background-color: #ccc;
+    height: 300px;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    width: 30%;
+}
+
+.block:hover {
+    background-color: #333;
+    width: 100%;
+}
+
+.block_1 {
+    background-color: #000;
+    height: 300px;
+    width: 300px;
+}
+
+.block_1:hover {
+    animation-duration: 3s;
+    animation-name: bc;
+    animation-timing-function: ease-in;
+}
+
+@keyframes bc {
+    0% {
+        background-color: #000;
+    }
+    
+    30% {
+        background-color: #555;
+    }
+    
+    70% {
+        background-color: #999;
+    }
+    
+    100% {
+        background-color: #fff;
+    }
+}

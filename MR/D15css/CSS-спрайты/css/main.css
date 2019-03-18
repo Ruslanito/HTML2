@@ -1,0 +1,43 @@
+ul {
+    font-size: 200%;
+    list-style: none;
+}
+
+li a span {
+    background: url("../images/icons.png") no-repeat;
+    display: inline-block;
+    height: 57px;
+    width: 57px;
+}
+
+li:nth-child(1) a span {
+    background-position: 0 -59px;
+}
+
+li:nth-child(1) a:hover span {
+    background-position: 0 0;
+}
+
+li:nth-child(2) a span {
+    background-position: -59px -59px;
+}
+
+li:nth-child(2) a:hover span {
+    background-position: -59px 0;
+}
+
+li:nth-child(3) a span {
+    background-position: -118px -59px;
+}
+
+li:nth-child(3) a:hover span {
+    background-position: -118px 0;
+}
+
+li:nth-child(4) a span {
+    background-position: -177px -59px;
+}
+
+li:nth-child(4) a:hover span {
+    background-position: -177px 0;
+}

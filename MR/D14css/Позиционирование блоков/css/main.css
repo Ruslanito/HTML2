@@ -1,0 +1,32 @@
+body {
+    padding-left: 200px;
+}
+
+div {
+    height: 500px;
+    width: 500px;
+}
+
+.block_1 {
+    background-color: #0c0;
+    position: relative;
+    left: 50px;
+    z-index: 10;
+}
+
+.block_2 {
+    background-color: #00c;
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    z-index: 20;
+}
+
+.top {
+    background-color: #333;
+    height: 100px;
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    z-index: 100;
+}
