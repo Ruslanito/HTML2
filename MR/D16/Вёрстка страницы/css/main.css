@@ -1,0 +1,230 @@
+@import url("fonts.css");
+
+body {
+    font-family: hv;
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+#topmenu {
+    background: url("../images/logo.png") no-repeat 12% 50%, linear-gradient(180deg, #fff, #e2e2e2);
+    border-bottom: 1px solid #ccc;
+    height: 117px;
+}
+
+#topmenu ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+}
+
+#topmenu li {
+    float: left;
+}
+
+#topmenu a {
+    background-position: center 35%;
+    background-repeat: no-repeat;
+    color: #545454;
+    display: inline-block;
+    height: 62px;
+    padding-top: 55px;
+    text-align: center;
+    text-decoration: none;
+    width: 107px;
+}
+
+#topmenu a:hover {
+    /* background-position: center 37%; */
+    border-bottom: 4px solid #ff7d00;
+    border-left: 1px solid #c9c9c9;
+    border-right: 1px solid #b8b1b1;
+    height: 58px;
+    width: 105px;
+}
+
+#topmenu #home a {
+    background-image: url("../images/home.png");
+}
+
+#topmenu #home a:hover {
+    background-image: url("../images/home.png"), linear-gradient(180deg, #fff, #cac2c2);
+}
+
+#topmenu #gallery a {
+    background-image: url("../images/gallery.png");
+}
+
+#topmenu #gallery a:hover {
+    background-image: url("../images/gallery.png"), linear-gradient(180deg, #fff, #cac2c2);
+}
+
+#topmenu #members a {
+    background-image: url("../images/members.png");
+}
+
+#topmenu #members a:hover {
+    background-image: url("../images/members.png"), linear-gradient(180deg, #fff, #cac2c2);
+}
+
+#topmenu #logout a {
+    background-image: url("../images/logout.png");
+}
+
+#topmenu #logout a:hover {
+    background-image: url("../images/logout.png"), linear-gradient(180deg, #fff, #cac2c2);
+}
+
+#content h1 {
+    color: #565555;
+    font-family: hvb;
+    font-size: 180%;
+    font-weight: normal;
+    text-align: center;
+}
+
+#content #form_upload {
+    margin: 0 auto;
+    width: 50%;
+}
+
+#content .file_form {
+    border: 1px solid #cacaca;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 46px;
+    margin-right: 13px;
+    padding: 2px;
+    position: relative;
+    width: 60%;
+}
+
+#content .file_form .shadow {
+    box-shadow: 0 0 3px 3px #e2dada;
+}
+
+#content .file_form input[type="file"] {
+    cursor: pointer;
+    height: 50px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+#content .file_form .file_button {
+    background-color: #c1bfbf;
+    border-radius: 3px;
+    font-family: hvr;
+    color: #fff;
+    float: right;
+    height: 22px;
+    margin-right: 4px;
+    margin-top: 5px;
+    padding: 8px 14px;
+}
+
+#content input[type="submit"] {
+    background: linear-gradient(180deg, #ffa400, #ff6700);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: hvb;
+    font-size: 130%;
+    padding: 10px 27px;
+}
+
+#content input[type="submit"]:hover {
+    background: linear-gradient(180deg, #ff6700, #ffa400);
+}
+
+#photos {
+    display: table;
+    margin: 40px auto 0;
+}
+
+#photos .row {
+    margin: 40px 0;
+}
+
+#photos .photo {
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 0 3px 1px #eaeaea;
+    color: #979393;
+    float: left;
+    margin: 0 15px;
+    padding: 5px;
+}
+
+#photos .photo .main_photo {
+    width: 100%;
+}
+
+#photos .photo .date {
+    color: #f0efef;
+    font-family: bn;
+    font-size: 130%;
+    margin: -35px 0 0 7px;
+    display: block;
+}
+
+#photos .border {
+    border-bottom: 1px solid #e0dfdf;
+    margin-top: 5px;
+    padding-bottom: 7px;
+}
+
+#photos .border .text {
+    float: left;
+    margin: 13px 8px;
+}
+
+#photos .border .favorites {
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+#photos .share {
+    float: right;
+}
+
+#photos .share p {
+    float: left;
+    margin-right: 10px;
+}
+
+#photos .share .icon {
+    background: url("../images/bg_share.png") no-repeat;
+    cursor: pointer;
+    float: left;
+    height: 20px;
+    padding-top: 2px;
+    margin: 15px 3px 0;
+    text-align: center;
+    width: 22px;
+}
+
+#photos .share .icon:hover {
+    background: url("../images/bg_share_active.png") no-repeat;
+}
+
+#photos .shadow {
+    box-shadow: 0 2px 11px 4px #e6e6e6;
+    margin-left: -2px;
+    width: 102%;
+}
+
+footer {
+    color: #8b8a8a;
+    font-family: Arial;
+    padding-right: 20px;
+    text-align: right;
+}
