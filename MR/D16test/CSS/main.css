@@ -1,1 +1,83 @@
 @import url("fonts.css");
+
+/* установка глобальных параметров */
+
+body {
+    font-family: hv;
+    margin: 0;
+    padding: 0;
+}
+
+#topmenu {
+    background: url("../Images/logo.png") no-repeat 12% 50%, linear-gradient(180deg, #fff, #e2e2e2);
+    border-bottom: 1px solid #ccc;
+    height: 117px;
+}
+
+#topmenu ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+
+#topmenu li {
+    float: left;
+}
+
+#topmenu a {
+    /* background-position: center 37%; */
+    background-repeat: no-repeat;
+    background: url("../Images/home.png")no-repeat center 33%;
+    display: inline-block;
+    text-decoration: none;
+    color: #545454;
+    padding-top: 55px;
+    height: 62px;
+    width: 107px;
+    text-align: center;
+}
+
+#topmenu a:hover {
+    border-bottom: 4px solid #ff7d00;
+    border-left: 1px solid #c9c9c9;
+    border-right: 1px solid #b8b1b1;
+    width: 105px;
+    height: 58px;
+    background-position: center 35%;
+}
+
+#topmenu #home a {
+    background-image: url("../Images/home.png");
+}
+
+#topmenu #gallery a {
+    background-image: url("../Images/gallery.png");
+}
+
+#topmenu #members a {
+    background-image: url("../Images/members.png");
+}
+
+#topmenu #logout a {
+    background-image: url("../Images/logout.png");
+}
+
+#topmenu #home a:hover {
+    background-image: url("../Images/home.png"), linear-gradient(180deg, #fff, #cac2c2);
+}
+
+#topmenu #gallery a:hover {
+    background-image: url("../Images/gallery.png"), linear-gradient(180deg, #fff, #cac2c2);
+}
+
+#topmenu #members a:hover {
+    background-image: url("../Images/members.png"), linear-gradient(180deg, #fff, #cac2c2);
+}
+
+#topmenu #logout a:hover {
+    background-image: url("../Images/logout.png"), linear-gradient(180deg, #fff, #cac2c2);
+}
+
+.clear {
+    clear: both;
+}
