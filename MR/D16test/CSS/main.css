@@ -8,6 +8,9 @@ body {
     padding: 0;
 }
 
+
+/* topmenu */
+
 #topmenu {
     background: url("../Images/logo.png") no-repeat 12% 50%, linear-gradient(180deg, #fff, #e2e2e2);
     border-bottom: 1px solid #ccc;
@@ -80,4 +83,75 @@ body {
 
 .clear {
     clear: both;
+}
+
+
+/* form_upload */
+
+#content h1 {
+    text-align: center;
+    color: #565555;
+    font-family: hvb;
+    font-size: 180%;
+    font-weight: normal;
+}
+
+#content #form_upload {
+    margin: 0 auto;
+    width: 50%;
+}
+
+#content .file_form {
+    border: 1px solid #cacaca;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 50px;
+    width: 60%;
+    padding: 2px;
+    margin-right: 13px;
+    position: relative;
+}
+
+#content .file_form .shadow {
+    box-shadow: 0 0 3px 3px #e2dada;
+}
+
+#content file_form input[type="file"] {
+    opacity: 0;
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+#content .file_form .file_button {
+    font-family: hvr;
+    background-color: #c1bfbf;
+    color: #fff;
+    float: right;
+    height: 22px;
+    padding: 8px 14px;
+    border-radius: 3px;
+    margin-right: 4px;
+    margin-top: 6px;
+}
+
+#content input[type="submit"] {
+    background: linear-gradient(180deg, #ffa400, #ff6700);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: hvb;
+    font-size: 130%;
+    padding: 10px 27px;
+    transition-duration: 0.8s;
+}
+
+#content input[type="submit"]:hover {
+    background: linear-gradient(180deg, #ff6700, #ffa400)
 }
