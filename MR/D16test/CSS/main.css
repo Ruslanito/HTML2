@@ -149,7 +149,7 @@ body {
     font-family: hvb;
     font-size: 130%;
     padding: 10px 27px;
-    transition-duration: 0.8s;
+    /* transition-duration: 0.8s; */
 }
 
 #content input[type="submit"]:hover {
