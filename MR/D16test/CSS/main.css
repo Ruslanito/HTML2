@@ -106,7 +106,7 @@ body {
     border-radius: 4px;
     cursor: pointer;
     float: left;
-    height: 50px;
+    height: 46px;
     width: 60%;
     padding: 2px;
     margin-right: 13px;
@@ -117,7 +117,7 @@ body {
     box-shadow: 0 0 3px 3px #e2dada;
 }
 
-#content file_form input[type="file"] {
+#content .file_form input[type="file"] {
     opacity: 0;
     cursor: pointer;
     height: 50px;
