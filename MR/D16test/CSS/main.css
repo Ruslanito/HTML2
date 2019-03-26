@@ -155,3 +155,65 @@ body {
 #content input[type="submit"]:hover {
     background: linear-gradient(180deg, #ff6700, #ffa400)
 }
+
+
+/* photos */
+
+#photos {
+    width: 80%;
+    margin: 40px auto 0;
+}
+
+#photos .photo {
+    box-shadow: 0 0 3px 1px #eaeaea;
+    border: 1px solid #d6d6d6;
+    width: 20%;
+    color: #979393;
+    padding: 5px;
+}
+
+#photos .photo .main_photo {
+    width: 100%;
+}
+
+#photos .photo .date {
+    color: #f0efef;
+    font-family: bn;
+    font-size: 130%;
+    margin: -33px 0 0 7px;
+    display: block;
+}
+
+#photos .text {
+    float: left;
+    margin: 13px 8px;
+}
+
+#photos .favorites {
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+#photos .share {
+    float: right;
+}
+
+#photos .share .icon {
+    background: url("../Images/bg_share.png") no-repeat;
+    height: 20px;
+    width: 22px;
+    float: left;
+    text-align: center;
+    padding-top: 2px;
+    margin: 15px 3px 0;
+    cursor: pointer;
+}
+
+#photos .share .icon:hover {
+    background: url("../Images/bg_share_active.png") no-repeat;
+}
+
+#photos .share p {
+    float: left;
+    margin-right: 10px;
+}
