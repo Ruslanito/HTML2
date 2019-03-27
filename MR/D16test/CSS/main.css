@@ -160,7 +160,7 @@ body {
 /* photos */
 
 #photos {
-    width: 80%;
+    width: 90%;
     margin: 40px auto 0;
 }
 
@@ -170,6 +170,8 @@ body {
     width: 20%;
     color: #979393;
     padding: 5px;
+    float: left;
+    margin: 0 15px;
 }
 
 #photos .photo .main_photo {
@@ -216,4 +218,20 @@ body {
 #photos .share p {
     float: left;
     margin-right: 10px;
+}
+
+#photos .shadow {
+    box-shadow: 0 0 11px 4px #e0e6e6;
+    margin-left: -2px;
+    width: 102%;
+}
+
+#photos .border {
+    border-bottom: 1px solid #e0dfdf;
+    padding-bottom: 7px;
+    margin-top: 5px;
+}
+
+#photos .row {
+    margin: 40px 0;
 }
