@@ -160,14 +160,13 @@ body {
 /* photos */
 
 #photos {
-    width: 90%;
+    display: table;
     margin: 40px auto 0;
 }
 
 #photos .photo {
     box-shadow: 0 0 3px 1px #eaeaea;
     border: 1px solid #d6d6d6;
-    width: 20%;
     color: #979393;
     padding: 5px;
     float: left;
@@ -234,4 +233,11 @@ body {
 
 #photos .row {
     margin: 40px 0;
+}
+
+footer {
+    font-family: Arial;
+    text-align: right;
+    color: #8d8a8a;
+    padding-right: 20px;
 }
