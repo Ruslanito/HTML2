@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px;
+    min-width: 320px;
+    background-color: #aaa;
+    margin: 100px auto;
+    padding: 10px 0;
+}
+
+.container__element {
+    background-color: #961981;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse; - обратный ряд
+	flex-direction: column; - колонка, сверху вниз
+	flex-direction: column-reverse; - колонка, снизу вверх*/
+    flex-wrap: wrap;
+    /* flex-wrap:nowrap; - нет переноса элементов 
+	flex-wrap: wrap-reverse; - перенос элементов в обратной последовательности*/
+    justify-content: space-between;
+    /* justify-content: flex-start; 
+	justify-content: flex-end;
+	justify-content: space-between;
+	justify-content: center;
+	justify-content: space-around; */
+}

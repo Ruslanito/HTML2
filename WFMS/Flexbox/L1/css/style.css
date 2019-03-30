@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-    /* юлочный элемент flex */
+    /* блочный элемент flex */
     display: flex;
     /* display: inline-flex;  -  строчный элемент flex*/
 }
