@@ -1,40 +1,223 @@
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-	font-family: Arial;
-	font-size: 16px;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+h2 {
+    text-align: center;
 }
 
 .container {
-	max-width: 1200px;
-	min-width: 320px;
-	background-color: #eee;
-	margin: 100px auto;
-	padding: 10px 0;
+    max-width: 1200px;
+    min-width: 320px;
+    background-color: #eee;
+    margin: 10px auto;
+    padding: 10px 0;
 }
 
 .container__element {
-	border: 1px solid #000;
-	padding: 10px 20px;
-	box-sizing: border-box;
-	margin: 20px;
+    background-color: rgb(100, 153, 89);
+    border: 1px solid #000;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: 20px;
 }
 
 .container__element:first-child {
-	margin-right: auto;
-	flex-grow: 1;
+    margin-right: auto;
+    width: 200px;
+    flex-basis: 300px;
 }
 
 .container__element:last-child {
-	margin-left: auto;
-	flex-grow: 5;
+    margin-left: auto;
 }
 
 .container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
+
+.container1 {
+    max-width: 1200px;
+    min-width: 320px;
+    background-color: #eee;
+    margin: 10px auto;
+    padding: 10px 0;
+}
+
+.container__element1 {
+    background-color: rgb(100, 153, 89);
+    border: 1px solid #000;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.container__element1:first-child {
+    margin-right: auto;
+    height: 200px;
+    flex-basis: 300px;
+}
+
+.container__element1:last-child {
+    margin-left: auto;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container2 {
+    max-width: 1200px;
+    min-width: 320px;
+    background-color: #eee;
+    margin: 10px auto;
+    padding: 10px 0;
+}
+
+.container__element2 {
+    background-color: rgb(100, 153, 89);
+    border: 1px solid #000;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.container__element2:first-child {
+    margin-right: auto;
+    /* flex-grow: 0; bydefault */
+    flex-grow: 1;
+}
+
+.container__element2:last-child {
+    margin-left: auto;
+    flex-grow: 2;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container3 {
+    max-width: 1200px;
+    min-width: 320px;
+    background-color: #eee;
+    margin: 10px auto;
+    padding: 10px 0;
+}
+
+.container__element3 {
+    background-color: rgb(100, 153, 89);
+    border: 1px solid #000;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.container__element3:first-child {
+    margin-right: auto;
+    /* flex-grow: 0; bydefault */
+    flex-grow: 1;
+    flex-basis: 600px
+}
+
+.container__element3:last-child {
+    margin-left: auto;
+    flex-grow: 2;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container4 {
+    max-width: 1200px;
+    min-width: 320px;
+    background-color: #eee;
+    margin: 10px auto;
+    padding: 10px 0;
+}
+
+.container__element4 {
+    background-color: rgb(100, 153, 89);
+    border: 1px solid #000;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: 20px;
+    flex-basis: 300px;
+    flex-shrink: 1;
+    /* flex-shrink: 1; - by default */
+    /* flex-shrink: 0; - нет ужатия элемента */
+}
+
+.container__element4:first-child {
+    margin-right: auto;
+    flex-shrink: 2;
+}
+
+.container__element4:last-child {
+    margin-left: auto;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+.container5 {
+    max-width: 1200px;
+    min-width: 320px;
+    background-color: #eee;
+    margin: 10px auto;
+    padding: 10px 0;
+}
+
+.container__element5 {
+    background-color: rgb(100, 153, 89);
+    border: 1px solid #000;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: 20px;
+    /* flex-basis: 300px; */
+}
+
+.container__element5:first-child {
+    margin-right: auto;
+    flex-shrink: 0;
+    flex-basis: 600px;
+}
+
+.container__element5:last-child {
+    margin-left: auto;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/* .container__element:first-child {
+    margin-right: auto;
+    flex-grow: 1;
+}
+
+.container__element:last-child {
+    margin-left: auto;
+    flex-grow: 5;
+} */
