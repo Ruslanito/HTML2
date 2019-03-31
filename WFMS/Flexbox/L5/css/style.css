@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial;
+	font-size: 16px;
+}
+
+.container {
+	max-width: 1200px;
+	min-width: 320px;
+	background-color: #eee;
+	margin: 100px auto;
+	padding: 10px 0;
+}
+
+.container__element {
+	border: 1px solid #000;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	flex-basis: 300px;
+	flex-shrink: 0;
+}
+
+.container__element:first-child {
+	flex-shrink: 3;
+}
+
+.container__element:last-child {
+	flex-shrink: 2;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+}
