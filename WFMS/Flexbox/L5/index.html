@@ -1,28 +1,125 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-	<title>FlexBox</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>FlexBox</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
+
 <body>
-	<div class="container">
-		<div class="container__element">
-			<p>Первый блок</p>	
-		</div>
-		<div class="container__element">
-			<p>Второй блок</p>
-		</div>
-		<div class="container__element">
-			<p>Третий блок</p>
-		</div>
-		<div class="container__element">
-			<p>Четвертый блок</p>
-		</div>
-		<div class="container__element">
-			<p>Пятый блок</p>
-		</div>
-	</div>
-</body>
+    <h2>flex-basis: расчёт размера элементов</h2>
+    <div class="container">
+        <div class="container__element">
+            <p>Первый блок(flex-grow: 1;)</p>
+        </div>
+        <div class="container__element">
+            <p>Второй блок(flex-basis: 150px;)</p>
+        </div>
+        <div class="container__element">
+            <p>Третий блок(flex-basis: 150px;)</p>
+        </div>
+        <div class="container__element">
+            <p>Четвертый блок(flex-basis: 150px;)</p>
+        </div>
+        <div class="container__element">
+            <p>Пятый блок(flex-grow: 5;)</p>
+        </div>
+
+    </div>
+    <p>
+        <pre>Свободное место: 1200-(150*5)=450</pre>
+    </p>
+    <p>
+        <pre>Часть свободного места (сумма flex-grow элементов): 450/(1+5)=75</pre>
+    </p>
+    <p>
+        <pre>Размер flex-элемента (flex-grow: 1;): 150+(75*1)=225</pre>
+    </p>
+    <p>
+        <pre>Размер flex-элемента (flex-grow: 5;): 150+(75*5)=525</pre>
+    </p>
+    <h2>flex-shrink: расчёт размера элементов (flex-shrink не равен 0)</h2>
+    <div class="container1">
+        <div class="container__element1">
+            <p>Первый блок(flex-shrink: 3;)</p>
+        </div>
+        <div class="container__element1">
+            <p>Второй блок(flex-basis: 300px;)</p>
+        </div>
+        <div class="container__element1">
+            <p>Третий блок(flex-basis: 300px;)</p>
+        </div>
+        <div class="container__element1">
+            <p>Четвертый блок(flex-basis: 300px;)</p>
+        </div>
+        <div class="container__element1">
+            <p>Пятый блок(flex-shrink: 2;)</p>
+        </div>
+
+    </div>
+    <p>
+        <pre>Отрицательное значение: 1200-(300*6)=[600]</pre>
+    </p>
+    <p>
+        <pre>Сумма размеров: 300*4+300*2=1800</pre>
+    </p>
+    <p>
+        <pre>Коэффициент сжатия (flex-shrink: 4;): 300*4/1800=0,66</pre>
+    </p>
+    <p>
+        <pre>Коэффициент сжатия (flex-shrink: 2;): 300*2/1800=0,33</pre>
+    </p>
+    <p>
+        <pre>Размер (flex-shrink: 4;): 300-(0,66*300)=102</pre>
+    </p>
+    <p>
+        <pre>Размер (flex-shrink: 2;): 300-(0,33*300)=201</pre>
+    </p>
+    <p>
+        <pre>Данные не совпадают так как 2,3 и 4 элементы ужались также (flex-shrink не равен 0)</pre>
+    </p>
+    <h2>flex-shrink: расчёт размера элементов (flex-shrink: 0;)</h2>
+    <div class="container2">
+        <div class="container__element2">
+            <p>Первый блок(flex-shrink: 3;)</p>
+        </div>
+        <div class="container__element2">
+            <p>Второй блок(flex-basis: 300px;)</p>
+        </div>
+        <div class="container__element2">
+            <p>Третий блок(flex-basis: 300px;)</p>
+        </div>
+        <div class="container__element2">
+            <p>Четвертый блок(flex-basis: 300px;)</p>
+        </div>
+        <div class="container__element2">
+            <p>Пятый блок(flex-shrink: 2;)</p>
+        </div>
+
+    </div>
+    <p>
+        <pre>Отрицательное значение: 1200-(300*6)=[600]</pre>
+    </p>
+    <p>
+        <pre>Сумма размеров: 300*4+300*2=1800</pre>
+    </p>
+    <p>
+        <pre>Коэффициент сжатия (flex-shrink: 4;): 300*4/1800=0,66</pre>
+    </p>
+    <p>
+        <pre>Коэффициент сжатия (flex-shrink: 2;): 300*2/1800=0,33</pre>
+    </p>
+    <p>
+        <pre>Размер (flex-shrink: 4;): 300-(0,66*300)=102</pre>
+    </p>
+    <p>
+        <pre>Размер (flex-shrink: 2;): 300-(0,33*300)=201</pre>
+    </p>
+    <p>
+        <pre>Данные не совпадают так как 2,3 и 4 элементы ужались также (flex-shrink не равен 0)</pre>
+    </p>
+
+
 </html>
