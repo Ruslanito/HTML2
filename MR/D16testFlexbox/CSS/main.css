@@ -161,6 +161,9 @@ body {
 
 #photos {
     display: table;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
     margin: 40px auto 0;
 }
 
@@ -235,9 +238,14 @@ body {
     margin: 40px 0;
 }
 
+
+/* footer */
+
 footer {
     font-family: Arial;
-    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
     color: #8d8a8a;
     padding-right: 20px;
 }
