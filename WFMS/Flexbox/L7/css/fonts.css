@@ -1,0 +1,9 @@
+@font-face {
+    font-family: OS_B;
+    src: url("../Fonts/OpenSans-Bold.woff") format("woff"), url("../Fonts/OpenSans-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: OS_SB;
+    src: url("../Fonts/OpenSans-SemiBold.woff") format("woff"), url("../Fonts/OpenSans-SemiBold.woff2") format("woff2");
+}
