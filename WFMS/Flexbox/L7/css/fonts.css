@@ -7,3 +7,7 @@
     font-family: OS_SB;
     src: url("../Fonts/OpenSans-SemiBold.woff") format("woff"), url("../Fonts/OpenSans-SemiBold.woff2") format("woff2");
 }
+
+
+/* @import <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700&amp;subset=cyrillic" rel="stylesheet">
+font-family: 'Open Sans', sans-serif; */
