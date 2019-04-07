@@ -245,7 +245,7 @@ footer {
     font-family: Arial;
     display: flex;
     flex-direction: row-reverse;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     color: #8d8a8a;
     padding-right: 20px;
 }
