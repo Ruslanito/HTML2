@@ -12,7 +12,8 @@ body {
 /* topmenu */
 
 #topmenu {
-    background: url("../Images/logo.png") no-repeat 12% 50%, linear-gradient(180deg, #fff, #e2e2e2);
+    background: /*  url("../Images/logo.png") no-repeat 12% 50%, */
+    linear-gradient(180deg, #fff, #e2e2e2);
     border-bottom: 1px solid #ccc;
     height: 117px;
 }
@@ -244,8 +245,8 @@ body {
 footer {
     font-family: Arial;
     display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
     color: #8d8a8a;
     padding-right: 20px;
 }
