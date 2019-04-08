@@ -12,8 +12,7 @@ body {
 /* topmenu */
 
 #topmenu {
-    background: /*  url("../Images/logo.png") no-repeat 12% 50%, */
-    linear-gradient(180deg, #fff, #e2e2e2);
+    background: linear-gradient(180deg, #fff, #e2e2e2);
     border-bottom: 1px solid #ccc;
     height: 117px;
 }
@@ -29,7 +28,6 @@ body {
 }
 
 #topmenu a {
-    /* background-position: center 37%; */
     background-repeat: no-repeat;
     background: url("../Images/home.png")no-repeat center 33%;
     display: inline-block;
@@ -81,11 +79,6 @@ body {
 #topmenu #logout a:hover {
     background-image: url("../Images/logout.png"), linear-gradient(180deg, #fff, #cac2c2);
 }
-
-.clear {
-    clear: both;
-}
-
 
 /* form_upload */
 
