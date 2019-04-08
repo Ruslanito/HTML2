@@ -12,10 +12,11 @@ body {
 /* topmenu */
 
 #topmenu {
-    background: /* url("../Images/logo.png") no-repeat 12% 50%, */
-    linear-gradient(180deg, #fff, #e2e2e2);
+    background:linear-gradient(180deg, #fff, #e2e2e2);
     border-bottom: 1px solid #ccc;
     height: 117px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,19 +27,16 @@ body {
     margin-left: 60%;
 }
 
-#topmenu ul {
+#topmenu nav ul {
     list-style: none;
-    float: right;
     margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
 }
 
-#topmenu li {
-    float: left;
-}
-
-#topmenu a {
-    /* background-position: center 37%; */
-    background-repeat: no-repeat;
+#topmenu nav ul li a {
     background: url("../Images/home.png")no-repeat center 31%;
     display: inline-block;
     text-decoration: none;
