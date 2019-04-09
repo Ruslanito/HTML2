@@ -121,10 +121,9 @@ body {
 
 #content #form_upload form {
     margin: 5px auto;
-    /* text-align: center; */
     width: 80%;
     display: flex;
-justify-content: center;
+    justify-content: center;
 }
 
 #content .file_form {
@@ -173,7 +172,6 @@ justify-content: center;
     font-family: hvb;
     font-size: 130%;
     padding: 11px 27px;
-    /* transition-duration: 0.8s; */
 }
 
 #content .file_form .shadow {
@@ -181,8 +179,88 @@ justify-content: center;
 }
 
 #content input[type="submit"]:hover {
-    background: linear-gradient(180deg, #ff6700, #ffa400)
+    background: linear-gradient(180deg, #ff6700, #ffa400);
 }
+
+/* #content #photos*/
+#photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 40px auto 0;
+}
+
+#photos .photo {
+    box-shadow: 0 0 3px 1px #eaeaea;
+    border: 1px solid #d6d6d6;
+    color: #979393;
+    padding: 5px;
+    float: left;
+    margin: 0 15px;
+}
+
+#photos .photo .main_photo {
+    width: 100%;
+}
+
+#photos .photo .date {
+    color: #f0efef;
+    font-family: bn;
+    font-size: 130%;
+    margin: -33px 0 0 7px;
+    display: block;
+}
+
+#photos .text {
+    float: left;
+    margin: 13px 8px;
+}
+
+#photos .favorites {
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+#photos .share {
+    float: right;
+}
+
+#photos .share .icon {
+    background: url("../Images/bg_share.png") no-repeat;
+    height: 20px;
+    width: 22px;
+    float: left;
+    text-align: center;
+    padding-top: 2px;
+    margin: 15px 3px 0;
+    cursor: pointer;
+}
+
+#photos .share .icon:hover {
+    background: url("../Images/bg_share_active.png") no-repeat;
+}
+
+#photos .share p {
+    float: left;
+    margin-right: 10px;
+}
+
+#photos .shadow {
+    box-shadow: 0 0 11px 4px #e0e6e6;
+    margin-left: -2px;
+    width: 102%;
+}
+
+#photos .border {
+    border-bottom: 1px solid #e0dfdf;
+    padding-bottom: 7px;
+    margin-top: 5px;
+}
+
+#photos .row {
+    margin: 40px 0;
+}
+
 
 /* #content footer */
 
