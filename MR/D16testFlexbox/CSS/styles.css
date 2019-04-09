@@ -12,7 +12,7 @@ body {
 /* topmenu */
 
 #topmenu {
-    background:linear-gradient(180deg, #fff, #e2e2e2);
+    background: linear-gradient(180deg, #fff, #e2e2e2);
     border-bottom: 1px solid #ccc;
     height: 117px;
     display: -webkit-box;
@@ -91,8 +91,100 @@ body {
     background-position: center 32%;
 }
 
+/* #content */
+#content {
+    max-width: 1000px;
+    min-width: 320px;
+    margin: 0 auto;
 
-/* footer */
+}
+
+/* #content #form_upload*/
+#content #form_upload {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:75%;
+    margin: 5px auto;
+}
+
+#content #form_upload h1 {
+    color: #565555;
+    font-family: hvb;
+    font-size: 180%;
+    font-weight: normal;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#content #form_upload form {
+    margin: 5px auto;
+    /* text-align: center; */
+    width: 80%;
+    display: flex;
+justify-content: center;
+}
+
+#content .file_form {
+    border: 1px solid #cacaca;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    height: 46px;
+    width: 50%;
+    padding: 2px;
+    margin-right: 13px;
+    position: relative;
+    
+}
+
+#content .file_form input[type="file"] {
+    opacity: 0;
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+#content .file_form .file_button {
+    font-family: hvr;
+    background-color: #c1bfbf;
+    color: #fff;
+    float: right;
+    height: 22px;
+    padding: 8px 14px;
+    border-radius: 3px;
+    margin-right: 4px;
+    margin-top: 6px;
+    line-height: 1.4;
+}
+
+#content input[type="submit"] {
+    background: linear-gradient(180deg, #ffa400, #ff6700);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: hvb;
+    font-size: 130%;
+    padding: 11px 27px;
+    /* transition-duration: 0.8s; */
+}
+
+#content .file_form .shadow {
+    box-shadow: 0 0 3px 3px #e2dada;
+}
+
+#content input[type="submit"]:hover {
+    background: linear-gradient(180deg, #ff6700, #ffa400)
+}
+
+/* #content footer */
 
 footer {
     font-family: Arial;
