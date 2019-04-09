@@ -1,0 +1,39 @@
+@import url("fonts.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1440px;
+    min-width: 320px;
+    margin: 0 auto;;
+}
+/* header */
+header{
+    display: flex;
+    height: 100px;
+    max-width: 1110px;
+    margin: 0 auto;
+    border: 1px solid red;
+    
+}
+
+header .logo{
+    color:#44c0c2;
+}
+
+header nav ul{
+    /* display: inline-block; */
+    /*  */
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+header nav ul li a{
+    text-decoration: none;
+}
