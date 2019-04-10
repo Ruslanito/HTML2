@@ -1,0 +1,13 @@
+
+@font-face{
+    font-family: "Lobster";
+    src: url("../Fonts/Lobster1.4.ttf") format("ttf"), url("../Fonts/Lobster1.4.woff") format("woff"), url("../Fonts/Lobster1.4.woff2") format("woff2");
+}
+@font-face{
+    font-family: "OpenSansReg";
+    src: url("../Fonts/OpenSans-Regular.ttf") format("ttf"), url("../Fonts/OpenSans-Regular.woff") format("woff"), url("../Fonts/OpenSans-Regular.woff2") format("woff2");
+}
+@font-face{
+    font-family: "OpenSansSemiB";
+    src: url("../Fonts/OpenSans-SemiBold.ttf") format("ttf"), url("../Fonts/OpenSans-SemiBold.woff") format("woff"), url("../Fonts/OpenSans-SemiBold.woff2") format("woff2");
+}
