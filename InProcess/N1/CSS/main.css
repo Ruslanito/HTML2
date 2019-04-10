@@ -13,6 +13,7 @@ body{
 /* header */
 header{
     display: flex;
+    justify-content: space-between;
     height: 100px;
     max-width: 1110px;
     margin: 0 auto;
@@ -21,7 +22,11 @@ header{
 }
 
 header .logo{
+    font-family: Lobster;
+    font-size: 43px;
+    line-height: 24px;
     color:#44c0c2;
+    align-self: center;
 }
 
 header nav ul{
