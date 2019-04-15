@@ -12,8 +12,9 @@ body {
     max-width: 1200px;
     min-width: 320px;
     background-color: #eee;
-    margin: 100px auto;
+    margin: 20px auto;
     padding: 10px 0;
+    
 }
 
 .container__element {
@@ -21,10 +22,42 @@ body {
     padding: 10px 20px;
     box-sizing: border-box;
     margin: 20px;
+    background-color: #7d4f97;
 }
 
-.container {
+.container_flex {
     /* блочный элемент flex */
     display: flex;
+    max-width: 1200px;
+    min-width: 320px;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 10px 0;
     /* display: inline-flex;  -  строчный элемент flex*/
+}
+
+h2, p {
+    text-align: center;
+}
+
+.container_flex2 {
+    display: flex;
+    max-width: 1200px;
+    min-width: 320px;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 10px 0;
+    height: 200px;
+    
+}
+
+.container_flex3 {
+    display: inline-flex;
+    max-width: 1200px;
+    min-width: 320px;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 10px 0;
+    /* height: 200px; */
+    
 }
