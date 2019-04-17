@@ -119,12 +119,82 @@ body h2, h1, p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /*растяжение по поперечной оси при наличии heigth */
+    align-content: flex-start;
+}
+.container15 {
+    max-width: 1200px;
+    min-width: 320px;
+    background-color: #777777;
+    margin: 10px auto;
+    padding: 10px 0;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.container16 {
+    max-width: 1200px;
+    min-width: 320px;
+    background-color: #777777;
+    margin: 10px auto;
+    padding: 10px 0;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.container17 {
+    max-width: 1200px;
+    min-width: 320px;
+    background-color: #777777;
+    margin: 10px auto;
+    padding: 10px 0;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-content: space-between;
-    /* align-items: flex-start; - прижмутся к началу поперечной оси
-    align-items: flex-end; - прижмутся к концу поперечной оси
-	align-items: center; - прижмутся к середине поперечной оси
-	align-items: baseline; - по базовой линии */
+}
+.container18 {
+    max-width: 1200px;
+    min-width: 320px;
+    background-color: #777777;
+    margin: 10px auto;
+    padding: 10px 0;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.container19 {
+    max-width: 1200px;
+    min-width: 320px;
+    background-color: #777777;
+    margin: 10px auto;
+    padding: 10px 0;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+}
+.container191 {
+    max-width: 1200px;
+    min-width: 320px;
+    background-color: #777777;
+    margin: 10px auto;
+    padding: 10px 0;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 
@@ -137,6 +207,9 @@ body h2, h1, p {
     margin: 10px auto;
     padding: 10px 0;
     height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .container__element2 {
@@ -167,13 +240,6 @@ body h2, h1, p {
 .container__element2:nth-child(5) {
     align-self: baseline;
 }
-
-.container2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
 
 /* order */
 
@@ -235,6 +301,9 @@ body h2, h1, p {
     margin: 10px auto;
     padding: 10px 0;
     height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .container__element4 {
@@ -250,13 +319,6 @@ body h2, h1, p {
     /* align-items, align-content, 	align-self - не будут работать также и у родителя*/
 }
 
-.container4 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-
 /* margin-right:auto */
 
 .container5 {
@@ -265,6 +327,9 @@ body h2, h1, p {
     background-color: #777777;
     margin: 10px auto;
     padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .container__element5 {
@@ -280,13 +345,6 @@ body h2, h1, p {
     /* align-items, align-content, 	align-self - не будут работать также и у родителя*/
 }
 
-.container5 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-
 /* margin-right:auto  margin-left: auto*/
 
 .container6 {
@@ -295,6 +353,9 @@ body h2, h1, p {
     background-color: #777777;
     margin: 10px auto;
     padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .container__element6 {
@@ -312,10 +373,4 @@ body h2, h1, p {
 
 .container__element6:last-child {
     margin-left: auto;
-}
-
-.container6 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
