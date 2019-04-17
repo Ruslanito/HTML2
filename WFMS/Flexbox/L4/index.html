@@ -9,10 +9,12 @@
 </head>
 
 <body>
-    <h2>flex-basis: базовый размер flex-элементов по главной оси (игнорирование width)</h2>
+    <h1>Управление размерами flex-элементов</h1>
+    <h2>flex-basis: базовый размер flex-элементов по главной оси</h2>
+    <p>flex-direction: row; flex-basis:auto; значение берутся из width</p>
     <div class="container">
         <div class="container__element">
-            <p>Первый блок</p>
+            <p>Первый блок (width: 200px; flex-basis:auto; margin-right: auto;)</p>
         </div>
         <div class="container__element">
             <p>Второй блок</p>
@@ -24,13 +26,33 @@
             <p>Четвертый блок</p>
         </div>
         <div class="container__element">
-            <p>Пятый блок</p>
+            <p>Пятый блок (margin-left: auto;)</p>
+        </div>
+    </div>
+    <h2>flex-basis: базовый размер flex-элементов по главной оси</h2>
+    <p>flex-direction: row; flex-basis:кроме auto; игнорируются значения из width</p>
+    <div class="container11">
+        <div class="container__element">
+            <p>Первый блок (flex-basis: 300px;width: 200px; margin-right: auto;)</p>
+        </div>
+        <div class="container__element">
+            <p>Второй блок</p>
+        </div>
+        <div class="container__element">
+            <p>Третий блок</p>
+        </div>
+        <div class="container__element">
+            <p>Четвертый блок</p>
+        </div>
+        <div class="container__element">
+            <p>Пятый блок (margin-left: auto;)</p>
         </div>
     </div>
     <h2>flex-basis: базовый размер flex-элементов по главной оси (игнорирование height)</h2>
+    <p>flex-direction: column; flex-basis:кроме auto; игнорируются значения из height</p>
     <div class="container1">
         <div class="container__element1">
-            <p>Первый блок</p>
+            <p>Первый блок (flex-basis: 300px;)</p>
         </div>
         <div class="container__element1">
             <p>Второй блок</p>
@@ -46,9 +68,10 @@
         </div>
     </div>
     <h2>flex-grow: растягивание flex-элементов</h2>
+    <p>flex-grow: 0; by default </p>
     <div class="container2">
         <div class="container__element2">
-            <p>Первый блок</p>
+            <p>Первый блок (flex-grow: 1;)</p>
         </div>
         <div class="container__element2">
             <p>Второй блок</p>
@@ -60,10 +83,11 @@
             <p>Четвертый блок</p>
         </div>
         <div class="container__element2">
-            <p>Пятый блок</p>
+            <p>Пятый блок (flex-grow: 2;)</p>
         </div>
     </div>
     <h2>flex-grow & flex-basis: растягивание flex-элементов</h2>
+    <p>при flex-wrap: wrap; уменьшение до flex-basis: 600px;</p>
     <div class="container3">
         <div class="container__element3">
             <p>Первый блок</p>
@@ -81,10 +105,30 @@
             <p>Пятый блок</p>
         </div>
     </div>
+    <h2>flex-grow & flex-basis: растягивание flex-элементов</h2>
+    <p>при flex-wrap: nowrap; игнорируется flex-basis: 600px;</p>
+    <div class="container31">
+        <div class="container__element3">
+            <p>Первый блок</p>
+        </div>
+        <div class="container__element3">
+            <p>Второй блок</p>
+        </div>
+        <div class="container__element3">
+            <p>Третий блок</p>
+        </div>
+        <div class="container__element3">
+            <p>Четвертый блок</p>
+        </div>
+        <div class="container__element3">
+            <p>Пятый блок</p>
+        </div>
+    </div>
     <h2>flex-shrink: сжимание flex-элементов</h2>
+    <p>flex-shrink: 0; - нет ужатия элемента (flex-shrink: 1; - by default )</p>
     <div class="container4">
         <div class="container__element4">
-            <p>Первый блок</p>
+            <p>Первый блок (flex-shrink: 2;)</p>
         </div>
         <div class="container__element4">
             <p>Второй блок</p>
