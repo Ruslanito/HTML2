@@ -57,7 +57,7 @@ header nav ul li a:hover{
 header nav ul .icon{
     display: none;
 }
-
+/* /header */
 /* .home */
 .home{
     margin: 0 auto;
@@ -89,6 +89,29 @@ header nav ul .icon{
     color: #fff;
     padding-top: 46px;
 }
+
+.home .home_info{
+    margin-top: 65px;
+}
+
+.home .home_info a{
+    display: block;
+    box-sizing: border-box;
+    height: 63px;
+    width: 225px;
+    border: 3px solid #fff;
+    border-radius: 6px;
+    font-family: OpenSansSemiB;
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 24px;
+    padding-top: 14px;
+    text-align: center;
+
+}
+
+/* /.home */
 /* .service */
 .service{
     max-width: 1171px;
@@ -122,4 +145,7 @@ header nav ul .icon{
     line-height: 26px;
     color: #4e525d;
     padding-top: 34px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
+/* /.service */
