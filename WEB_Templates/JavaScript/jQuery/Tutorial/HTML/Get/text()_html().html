@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+	<script src="../../../Source_3.4.0./jquery-3.4.0.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$("#btn1").click(function () {
+				alert("Text: " + $("#test").text());
+			});
+			$("#btn2").click(function () {
+				alert("HTML: " + $("#test").html());
+				/*  text() - Устанавливает или возвращает текстовое содержимое выбранных элементов
+					html() - Устанавливает или возвращает содержимое выбранных элементов (в том числе HTML-разметки)
+					val() - Устанавливает или возвращает значение полей формы */
+			});
+		});
+	</script>
+</head>
+
+<body>
+
+	<p id="test">This is some <b>bold</b> text in a paragraph.</p>
+
+	<button id="btn1">Show Text</button>
+	<button id="btn2">Show HTML</button>
+
+</body>
+
+</html>
