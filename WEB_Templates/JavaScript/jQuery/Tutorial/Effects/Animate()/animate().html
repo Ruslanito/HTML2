@@ -3,22 +3,20 @@
 
 <head>
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-	<script src="../../Source_3.4.0./jquery-3.4.0.min.js"></script>
+	<script src="../../../Source_3.4.0./jquery-3.4.0.min.js"></script>
 	<script>
 		$(document).ready(function () {
 			$("button").click(function () {
 				$("div").animate({
-					height: 'toggle'
-					// You can even specify a property's animation value as "show", "hide", or "toggle":
+					left: '250px'
 				});
+				// $(selector).animate({params},speed,callback);
 			});
 		});
 	</script>
 </head>
 
 <body>
-
-	<p>Click the button multiple times to toggle the animation.</p>
 
 	<button>Start Animation</button>
 

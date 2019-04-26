@@ -3,15 +3,12 @@
 
 <head>
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-	<script src="../../Source_3.4.0./jquery-3.4.0.min.js"></script>
+	<script src="../../../Source_3.4.0./jquery-3.4.0.min.js"></script>
 	<script>
 		$(document).ready(function () {
 			$("#flip").click(function () {
-				$("#panel").slideDown(5000);
-			});
-			$("#stop").click(function () {
-				$("#panel").stop();
-				// $(selector).stop(stopAll,goToEnd);
+				$("#panel").slideDown("slow");
+				// $(selector).slideDown(speed,callback);
 			});
 		});
 	</script>
@@ -19,12 +16,9 @@
 		#panel,
 		#flip {
 			padding: 5px;
-			font-size: 18px;
 			text-align: center;
-			background-color: #555;
-			color: white;
-			border: solid 1px #666;
-			border-radius: 3px;
+			background-color: #e5eecc;
+			border: solid 1px #c3c3c3;
 		}
 
 		#panel {
@@ -35,8 +29,6 @@
 </head>
 
 <body>
-
-	<button id="stop">Stop sliding</button>
 
 	<div id="flip">Click to slide down panel</div>
 	<div id="panel">Hello world!</div>
