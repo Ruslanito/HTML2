@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+	<script src="../../../Source_3.4.0./jquery-3.4.0.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$("button").click(function () {
+				var txt = "";
+				txt += "Document width/height: " + $(document).width();
+				txt += "x" + $(document).height() + "\n";
+				txt += "Window width/height: " + $(window).width();
+				txt += "x" + $(window).height();
+				alert(txt);
+				// The following example returns the width and height of the document (the HTML document) and window (the browser viewport)
+			});
+		});
+	</script>
+</head>
+
+<body>
+
+	<button>Display dimensions of document and window</button>
+
+</body>
+
+</html>
