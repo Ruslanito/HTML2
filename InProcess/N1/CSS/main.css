@@ -34,7 +34,6 @@ header nav {
 header nav ul li {
     list-style: none;
     display: inline-block;
-    
 }
 
 header nav ul li a{
@@ -45,13 +44,13 @@ header nav ul li a{
     /* color: #484c55; */
     color: #4a5368;
     padding: 40px 21px;
-    background-color: #f8f9fb;
 }
 
 header nav ul li a:hover{
     color: #49cbcd;
     padding-bottom: 38px;
     border-bottom: 3px  solid #49cbcd;
+    background-color: #f8f9fb;
 }
 
 header nav ul .icon{
@@ -70,8 +69,6 @@ header nav ul .icon{
 }
 
 .home .heading{
-    display: flex;
-    flex-wrap: wrap;
     font-family: OpenSansSemiB;
     font-size: 50px;
     line-height: 42px;
@@ -120,7 +117,6 @@ header nav ul .icon{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid #484c55;
 }
 
 .service .img1{
@@ -149,3 +145,37 @@ header nav ul .icon{
     padding-right: 5px;
 }
 /* /.service */
+/* .portfolio */
+.portfolio{
+    background-color: #f1f1f1;
+}
+.portfolio .wrap{
+    display: flex;
+    flex-direction: column;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.portfolio h2{
+    font-size: 42px;
+    font-family: OpenSansReg;
+    color: #4e525d;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding: 55px 0 65px 0;
+}
+.portfolio .box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.portfolio .box .box-item{
+    height: 310px;
+    width: 370px;
+    background-color: #b6d311;
+    padding-bottom: 25px;
+}
+/* /.portfolio */
