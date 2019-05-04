@@ -105,7 +105,6 @@ header nav ul .icon{
     line-height: 24px;
     padding-top: 14px;
     text-align: center;
-
 }
 
 /* /.home */
@@ -144,6 +143,7 @@ header nav ul .icon{
     padding-left: 5px;
     padding-right: 5px;
 }
+
 /* /.service */
 /* .portfolio */
 .portfolio{
@@ -162,7 +162,7 @@ header nav ul .icon{
     line-height: 24px;
     font-weight: 400;
     text-align: center;
-    padding: 55px 0 65px 0;
+    padding: 55px 0 30px 0;
 }
 .portfolio .box{
     display: flex;
@@ -170,12 +170,32 @@ header nav ul .icon{
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: center;
+    padding-top: 35px;
 }
 
 .portfolio .box .box-item{
     height: 310px;
-    width: 370px;
+    flex-basis: 32%;
     background-color: #b6d311;
-    padding-bottom: 25px;
+    margin-top: 25px;
+}
+
+.portfolio p{
+    margin:60px auto;
+
+}
+.portfolio p a{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: OpenSansSemiB;
+    color: #fff;
+    line-height: 27px;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+    background-color: #49cbcd;
+    border: 1px solid  #49cbcd;
+    border-radius: 3px;
+
 }
 /* /.portfolio */
