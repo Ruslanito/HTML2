@@ -63,6 +63,7 @@ header nav ul .icon{
     height: 567px;
     background-image: url("../Images/BGI1440x567px.png");
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -171,12 +172,13 @@ header nav ul .icon{
     justify-content: space-between;
     align-content: center;
     padding-top: 35px;
+    margin: 0 15px;
 }
 
 .portfolio .box .box-item{
     height: 310px;
-    flex-basis: 32%;
-    background-color: #b6d311;
+    flex-basis: 31.5%;
+    background-color: #44c0c2;
     margin-top: 25px;
 }
 
