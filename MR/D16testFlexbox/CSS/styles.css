@@ -1,4 +1,5 @@
 @import url("fonts.css");
+@import url("media.css");
 
 /* установка глобальных параметров */
 
@@ -102,7 +103,6 @@ body {
 /* #content #form_upload*/
 #content #form_upload {
     display: flex;
-    display: -webkit-box;
     display: -ms-flexbox;
     flex-direction: column;
     flex-wrap: wrap;
@@ -119,10 +119,10 @@ body {
     text-align: center;
 }
 
-#content #form_upload form {
+#content #form_upload .files_form {
     margin: 5px auto;
     width: 80%;
-    display: flex;
+    display:flex;
     justify-content: center;
 }
 
@@ -130,7 +130,6 @@ body {
     border: 1px solid #cacaca;
     border-radius: 4px;
     cursor: pointer;
-    float: left;
     height: 46px;
     width: 50%;
     padding: 2px;
