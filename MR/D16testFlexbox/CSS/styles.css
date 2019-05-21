@@ -74,7 +74,7 @@ body {
 
 #topmenu #home a:hover {
     background-image: url("../Images/home.png"), linear-gradient(180deg, #fff, #cac2c2);
-    background-position: center 33%;
+    background-position: center 32%;
 }
 
 #topmenu #gallery a:hover {
@@ -89,7 +89,7 @@ body {
 
 #topmenu #logout a:hover {
     background-image: url("../Images/logout.png"), linear-gradient(180deg, #fff, #cac2c2);
-    background-position: center 32%;
+    background-position: center 33%;
 }
 
 /* #content */
@@ -186,7 +186,8 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 40px auto 0;
+    justify-content: center;
+    margin: 40px 0;
 }
 
 #photos .photo {
@@ -194,8 +195,7 @@ body {
     border: 1px solid #d6d6d6;
     color: #979393;
     padding: 5px;
-    float: left;
-    margin: 0 15px;
+    margin: 20px 15px;
 }
 
 #photos .photo .main_photo {
