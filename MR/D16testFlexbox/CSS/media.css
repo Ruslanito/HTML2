@@ -1,1 +1,26 @@
 /* media queries */
+
+/* 320px - 480px */
+@media screen and (min-width:320px) and (max-width:479px){
+
+}
+
+/* 480px - 599px */
+@media screen and (min-width:480px) and (max-width:599px){
+
+}
+
+/* 600px - 799px */
+@media screen and (min-width:600px) and (max-width:799px){
+
+}
+
+/* 800px - 999px */
+@media screen and (min-width:800px) and (max-width:999px){
+
+}
+
+/* >1000px */
+@media screen and (min-width:1000px){
+
+}
