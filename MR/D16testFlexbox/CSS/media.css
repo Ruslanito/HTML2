@@ -12,7 +12,11 @@
 
 /* 600px - 799px */
 @media screen and (min-width:600px) and (max-width:799px){
-
+	.topmenu{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 /* 800px - 999px */
