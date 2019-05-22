@@ -77,17 +77,17 @@ body {
 
 .topmenu .home a:hover {
     background-image: url("../Images/home.png"), linear-gradient(180deg, #fff, #cac2c2);
-    background-position: center 32%;
+    background-position: center 33%;
 }
 
 .topmenu .gallery a:hover {
     background-image: url("../Images/gallery.png"), linear-gradient(180deg, #fff, #cac2c2);
-    background-position: center 33%;
+    background-position: center 32%;
 }
 
 .topmenu .members a:hover {
     background-image: url("../Images/members.png"), linear-gradient(180deg, #fff, #cac2c2);
-    background-position: center 32%;
+    background-position: center 33%;
 }
 
 .topmenu .logout a:hover {
@@ -108,7 +108,7 @@ body {
     display: -ms-flexbox;
     flex-direction: column;
     flex-wrap: wrap;
-    width:75%;
+    width: 75%;
     margin: 5px auto;
 }
 
@@ -124,7 +124,7 @@ body {
 #content #form_upload .files_form {
     margin: 5px auto;
     width: 80%;
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -137,7 +137,6 @@ body {
     padding: 2px;
     margin-right: 13px;
     position: relative;
-    
 }
 
 #content .file_form input[type="file"] {
@@ -172,7 +171,7 @@ body {
     cursor: pointer;
     font-family: hvb;
     font-size: 130%;
-    padding: 11px 27px;
+    padding: 14px 27px;
 }
 
 #content .file_form .shadow {
@@ -277,38 +276,104 @@ footer {
 /* media queries */
 
 /* 320px - 480px */
-@media screen and (min-width:320px) and (max-width:479px){
+@media screen and (min-width:320px) and (max-width:479px) {
+    .topmenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 134px;
+    }
 
+    #content #form_upload h1 {
+        font-size: 110%;
+    }
+
+    #content #form_upload .files_form {
+        margin: 5px auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #content .file_form {
+        margin-right: 0px;
+        margin-bottom: 10px;
+        width: 250px;
+    }
+    #photos .photo {
+        margin: 5px;
+    }
 }
 
 /* 480px - 599px */
-@media screen and (min-width:480px) and (max-width:599px){
-    .topmenu{
-		display: flex;
-		flex-direction: column;
+@media screen and (min-width:480px) and (max-width:599px) {
+    .topmenu {
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         height: 134px;
-	}
+    }
+
+    #content #form_upload h1 {
+        font-size: 130%;
+    }
+
+    #content #form_upload .files_form {
+        margin: 5px auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #content .file_form {
+        margin-right: 0px;
+        margin-bottom: 10px;
+        width: 250px;
+    }
+    #photos .photo {
+        margin: 10px 5px;
+    }
+    
 }
 
 /* 600px - 799px */
-@media screen and (min-width:600px) and (max-width:799px){
-	.topmenu{
-		display: flex;
-		flex-direction: column;
+@media screen and (min-width:600px) and (max-width:799px) {
+    .topmenu {
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         height: 134px;
-	}
+    }
+
+    #content #form_upload h1 {
+        font-size: 160%;
+    }
+
+    #content .file_form {
+        margin-right: 0px;
+        margin-bottom: 10px;
+        width: 250px;
+    }
+    #content input[type="submit"] {
+        margin-left: 10px;
+    }   
+    #content #form_upload .files_form {
+        width: 100%;
+    } 
+    #photos .photo {
+        margin: 15px 10px;
+    }
 }
 
 /* 800px - 999px */
-@media screen and (min-width:800px) and (max-width:999px){
-
-}
+@media screen and (min-width:800px) and (max-width:999px) {}
 
 /* >1000px */
-@media screen and (min-width:1000px){
-
-}
+@media screen and (min-width:1000px) {}
