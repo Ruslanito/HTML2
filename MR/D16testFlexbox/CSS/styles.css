@@ -6,20 +6,21 @@ body {
     font-family: hv;
     margin: 0;
     padding: 0;
+    max-width: 1280px;
 }
 
 
 /* topmenu */
 
 .topmenu {
-    max-width: 1000px;
+    max-width: 1280px;
     min-width: 320px;
     margin: 0 auto;
     background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e2e2e2));
     background: linear-gradient(180deg, #fff, #e2e2e2);
     background-position: center;
     border-bottom: 1px solid #ccc;
-    height: 117px;
+    height: 130px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -32,10 +33,28 @@ body {
             justify-content: space-between;
 }
 
-.topmenu .logo img {
+/* .topmenu .logo img {
     margin-top: 13%;
     margin-left: 5%;
+} */
+
+.topmenu .logo{
+    margin-top: -0.2%;
+    margin-left: 13.9%;
+} 
+
+.topmenu h2{
+    font-family: lb;
+    font-size: 3.05em;
+    color: #ff7700;
+    font-weight: 600;
+    letter-spacing: 2.6px;
 }
+
+.topmenu h2 span{
+    color: #676666;
+}
+
 
 .topmenu nav ul {
     list-style: none;
