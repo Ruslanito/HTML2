@@ -17,3 +17,8 @@
     font-family: "bn";
     src: url("../Fonts/BN.woff") format("woff"), url("../Fonts/BN.woff2") format("woff2");
 }
+
+@font-face {
+    font-family: "lb";
+    src: url("../Fonts/Lobster.woff") format("woff"), url("../Fonts/Lobster.woff2") format("woff2");
+}
