@@ -15,6 +15,7 @@ body {
     max-width: 1000px;
     min-width: 320px;
     margin: 0 auto;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e2e2e2));
     background: linear-gradient(180deg, #fff, #e2e2e2);
     background-position: center;
     border-bottom: 1px solid #ccc;
@@ -22,8 +23,13 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .topmenu .logo img {
@@ -37,7 +43,10 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
 }
 
 .topmenu nav ul li a {
@@ -76,21 +85,25 @@ body {
 }
 
 .topmenu .home a:hover {
+    background-image: url("../Images/home.png"), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cac2c2));
     background-image: url("../Images/home.png"), linear-gradient(180deg, #fff, #cac2c2);
     background-position: center 33%;
 }
 
 .topmenu .gallery a:hover {
+    background-image: url("../Images/gallery.png"), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cac2c2));
     background-image: url("../Images/gallery.png"), linear-gradient(180deg, #fff, #cac2c2);
     background-position: center 32%;
 }
 
 .topmenu .members a:hover {
+    background-image: url("../Images/members.png"), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cac2c2));
     background-image: url("../Images/members.png"), linear-gradient(180deg, #fff, #cac2c2);
     background-position: center 33%;
 }
 
 .topmenu .logout a:hover {
+    background-image: url("../Images/logout.png"), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cac2c2));
     background-image: url("../Images/logout.png"), linear-gradient(180deg, #fff, #cac2c2);
     background-position: center 33%;
 }
@@ -104,10 +117,15 @@ body {
 
 /* #content #form_upload*/
 #content #form_upload {
+    display: -webkit-box;
     display: flex;
     display: -ms-flexbox;
-    flex-direction: column;
-    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     width: 75%;
     margin: 5px auto;
 }
@@ -124,8 +142,12 @@ body {
 #content #form_upload .files_form {
     margin: 5px auto;
     width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 #content .file_form {
@@ -164,6 +186,7 @@ body {
 }
 
 #content input[type="submit"] {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffa400), to(#ff6700));
     background: linear-gradient(180deg, #ffa400, #ff6700);
     border-radius: 5px;
     border: none;
@@ -175,24 +198,35 @@ body {
 }
 
 #content .file_form .shadow {
-    box-shadow: 0 0 3px 3px #e2dada;
+    -webkit-box-shadow: 0 0 3px 3px #e2dada;
+            box-shadow: 0 0 3px 3px #e2dada;
 }
 
 #content input[type="submit"]:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff6700), to(#ffa400));
     background: linear-gradient(180deg, #ff6700, #ffa400);
 }
 
 /* #content #photos*/
 #photos {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin: 40px 0;
 }
 
 #photos .photo {
-    box-shadow: 0 0 3px 1px #eaeaea;
+    -webkit-box-shadow: 0 0 3px 1px #eaeaea;
+            box-shadow: 0 0 3px 1px #eaeaea;
     border: 1px solid #d6d6d6;
     color: #979393;
     padding: 5px;
@@ -246,7 +280,8 @@ body {
 }
 
 #photo .shadow {
-    box-shadow: 0 0 11px 4px #e0e6e6;
+    -webkit-box-shadow: 0 0 11px 4px #e0e6e6;
+            box-shadow: 0 0 11px 4px #e0e6e6;
     margin-left: -2px;
     width: 102%;
 }
@@ -266,9 +301,15 @@ body {
 
 footer {
     font-family: Arial;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: nowrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     color: #8d8a8a;
     padding-right: 20px;
 }
@@ -278,10 +319,19 @@ footer {
 /* 320px - 480px */
 @media screen and (min-width:320px) and (max-width:479px) {
     .topmenu {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         height: 134px;
     }
 
@@ -292,10 +342,19 @@ footer {
     #content #form_upload .files_form {
         margin: 5px auto;
         width: 80%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 
     #content .file_form {
@@ -311,10 +370,19 @@ footer {
 /* 480px - 599px */
 @media screen and (min-width:480px) and (max-width:599px) {
     .topmenu {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         height: 134px;
     }
 
@@ -325,10 +393,19 @@ footer {
     #content #form_upload .files_form {
         margin: 5px auto;
         width: 80%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 
     #content .file_form {
@@ -345,10 +422,19 @@ footer {
 /* 600px - 799px */
 @media screen and (min-width:600px) and (max-width:799px) {
     .topmenu {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         height: 134px;
     }
 
