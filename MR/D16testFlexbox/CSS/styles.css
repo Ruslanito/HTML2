@@ -4,7 +4,7 @@
 
 body {
     font-family: hv;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     max-width: 1280px;
 }
@@ -20,7 +20,14 @@ body {
     background: linear-gradient(180deg, #fff, #e2e2e2);
     background-position: center;
     border-bottom: 1px solid #ccc;
-    height: 130px;
+    height: 129px;
+    
+}
+
+.topmenu__wrap{
+    max-width: 1100px;
+    min-width: 320px;
+    margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -40,7 +47,7 @@ body {
 
 .topmenu .logo{
     margin-top: -0.2%;
-    margin-left: 13.9%;
+    margin-left: 3.8%;
 } 
 
 .topmenu h2{
@@ -55,7 +62,6 @@ body {
     color: #676666;
 }
 
-
 .topmenu nav ul {
     list-style: none;
     margin: 0;
@@ -66,6 +72,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    padding-inline-start: 0px;
 }
 
 .topmenu nav ul li a {
@@ -73,15 +80,15 @@ body {
     display: inline-block;
     text-decoration: none;
     color: #545454;
-    padding-top: 55px;
-    height: 62px;
-    width: 107px;
+    padding-top: 83px;
+    height: 100px;
+    width: 112px;
     text-align: center;
 }
 
 .topmenu a:hover {
     border-bottom: 4px solid #ff7d00;
-    border-left: 1px solid #c9c9c9;
+    /* border-left: 1px solid #c9c9c9; */
     border-right: 1px solid #b8b1b1;
     width: 105px;
     height: 58px;
@@ -106,30 +113,30 @@ body {
 .topmenu .home a:hover {
     background-image: url("../Images/home.png"), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cac2c2));
     background-image: url("../Images/home.png"), linear-gradient(180deg, #fff, #cac2c2);
-    background-position: center 33%;
+    background-position: center 41.5%;
 }
 
 .topmenu .gallery a:hover {
     background-image: url("../Images/gallery.png"), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cac2c2));
     background-image: url("../Images/gallery.png"), linear-gradient(180deg, #fff, #cac2c2);
-    background-position: center 32%;
+    background-position: center 41.5%;
 }
 
 .topmenu .members a:hover {
     background-image: url("../Images/members.png"), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cac2c2));
     background-image: url("../Images/members.png"), linear-gradient(180deg, #fff, #cac2c2);
-    background-position: center 33%;
+    background-position: center 41.5%;
 }
 
 .topmenu .logout a:hover {
     background-image: url("../Images/logout.png"), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cac2c2));
     background-image: url("../Images/logout.png"), linear-gradient(180deg, #fff, #cac2c2);
-    background-position: center 33%;
+    background-position: center 42.5%;
 }
 
 /* #content */
 #content {
-    max-width: 1000px;
+    max-width: 1100px;
     min-width: 320px;
     margin: 0 auto;
 }
